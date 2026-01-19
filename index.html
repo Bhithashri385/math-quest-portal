@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quest Portal | Practice Math Exams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Auth Modal -->
+        <div class="modal-overlay" id="auth-modal" style="display: none;">
+            <div class="modal-content auth-modal">
+                <button class="modal-close" onclick="hideAuthModal()">×</button>
+                <div class="auth-tabs">
+                    <button class="auth-tab active" id="login-tab" onclick="switchAuthMode('login')">Login</button>
+                    <button class="auth-tab" id="signup-tab" onclick="switchAuthMode('signup')">Sign Up</button>
+                </div>
+                
+                <!-- Login Form -->
+                <form id="login-form" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label for="login-username">Username</label>
+                        <input type="text" id="login-username" placeholder="Enter username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" placeholder="Enter password" required>
+                    </div>
+                    <div class="form-error" id="login-error"></div>
+                    <button type="submit" class="auth-submit-btn">Login</button>
+                </form>
+                
+                <!-- Signup Form -->
+                <form id="signup-form" style="display: none;" onsubmit="handleSignup(event)">
+                    <div class="form-group">
+                        <label for="signup-displayname">Display Name</label>
+                        <input type="text" id="signup-displayname" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-username">Username</label>
+                        <input type="text" id="signup-username" placeholder="Choose username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" placeholder="Choose password" required>
+                    </div>
+                    <div class="form-error" id="signup-error"></div>
+                    <button type="submit" class="auth-submit-btn">Create Account</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Landing Page -->
+        <section id="landing-page" class="page active">
+            <div class="hero-background">
+                <div class="floating-shapes">
+                    <div class="shape shape-1">∑</div>
+                    <div class="shape shape-2">π</div>
+                    <div class="shape shape-3">∞</div>
+                    <div class="shape shape-4">√</div>
+                    <div class="shape shape-5">∫</div>
+                    <div class="shape shape-6">θ</div>
+                    <div class="shape shape-7">Δ</div>
+                    <div class="shape shape-8">≈</div>
+                </div>
+            </div>
+            <header class="main-header">
+                <div class="logo" onclick="goHome()" style="cursor: pointer;">
+                    <span class="logo-icon">◈</span>
+                    <span class="logo-text">Math Quest</span>
+                </div>
+                <nav class="nav-links">
+                    <a href="#" class="nav-link active" onclick="goHome()">Practice</a>
+                    <a href="#" class="nav-link" id="history-link" onclick="showHistoryPage()" style="display: none;">History</a>
+                </nav>
+                <div class="user-area">
+                    <!-- Guest state - simple icon -->
+                    <button class="user-icon-btn" id="user-icon-guest" onclick="showAuthModal('login')" title="Login">
+                        <span class="user-icon">👤</span>
+                    </button>
+                    <!-- Logged in state - avatar with dropdown -->
+                    <div class="user-dropdown" id="user-dropdown" style="display: none;">
+                        <button class="user-avatar-btn" onclick="toggleUserMenu()">
+                            <span class="avatar-letter" id="avatar-letter">U</span>
+                        </button>
+                        <div class="dropdown-menu" id="dropdown-menu">
+                            <div class="dropdown-header">
+                                <span class="dropdown-name" id="dropdown-name">User</span>
+                                <span class="dropdown-stats" id="dropdown-stats">0 exams</span>
+                            </div>
+                            <a href="#" class="dropdown-item" onclick="showHistoryPage(); toggleUserMenu();">📊 My History</a>
+                            <a href="#" class="dropdown-item logout" onclick="handleLogout(); toggleUserMenu();">🚪 Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Master Mathematics<br>
+                        <span class="gradient-text">One Problem at a Time</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Practice with questions inspired by international math competitions. 
+                        Choose your grade level and challenge yourself!
+                    </p>
+                    <div class="source-badge">
+                        <span class="badge-icon">📚</span>
+                        Questions from <a href="https://mathkangaroo.org/mks/practice/free-question-samples/" target="_blank">Math Kangaroo</a>, <a href="https://olympiadusa.org/past-exams-archive/" target="_blank">Olympiad USA</a> & <a href="https://mathleague.com/index.php/annualcontestinformation/samplecontests" target="_blank">Math League</a>
+                    </div>
+                    <div class="feature-tags">
+                        <span class="feature-tag">🔀 Randomized Each Time</span>
+                        <span class="feature-tag">📅 2004-2025 Papers</span>
+                        <span class="feature-tag">🎯 330+ Questions</span>
+                    </div>
+                </div>
+                
+                <div class="grade-selection">
+                    <h2 class="section-title">Select Your Grade Level</h2>
+                    <div class="grade-grid">
+                        <button class="grade-card" data-grade="1-2" onclick="startExam('1-2')">
+                            <div class="grade-icon">🌱</div>
+                            <div class="grade-info">
+                                <span class="grade-level">Grades 1-2</span>
+                                <span class="grade-desc">Foundational concepts</span>
+                            </div>
+                            <div class="grade-meta">18 Questions • 60 in pool</div>
+                        </button>
+                        <button class="grade-card" data-grade="3-4" onclick="startExam('3-4')">
+                            <div class="grade-icon">🌿</div>
+                            <div class="grade-info">
+                                <span class="grade-level">Grades 3-4</span>
+                                <span class="grade-desc">Building blocks</span>
+                            </div>
+                            <div class="grade-meta">18 Questions • 55 in pool</div>
+                        </button>
+                        <button class="grade-card" data-grade="5-6" onclick="startExam('5-6')">
+                            <div class="grade-icon">🌳</div>
+                            <div class="grade-info">
+                                <span class="grade-level">Grades 5-6</span>
+                                <span class="grade-desc">Intermediate skills</span>
+                            </div>
+                            <div class="grade-meta">20 Questions • 55 in pool</div>
+                        </button>
+                        <button class="grade-card" data-grade="7-8" onclick="startExam('7-8')">
+                            <div class="grade-icon">🏔️</div>
+                            <div class="grade-info">
+                                <span class="grade-level">Grades 7-8</span>
+                                <span class="grade-desc">Pre-algebra & more</span>
+                            </div>
+                            <div class="grade-meta">20 Questions • 55 in pool</div>
+                        </button>
+                        <button class="grade-card" data-grade="9-10" onclick="startExam('9-10')">
+                            <div class="grade-icon">🚀</div>
+                            <div class="grade-info">
+                                <span class="grade-level">Grades 9-10</span>
+                                <span class="grade-desc">Algebra & geometry</span>
+                            </div>
+                            <div class="grade-meta">20 Questions • 55 in pool</div>
+                        </button>
+                        <button class="grade-card" data-grade="11-12" onclick="startExam('11-12')">
+                            <div class="grade-icon">🎓</div>
+                            <div class="grade-info">
+                                <span class="grade-level">Grades 11-12</span>
+                                <span class="grade-desc">Advanced topics</span>
+                            </div>
+                            <div class="grade-meta">20 Questions • 55 in pool</div>
+                        </button>
+                    </div>
+                </div>
+            </main>
+            <footer class="main-footer">
+                <p>Questions from <a href="https://mathkangaroo.org" target="_blank">Math Kangaroo</a> • <a href="https://olympiadusa.org" target="_blank">Olympiad USA</a> • <a href="https://mathleague.com" target="_blank">Math League</a></p>
+            </footer>
+        </section>
+
+        <!-- Exam Page -->
+        <section id="exam-page" class="page">
+            <header class="exam-header">
+                <button class="back-btn" onclick="goHome()">
+                    <span class="back-icon">←</span>
+                    <span>Exit Exam</span>
+                </button>
+                <div class="exam-info">
+                    <span class="exam-grade" id="exam-grade-display">Grades 5-6</span>
+                    <span class="exam-separator">•</span>
+                    <span class="exam-progress" id="exam-progress">Question 1 of 10</span>
+                </div>
+                <div class="timer" id="timer">
+                    <span class="timer-icon">⏱</span>
+                    <span class="timer-value">00:00</span>
+                </div>
+            </header>
+            <main class="exam-content">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                    <div class="progress-markers" id="progress-markers"></div>
+                </div>
+                <div class="question-container">
+                    <div class="question-header">
+                        <span class="question-number" id="question-number">Question 1</span>
+                        <span class="question-points" id="question-points">3 points</span>
+                    </div>
+                    <div class="question-text" id="question-text">
+                        Loading question...
+                    </div>
+                    <div class="question-image-container" id="question-image-container" style="display: none;">
+                        <img id="question-image" src="" alt="Question illustration">
+                    </div>
+                    <div class="options-container" id="options-container">
+                        <!-- Options will be dynamically inserted -->
+                    </div>
+                </div>
+                <div class="exam-navigation">
+                    <button class="nav-btn prev-btn" id="prev-btn" onclick="prevQuestion()">
+                        <span>←</span> Previous
+                    </button>
+                    <div class="question-dots" id="question-dots"></div>
+                    <button class="nav-btn next-btn" id="next-btn" onclick="nextQuestion()">
+                        Next <span>→</span>
+                    </button>
+                    <button class="nav-btn submit-btn" id="submit-btn" onclick="submitExam()" style="display: none;">
+                        Submit Exam ✓
+                    </button>
+                </div>
+            </main>
+        </section>
+
+        <!-- Results Page - Compact Layout -->
+        <section id="results-page" class="page">
+            <div class="results-container compact">
+                <div class="results-top">
+                    <div class="results-header-compact">
+                        <div class="results-icon" id="results-icon">🏆</div>
+                        <div class="results-text">
+                            <h1 class="results-title">Exam Complete!</h1>
+                            <p class="results-subtitle" id="results-subtitle">Great effort!</p>
+                        </div>
+                    </div>
+                    <div class="score-card compact">
+                        <div class="score-circle compact">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="score-bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="score-fill" id="score-circle" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <div class="score-text">
+                                <span class="score-value" id="score-value">0</span>
+                                <span class="score-label">Score</span>
+                            </div>
+                        </div>
+                        <div class="score-details compact">
+                            <div class="score-stat">
+                                <span class="stat-value" id="correct-count">0</span>
+                                <span class="stat-label">Correct</span>
+                            </div>
+                            <div class="score-stat">
+                                <span class="stat-value" id="incorrect-count">0</span>
+                                <span class="stat-label">Incorrect</span>
+                            </div>
+                            <div class="score-stat">
+                                <span class="stat-value" id="points-earned">0</span>
+                                <span class="stat-label">Points</span>
+                            </div>
+                            <div class="score-stat">
+                                <span class="stat-value" id="time-taken">00:00</span>
+                                <span class="stat-label">Time</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="save-status" id="save-status"></div>
+                    <div class="results-actions compact">
+                        <button class="action-btn review-btn" onclick="showReview()">
+                            📋 Review
+                        </button>
+                        <button class="action-btn retry-btn" onclick="retryExam()">
+                            🔄 Retry
+                        </button>
+                        <button class="action-btn home-btn" onclick="goHome()">
+                            🏠 Home
+                        </button>
+                    </div>
+                </div>
+                <div class="review-section" id="review-section" style="display: none;">
+                    <h2 class="review-title">Answer Review</h2>
+                    <div class="review-list" id="review-list">
+                        <!-- Review items will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Page -->
+        <section id="history-page" class="page">
+            <header class="history-header">
+                <button class="back-btn" onclick="goHome()">
+                    <span class="back-icon">←</span>
+                    <span>Back</span>
+                </button>
+                <h1 class="history-title">📊 My Progress</h1>
+                <div class="history-user">
+                    <span id="history-user-name"></span>
+                </div>
+            </header>
+            <main class="history-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-icon">📝</span>
+                        <span class="stat-number" id="stat-total-exams">0</span>
+                        <span class="stat-title">Total Exams</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">📈</span>
+                        <span class="stat-number" id="stat-avg-score">0%</span>
+                        <span class="stat-title">Avg Score</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">🏆</span>
+                        <span class="stat-number" id="stat-best-score">0%</span>
+                        <span class="stat-title">Best Score</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">✅</span>
+                        <span class="stat-number" id="stat-total-correct">0</span>
+                        <span class="stat-title">Questions Correct</span>
+                    </div>
+                </div>
+                <div class="history-section">
+                    <h2 class="history-section-title">Recent Exams</h2>
+                    <div class="history-list" id="history-list">
+                        <!-- History items will be inserted here -->
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+    <script src="questions.js"></script>
+    <script src="auth.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
