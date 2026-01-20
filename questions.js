@@ -2,7 +2,7 @@
  * Math Quest Portal - Expanded Question Bank
  * Questions inspired by international math competitions
  * 
- * Coverage: 2004-2025 style problems
+ * Coverage: All grade levels (1-12)
  * Total: 350+ questions across all grade levels
  */
 
