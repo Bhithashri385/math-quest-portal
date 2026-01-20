@@ -1,6 +1,6 @@
 # Math Quest Portal 🧮
 
-A beautiful, modern math practice portal featuring questions inspired by the [Math Kangaroo](https://mathkangaroo.org) international mathematics competition.
+A beautiful, modern math practice portal featuring questions inspired by international math competitions.
 
 ![Math Quest Portal](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -68,8 +68,7 @@ Questions are worth 3, 4, or 5 points based on difficulty:
 
 ## Source
 
-Questions are inspired by the Math Kangaroo competition format:
-- [Math Kangaroo Free Samples](https://mathkangaroo.org/mks/practice/free-question-samples/)
+Questions are inspired by international math competition formats and cover a wide range of mathematical topics for all grade levels.
 
 ## Technologies Used
 

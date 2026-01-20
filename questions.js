@@ -1,11 +1,8 @@
 /**
  * Math Quest Portal - Expanded Question Bank
- * Questions inspired by:
- * - Math Kangaroo: https://mathkangaroo.org/mks/practice/free-question-samples/
- * - Olympiad USA: https://olympiadusa.org/past-exams-archive/
- * - Math League: https://mathleague.com/index.php/annualcontestinformation/samplecontests
+ * Questions inspired by international math competitions
  * 
- * Coverage: 2004-2025 competition papers
+ * Coverage: 2004-2025 style problems
  * Total: 350+ questions across all grade levels
  */
 
@@ -70,7 +67,7 @@ const questionBank = {
         { id: 49, question: "What's the sum of 1+2+3+4?", options: ["8", "9", "10", "11", "12"], correctAnswer: 2, points: 5 },
         { id: 50, question: "A book has 20 pages. I read 8. How many left?", options: ["8", "10", "12", "14", "28"], correctAnswer: 2, points: 5 },
         
-        // === MATH LEAGUE STYLE (2004-2019) ===
+        // === ADDITIONAL QUESTIONS ===
         { id: 51, question: "If you count by 2s starting from 2, what is the 5th number?", options: ["8", "9", "10", "11", "12"], correctAnswer: 2, points: 3 },
         { id: 52, question: "How many legs do 4 chairs have altogether?", options: ["8", "12", "16", "20", "24"], correctAnswer: 2, points: 3 },
         { id: 53, question: "What coin equals 5 pennies?", options: ["Penny", "Nickel", "Dime", "Quarter", "Dollar"], correctAnswer: 1, points: 3 },
@@ -135,7 +132,7 @@ const questionBank = {
         { id: 44, question: "Two numbers: sum 50, difference 10. Larger?", options: ["20", "25", "30", "35", "40"], correctAnswer: 2, points: 5 },
         { id: 45, question: "How many 2-digit numbers have digits summing to 10?", options: ["7", "8", "9", "10", "11"], correctAnswer: 2, points: 5 },
         
-        // === MATH LEAGUE STYLE (2004-2019) ===
+        // === ADDITIONAL QUESTIONS ===
         { id: 46, question: "What is the least common multiple of 4 and 6?", options: ["2", "10", "12", "24", "48"], correctAnswer: 2, points: 4 },
         { id: 47, question: "A rectangle is 12 cm long and 8 cm wide. What is its area?", options: ["20 cm²", "40 cm²", "80 cm²", "96 cm²", "120 cm²"], correctAnswer: 3, points: 3 },
         { id: 48, question: "What is the sum of the first 5 odd numbers?", options: ["15", "20", "25", "30", "35"], correctAnswer: 2, points: 4 },
@@ -200,7 +197,7 @@ const questionBank = {
         { id: 44, question: "Sum of first 10 natural numbers?", options: ["45", "50", "55", "60", "100"], correctAnswer: 2, points: 5 },
         { id: 45, question: "A tank fills in 6 hours. How much in 2 hours?", options: ["1/4", "1/3", "1/2", "2/3", "3/4"], correctAnswer: 1, points: 5 },
         
-        // === MATH LEAGUE STYLE (2004-2019) ===
+        // === ADDITIONAL QUESTIONS ===
         { id: 46, question: "What is the greatest common factor of 48 and 72?", options: ["6", "8", "12", "24", "36"], correctAnswer: 3, points: 3 },
         { id: 47, question: "The average of 5 numbers is 40. Their sum is?", options: ["8", "35", "45", "200", "400"], correctAnswer: 3, points: 3 },
         { id: 48, question: "How many degrees in each angle of a regular hexagon?", options: ["90°", "108°", "120°", "135°", "150°"], correctAnswer: 2, points: 4 },
@@ -265,7 +262,7 @@ const questionBank = {
         { id: 44, question: "AP: first term 3, common diff 4, 10 terms. Sum?", options: ["180", "200", "210", "220", "240"], correctAnswer: 2, points: 5 },
         { id: 45, question: "How many factors does 36 have?", options: ["6", "7", "8", "9", "10"], correctAnswer: 3, points: 5 },
         
-        // === MATH LEAGUE STYLE (2004-2019) ===
+        // === ADDITIONAL QUESTIONS ===
         { id: 46, question: "Solve: 3x - 7 = 2x + 5", options: ["x = -12", "x = -2", "x = 2", "x = 12", "x = 15"], correctAnswer: 3, points: 3 },
         { id: 47, question: "What is the value of |-5| + |3| - |-2|?", options: ["0", "4", "6", "8", "10"], correctAnswer: 2, points: 3 },
         { id: 48, question: "A 30-60-90 triangle has short leg 5. Hypotenuse?", options: ["5√2", "5√3", "10", "10√3", "15"], correctAnswer: 2, points: 4 },
@@ -330,7 +327,7 @@ const questionBank = {
         { id: 44, question: "Quadratic roots -2 and 3. Equation?", options: ["x² - x - 6 = 0", "x² + x - 6 = 0", "x² - x + 6 = 0", "x² + x + 6 = 0", "x² - 5x - 6 = 0"], correctAnswer: 0, points: 5 },
         { id: 45, question: "Circle x² + y² = 25. Point (3, 4) is:", options: ["Inside", "On", "Outside", "Center", "Cannot tell"], correctAnswer: 1, points: 5 },
         
-        // === MATH LEAGUE STYLE (2004-2019) ===
+        // === ADDITIONAL QUESTIONS ===
         { id: 46, question: "Solve: x² - 7x + 12 = 0", options: ["x = 2, 6", "x = 3, 4", "x = -3, -4", "x = 1, 12", "x = -2, -6"], correctAnswer: 1, points: 3 },
         { id: 47, question: "What is sin²60° + cos²60°?", options: ["0", "1/2", "1", "√3", "2"], correctAnswer: 2, points: 3 },
         { id: 48, question: "In how many ways can 8 people sit in a row?", options: ["64", "256", "5040", "40320", "16777216"], correctAnswer: 3, points: 4 },
@@ -395,7 +392,7 @@ const questionBank = {
         { id: 44, question: "∫ sec²x dx = ?", options: ["tan x + C", "sec x + C", "-cot x + C", "csc x + C", "sin x + C"], correctAnswer: 0, points: 5 },
         { id: 45, question: "d/dx[arctan x] = ?", options: ["1/(1+x²)", "1/(1-x²)", "1/√(1-x²)", "-1/(1+x²)", "x/(1+x²)"], correctAnswer: 0, points: 5 },
         
-        // === MATH LEAGUE STYLE (2004-2019) ===
+        // === ADDITIONAL QUESTIONS ===
         { id: 46, question: "Evaluate: lim(x→1) (x³-1)/(x-1)", options: ["0", "1", "2", "3", "undefined"], correctAnswer: 3, points: 3 },
         { id: 47, question: "What is ∫₀¹ x² dx?", options: ["1/4", "1/3", "1/2", "2/3", "1"], correctAnswer: 1, points: 3 },
         { id: 48, question: "If z = 2 - 3i, what is z̄ (conjugate)?", options: ["2 + 3i", "-2 + 3i", "-2 - 3i", "3 - 2i", "3 + 2i"], correctAnswer: 0, points: 3 },
