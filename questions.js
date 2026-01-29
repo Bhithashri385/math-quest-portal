@@ -195,7 +195,23 @@ const questionBank = {
         { id: 91, question: "A frog jumps between lily pads numbered 1 to 10 in a row. Each jump is exactly 3 pads forward or 2 pads backward. Starting at pad 1, what is the minimum number of jumps to reach pad 10?", options: ["3", "4", "5", "6", "7"], correctAnswer: 0, points: 5 },
         { id: 92, question: "In a village, every house has a red or blue door. Houses with red doors have 3 windows, and houses with blue doors have 5 windows. There are 20 houses and 76 windows in total. How many houses have red doors?", options: ["8", "10", "12", "14", "16"], correctAnswer: 2, points: 5 },
         { id: 93, question: "A code uses only the digits 1, 2, and 3. Each digit can be used any number of times. How many different 3-digit codes are possible?", options: ["6", "9", "18", "27", "81"], correctAnswer: 3, points: 5 },
-        { id: 94, question: "Max writes all numbers from 1 to 50. How many times does he write the digit 3?", options: ["5", "10", "14", "15", "20"], correctAnswer: 3, points: 5 }
+        { id: 94, question: "Max writes all numbers from 1 to 50. How many times does he write the digit 3?", options: ["5", "10", "14", "15", "20"], correctAnswer: 3, points: 5 },
+        
+        // === KANGAROO 2025 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2025)
+        { id: 95, question: "Simona writes the numbers 2, 0, 2 and 5 in the boxes: □ + □ - □ + □. In what order should she write them to get the biggest result?", options: ["0, 2, 2, 5", "0, 5, 2, 2", "2, 5, 2, 0", "5, 0, 2, 2", "5, 2, 0, 2"], correctAnswer: 4, points: 3 },
+        { id: 96, question: "On a die, opposite sides always add up to 7. If you can see 1, 2, and 3 on a die, what is the sum of the three hidden faces?", options: ["9", "10", "12", "14", "15"], correctAnswer: 4, points: 3 },
+        
+        // 4-point questions (2025)
+        { id: 97, question: "Lisa and Max start at point A on a circle. Lisa walks clockwise, Max walks counter-clockwise. They meet at B, then C, then D, then back at A. These points divide the circle into 4 equal parts. How many times has Max gone around the circle?", options: ["1", "2", "3", "4", "5"], correctAnswer: 2, points: 4 },
+        { id: 98, question: "Rudi feeds six sheep a total of 210g of food. Five large sheep each get the same amount, and the small sheep gets twice as much as each large sheep. How much food does the small sheep get?", options: ["50g", "55g", "60g", "65g", "70g"], correctAnswer: 2, points: 4 },
+        { id: 99, question: "Anna has 3 cookies, Bonnie has 5 cookies, and Caspar has 7 cookies. They get 15 more cookies to share so each child ends up with the same number. How many cookies does Anna get added to her plate?", options: ["3", "4", "5", "6", "7"], correctAnswer: 4, points: 4 },
+        
+        // 5-point questions (2025)
+        { id: 100, question: "Jana has toys weighing 22g, 23g, 25g, 34g, and 36g. She wants to divide them into two boxes of equal weight. Which two toys must NOT go in the same box?", options: ["22g and 23g", "22g and 25g", "23g and 25g", "34g and 36g", "22g and 34g"], correctAnswer: 4, points: 5 },
+        { id: 101, question: "On a calendar, two shaded boxes in the same column add up to 29. If these boxes are on the same weekday, what day is the 1st of the month?", options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"], correctAnswer: 0, points: 5 },
+        { id: 102, question: "In a number wall, each brick shows the sum of the two bricks below it. The bottom row has 1, 2, 3, 4 from left to right. What is the number at the top of the wall?", options: ["16", "18", "20", "22", "24"], correctAnswer: 2, points: 5 },
+        { id: 103, question: "On a balance scale, 2 apples weigh the same as 3 bananas. If 1 apple weighs 15g, what does 1 banana weigh?", options: ["5g", "8g", "10g", "12g", "15g"], correctAnswer: 2, points: 5 }
     ],
     
     "5-6": [
