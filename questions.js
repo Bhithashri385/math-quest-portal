@@ -142,7 +142,60 @@ const questionBank = {
         { id: 52, question: "What is 3/4 of 100?", options: ["25", "50", "75", "80", "90"], correctAnswer: 2, points: 3 },
         { id: 53, question: "The product of two numbers is 144. One is 12. The other?", options: ["10", "11", "12", "13", "14"], correctAnswer: 2, points: 4 },
         { id: 54, question: "What is the perimeter of a regular pentagon with side 7 cm?", options: ["28 cm", "30 cm", "35 cm", "42 cm", "49 cm"], correctAnswer: 2, points: 3 },
-        { id: 55, question: "Find the missing number: 2, 6, 18, 54, ?", options: ["108", "126", "162", "180", "216"], correctAnswer: 2, points: 5 }
+        { id: 55, question: "Find the missing number: 2, 6, 18, 54, ?", options: ["108", "126", "162", "180", "216"], correctAnswer: 2, points: 5 },
+        
+        // === KANGAROO 2009 ÉCOLIER QUESTIONS ===
+        // 3-point questions (Kangaroo 2009)
+        { id: 56, question: "2 × 9 + 200 + 9 = ?", options: ["292", "209", "290", "272", "227"], correctAnswer: 4, points: 3 },
+        { id: 57, question: "Four sticks have 8 ends. How many ends do 7 sticks have?", options: ["6", "8", "12", "13", "14"], correctAnswer: 4, points: 3 },
+        { id: 58, question: "Mother bought 16 mandarins. Karl ate half of them, Eva ate two, and Dana ate the rest. How many mandarins did Dana eat?", options: ["4", "6", "8", "10", "12"], correctAnswer: 1, points: 3 },
+        { id: 59, question: "Sophie rolled a die four times and scored a total of 23 points. How often did she roll a six?", options: ["0", "1", "2", "3", "4"], correctAnswer: 3, points: 3 },
+        { id: 60, question: "A film lasts 90 minutes and begins at 17:10. During the film there are two advert breaks, one lasting 8 minutes and the other 5 minutes. At what time will the film end?", options: ["18:13", "18:27", "18:47", "18:53", "19:13"], correctAnswer: 3, points: 3 },
+        
+        // 4-point questions (Kangaroo 2009)
+        { id: 61, question: "In a dance group there are 25 boys and 19 girls. Every week 2 more boys and 3 more girls join. After how many weeks will there be the same number of boys as girls?", options: ["6", "5", "4", "3", "2"], correctAnswer: 0, points: 4 },
+        { id: 62, question: "Peter shared a bar of chocolate. First he broke off a row with 5 pieces for his brother. Then he broke off a column with 7 pieces for his sister. How many pieces were there in the entire bar?", options: ["28", "32", "35", "40", "54"], correctAnswer: 3, points: 4 },
+        { id: 63, question: "A farmer has 30 cows, some chickens and no other animals. The total number of chicken legs equals the total number of cow legs. How many animals does the farmer have?", options: ["60", "90", "120", "180", "240"], correctAnswer: 1, points: 4 },
+        { id: 64, question: "The length of a rectangle is 8 cm. The width is half as long. How long are the sides of a square that has the same perimeter as the rectangle?", options: ["4 cm", "6 cm", "8 cm", "12 cm", "24 cm"], correctAnswer: 1, points: 4 },
+        { id: 65, question: "Three squirrels Anni, Asia and Elli collected 7 nuts total. They all collected different amounts, and each collected at least one. Anni collected the least and Asia the most. How many nuts did Elli collect?", options: ["1", "2", "3", "4", "Not possible to answer"], correctAnswer: 1, points: 4 },
+        
+        // 5-point questions (Kangaroo 2009)
+        { id: 66, question: "A white and a black pig weigh together 320 kg. The black pig weighs 32 kg more than the white one. How much does the white pig weigh?", options: ["128 kg", "144 kg", "160 kg", "176 kg", "192 kg"], correctAnswer: 1, points: 5 },
+        { id: 67, question: "Anna and Peter live on the same street. On one side of Anna's house there are 27 houses, and on the other side 13 houses. Peter lives in the house right in the middle of the street. How many houses are between Anna's and Peter's houses?", options: ["6", "7", "8", "14", "21"], correctAnswer: 0, points: 5 },
+        { id: 68, question: "A secret agent wants to crack a 6-digit code. The sum of digits in even positions equals the sum of digits in odd positions. Which could be the code? (Format: 12_9_8 means positions 3 and 5 are unknown)", options: ["81__61", "7_727_", "4_4141", "12_9_8", "181_2_"], correctAnswer: 3, points: 5 },
+        { id: 69, question: "Meta collects pictures of sports people. Each year she collects as many as in the previous two years combined. In 2008 she had 60 photos and in 2009 she has 96. How many did she have in 2006?", options: ["20", "24", "36", "40", "48"], correctAnswer: 1, points: 5 },
+        { id: 70, question: "In a vase there is one red, blue, yellow and white flower. Maja the bee visits each flower exactly once. She begins with the red flower and never flies directly from yellow to white. In how many different ways can she visit each flower?", options: ["1", "2", "3", "4", "6"], correctAnswer: 3, points: 5 },
+        { id: 71, question: "In a haunted house, a ghost disappears at 6:15. A strange clock that showed correct time before starts counting backwards. When the ghost reappears at 19:30 real time, what time does the strange clock show?", options: ["17:00", "17:45", "18:30", "19:00", "19:15"], correctAnswer: 0, points: 5 },
+        
+        // === ADDITIONAL KANGAROO-STYLE QUESTIONS ===
+        // 3-point questions (Easy)
+        { id: 72, question: "A caterpillar climbs 5 cm up a plant during the day, but slides down 2 cm each night. After 4 complete days and nights, how high is the caterpillar?", options: ["8 cm", "10 cm", "12 cm", "14 cm", "20 cm"], correctAnswer: 2, points: 3 },
+        { id: 73, question: "Emma has 3 boxes. Each box contains 4 bags, and each bag contains 5 marbles. How many marbles does Emma have in total?", options: ["12", "20", "35", "60", "80"], correctAnswer: 3, points: 3 },
+        { id: 74, question: "A magic frog doubles every minute. At 10:00 there is 1 frog. At what time will there be 8 frogs?", options: ["10:02", "10:03", "10:04", "10:08", "10:16"], correctAnswer: 1, points: 3 },
+        { id: 75, question: "Tom is 8 years old. His grandmother is 7 times as old as Tom. How old will grandmother be when Tom is 12?", options: ["52", "56", "60", "64", "84"], correctAnswer: 2, points: 3 },
+        { id: 76, question: "A baker makes 24 cookies and puts them equally into 6 bags. How many cookies are in each bag?", options: ["3", "4", "5", "6", "8"], correctAnswer: 1, points: 3 },
+        { id: 77, question: "In a row of 15 houses, Maria lives in the middle house. What is the number of her house?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 3 },
+        { id: 78, question: "A train has 6 carriages. Each carriage has 8 windows on each side. How many windows does the whole train have?", options: ["48", "56", "72", "96", "108"], correctAnswer: 3, points: 3 },
+        
+        // 4-point questions (Medium)
+        { id: 79, question: "Alex, Ben, and Carla share some stickers. Alex has twice as many as Ben, and Carla has 5 more than Ben. Together they have 45 stickers. How many does Ben have?", options: ["8", "10", "12", "15", "20"], correctAnswer: 1, points: 4 },
+        { id: 80, question: "A clock loses 5 minutes every hour. If it shows the correct time at 8:00 AM, what time will it show when the real time is 12:00 noon?", options: ["11:00", "11:20", "11:40", "11:45", "11:50"], correctAnswer: 2, points: 4 },
+        { id: 81, question: "In a garden, there are twice as many roses as tulips, and 12 more daisies than roses. If there are 8 tulips, how many flowers are there in total?", options: ["36", "44", "48", "52", "60"], correctAnswer: 3, points: 4 },
+        { id: 82, question: "A snail travels around a square garden with sides of 12 meters. It travels 3 meters per minute. How many minutes does it take to go all the way around?", options: ["12", "14", "16", "18", "48"], correctAnswer: 2, points: 4 },
+        { id: 83, question: "Five friends sit in a row. Amy is not at either end. Beth is to the right of Amy. Carol is at the left end. Dana is between Carol and Amy. Who is at the right end?", options: ["Amy", "Beth", "Carol", "Dana", "Eva"], correctAnswer: 4, points: 4 },
+        { id: 84, question: "A staircase has 20 steps. Leo climbs 2 steps, then goes back 1 step, and repeats this pattern. How many moves does he need to reach the top step?", options: ["19", "20", "37", "38", "40"], correctAnswer: 2, points: 4 },
+        { id: 85, question: "Sarah counts from 1 to 100. How many times does she say a number containing the digit 7?", options: ["10", "11", "19", "20", "21"], correctAnswer: 2, points: 4 },
+        { id: 86, question: "A library has 4 shelves. The first shelf has 15 books, and each next shelf has 8 more books than the previous one. How many books are there in total?", options: ["84", "92", "100", "108", "120"], correctAnswer: 3, points: 4 },
+        
+        // 5-point questions (Hard)
+        { id: 87, question: "In a class, each child has either a cat or a dog or both. 15 children have a cat, 12 have a dog, and 5 have both. How many children are in the class?", options: ["17", "20", "22", "27", "32"], correctAnswer: 2, points: 5 },
+        { id: 88, question: "A dragon has 3 heads. When one head is cut off, 2 new heads grow. If a knight cuts off 5 heads, how many heads will the dragon have?", options: ["5", "6", "7", "8", "10"], correctAnswer: 3, points: 5 },
+        { id: 89, question: "Anna thinks of a number. She doubles it, adds 10, divides by 2, and subtracts 3. The result is 12. What number did Anna think of?", options: ["7", "8", "9", "10", "12"], correctAnswer: 3, points: 5 },
+        { id: 90, question: "At a party, everyone shakes hands with everyone else exactly once. There are 28 handshakes in total. How many people are at the party?", options: ["6", "7", "8", "9", "14"], correctAnswer: 2, points: 5 },
+        { id: 91, question: "A frog jumps between lily pads numbered 1 to 10 in a row. Each jump is exactly 3 pads forward or 2 pads backward. Starting at pad 1, what is the minimum number of jumps to reach pad 10?", options: ["3", "4", "5", "6", "7"], correctAnswer: 0, points: 5 },
+        { id: 92, question: "In a village, every house has a red or blue door. Houses with red doors have 3 windows, and houses with blue doors have 5 windows. There are 20 houses and 76 windows in total. How many houses have red doors?", options: ["8", "10", "12", "14", "16"], correctAnswer: 2, points: 5 },
+        { id: 93, question: "A code uses only the digits 1, 2, and 3. Each digit can be used any number of times. How many different 3-digit codes are possible?", options: ["6", "9", "18", "27", "81"], correctAnswer: 3, points: 5 },
+        { id: 94, question: "Max writes all numbers from 1 to 50. How many times does he write the digit 3?", options: ["5", "10", "14", "15", "20"], correctAnswer: 3, points: 5 }
     ],
     
     "5-6": [
