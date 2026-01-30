@@ -211,7 +211,37 @@ const questionBank = {
         { id: 100, question: "Jana has toys weighing 22g, 23g, 25g, 34g, and 36g. She wants to divide them into two boxes of equal weight. Which two toys must NOT go in the same box?", options: ["22g and 23g", "22g and 25g", "23g and 25g", "34g and 36g", "22g and 34g"], correctAnswer: 4, points: 5 },
         { id: 101, question: "On a calendar, two shaded boxes in the same column add up to 29. If these boxes are on the same weekday, what day is the 1st of the month?", options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"], correctAnswer: 0, points: 5 },
         { id: 102, question: "In a number wall, each brick shows the sum of the two bricks below it. The bottom row has 1, 2, 3, 4 from left to right. What is the number at the top of the wall?", options: ["16", "18", "20", "22", "24"], correctAnswer: 2, points: 5 },
-        { id: 103, question: "On a balance scale, 2 apples weigh the same as 3 bananas. If 1 apple weighs 15g, what does 1 banana weigh?", options: ["5g", "8g", "10g", "12g", "15g"], correctAnswer: 2, points: 5 }
+        { id: 103, question: "On a balance scale, 2 apples weigh the same as 3 bananas. If 1 apple weighs 15g, what does 1 banana weigh?", options: ["5g", "8g", "10g", "12g", "15g"], correctAnswer: 2, points: 5 },
+        
+        // === ADDITIONAL 2025-STYLE QUESTIONS ===
+        // 3-point questions
+        { id: 104, question: "Leo writes the numbers 1, 3, 5, 7 in boxes: □ × □ - □ × □. What order gives the biggest result?", options: ["1, 7, 3, 5", "7, 5, 1, 3", "7, 5, 3, 1", "5, 7, 1, 3", "3, 7, 1, 5"], correctAnswer: 2, points: 3 },
+        { id: 105, question: "A robot moves on a grid: →3, ↑2, ←1, ↑1. How far right and how far up is the robot from the start?", options: ["2 right, 3 up", "3 right, 2 up", "2 right, 2 up", "4 right, 3 up", "1 right, 3 up"], correctAnswer: 0, points: 3 },
+        { id: 106, question: "Each shell is worth 5 points and each star is worth 3 points. Which combination gives exactly 19 points?", options: ["2 shells, 3 stars", "3 shells, 2 stars", "1 shell, 5 stars", "4 shells, 0 stars", "2 shells, 4 stars"], correctAnswer: 0, points: 3 },
+        { id: 107, question: "On a special die, opposite faces multiply to give 6. If you see faces 1, 2, and 6, what is the sum of the hidden faces?", options: ["6", "8", "9", "10", "12"], correctAnswer: 3, points: 3 },
+        { id: 108, question: "A train has 5 carriages numbered 1 to 5. Carriage 3 is in the middle. Carriage 1 is at the front. What carriage is directly behind carriage 2?", options: ["1", "3", "4", "5", "None"], correctAnswer: 1, points: 3 },
+        { id: 109, question: "Mia folds a paper strip in half 3 times. How many layers does the folded paper have?", options: ["3", "4", "6", "8", "9"], correctAnswer: 3, points: 3 },
+        { id: 110, question: "A clock shows 2:45. The minute hand has moved 90 degrees since the last hour. What time was it at the last hour?", options: ["1:00", "2:00", "2:30", "3:00", "12:00"], correctAnswer: 1, points: 3 },
+        
+        // 4-point questions
+        { id: 111, question: "Four children collect stamps. Ada has 12, Ben has 8, Cara has 16, and Dan has 4. They share 20 more stamps so everyone has equal amounts. How many stamps does Ben receive?", options: ["5", "7", "9", "11", "13"], correctAnswer: 1, points: 4 },
+        { id: 112, question: "In a pet shop, 3 cats eat the same amount as 5 hamsters. Each cat eats 10g per day. How much does each hamster eat?", options: ["2g", "4g", "5g", "6g", "8g"], correctAnswer: 3, points: 4 },
+        { id: 113, question: "Two runners start at the same point on a track. Runner A completes 3 laps while Runner B completes 2 laps. They started together and finished at the same time. If B's speed is 8 m/s, what is A's speed?", options: ["10 m/s", "11 m/s", "12 m/s", "14 m/s", "16 m/s"], correctAnswer: 2, points: 4 },
+        { id: 114, question: "A farmer has chickens and rabbits. He counts 20 heads and 64 legs. How many rabbits does he have?", options: ["8", "10", "12", "14", "16"], correctAnswer: 2, points: 4 },
+        { id: 115, question: "In a number wall, each brick shows the sum of two bricks below. The bottom row is 2, 5, 3. What number is at the top?", options: ["15", "17", "18", "20", "22"], correctAnswer: 0, points: 4 },
+        { id: 116, question: "A calendar shows that the 13th is a Friday. What day of the week is the 1st of that month?", options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"], correctAnswer: 4, points: 4 },
+        { id: 117, question: "Lina has coins worth 50¢, 20¢, and 10¢. She uses exactly 3 coins to pay 80¢. Which coins does she use?", options: ["50¢, 20¢, 10¢", "50¢, 10¢, 10¢", "20¢, 20¢, 20¢", "50¢, 20¢, 20¢", "20¢, 20¢, 10¢"], correctAnswer: 0, points: 4 },
+        { id: 118, question: "A rectangular garden is 3 times as long as it is wide. The perimeter is 48 meters. What is the width?", options: ["4 m", "5 m", "6 m", "8 m", "12 m"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions
+        { id: 119, question: "Six children sit in a circle. Each child has some candies. They pass half their candies to the right. After one pass, everyone has 8 candies. How many candies were there in total at the start?", options: ["36", "42", "48", "54", "60"], correctAnswer: 2, points: 5 },
+        { id: 120, question: "A wizard's potion doubles every hour. At noon, the cauldron is full. At what time was the cauldron 1/8 full?", options: ["9:00 AM", "10:00 AM", "11:00 AM", "8:00 AM", "7:00 AM"], correctAnswer: 0, points: 5 },
+        { id: 121, question: "Tom has weights of 1g, 3g, 9g, and 27g. Using a balance scale (weights can go on either side), what is the lightest weight he CANNOT measure?", options: ["2g", "5g", "14g", "None - he can measure any weight up to 40g", "21g"], correctAnswer: 3, points: 5 },
+        { id: 122, question: "In a tournament, every team plays every other team once. There are 28 games in total. How many teams are playing?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 5 },
+        { id: 123, question: "A snail climbs a 10-meter well. Each day it climbs 3m, but each night it slides back 2m. On which day does it reach the top?", options: ["7th", "8th", "9th", "10th", "11th"], correctAnswer: 1, points: 5 },
+        { id: 124, question: "Three boxes contain apples. Box A has twice as many as Box B. Box C has 4 more than Box A. Together they have 44 apples. How many are in Box C?", options: ["12", "16", "20", "24", "28"], correctAnswer: 2, points: 5 },
+        { id: 125, question: "A secret code replaces each letter with the next letter (A→B, B→C, ... Z→A). If 'DOH' becomes 'EPJ' after one step, what was the original word before 'DOH'?", options: ["CNG", "EPI", "CNF", "DMG", "COG"], correctAnswer: 0, points: 5 },
+        { id: 126, question: "Five friends weigh 30kg, 32kg, 35kg, 38kg, and 40kg. They need to use an elevator that holds max 70kg. At least how many trips are needed?", options: ["3", "4", "5", "6", "7"], correctAnswer: 0, points: 5 }
     ],
     
     "5-6": [
