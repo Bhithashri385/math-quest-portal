@@ -241,7 +241,22 @@ const questionBank = {
         { id: 123, question: "A snail climbs a 10-meter well. Each day it climbs 3m, but each night it slides back 2m. On which day does it reach the top?", options: ["7th", "8th", "9th", "10th", "11th"], correctAnswer: 1, points: 5 },
         { id: 124, question: "Three boxes contain apples. Box A has twice as many as Box B. Box C has 4 more than Box A. Together they have 44 apples. How many are in Box C?", options: ["12", "16", "20", "24", "28"], correctAnswer: 2, points: 5 },
         { id: 125, question: "A secret code replaces each letter with the next letter (A→B, B→C, ... Z→A). If 'DOH' becomes 'EPJ' after one step, what was the original word before 'DOH'?", options: ["CNG", "EPI", "CNF", "DMG", "COG"], correctAnswer: 0, points: 5 },
-        { id: 126, question: "Five friends weigh 30kg, 32kg, 35kg, 38kg, and 40kg. They need to use an elevator that holds max 70kg. At least how many trips are needed?", options: ["3", "4", "5", "6", "7"], correctAnswer: 0, points: 5 }
+        { id: 126, question: "Five friends weigh 30kg, 32kg, 35kg, 38kg, and 40kg. They need to use an elevator that holds max 70kg. At least how many trips are needed?", options: ["3", "4", "5", "6", "7"], correctAnswer: 0, points: 5 },
+        
+        // === KANGAROO 2020 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2020)
+        { id: 127, question: "Eli drew a board with 9 squares and wrote numbers starting from 1, adding 3 each time (1, 4, 7, 10, ...). Which number could be in one of the squares?", options: ["14", "17", "20", "22", "24"], correctAnswer: 3, points: 3 },
+        
+        // 4-point questions (2020)
+        { id: 128, question: "Whenever a kangaroo hops up 7 steps, a rabbit hops down 3 steps. They start at step 100. When the kangaroo reaches step 156, what step is the rabbit on?", options: ["73", "76", "79", "82", "85"], correctAnswer: 1, points: 4 },
+        { id: 129, question: "Ana, Bia and Cris have 100 reais together. Ana has twice as much as each friend. After each pays for a movie ticket, Ana has 3 times what both friends have together. How much was the ticket?", options: ["R$ 8", "R$ 10", "R$ 12", "R$ 15", "R$ 20"], correctAnswer: 4, points: 4 },
+        
+        // 5-point questions (2020)
+        { id: 130, question: "Five friends discuss what day it is. Adam: 'Yesterday was Wednesday.' Beto: 'Tomorrow is Friday.' Carlos: 'Day before yesterday was Tuesday.' David: 'Day after tomorrow is Saturday.' Eli: 'Today is Monday.' One is wrong. Who?", options: ["Adam", "Beto", "Carlos", "David", "Eli"], correctAnswer: 4, points: 5 },
+        { id: 131, question: "Numbers 1-8 are covered by triangles, squares, and a circle. Triangle sum = Square sum. Circle = 1/4 of triangle sum. What is the sum of numbers under triangles and circle?", options: ["18", "19", "20", "21", "22"], correctAnswer: 2, points: 5 },
+        { id: 132, question: "Joana paints a parrot's head, tail, and wing using red, blue, or green. Head and tail may match, but wing must differ from both. How many unique paintings are possible?", options: ["3", "6", "9", "12", "15"], correctAnswer: 3, points: 5 },
+        { id: 133, question: "Jonas and Elias ate ice cream every vacation day. Each ice cream had 2 or 3 scoops. Jonas had 23 scoops total, Elias had 19. What's the minimum number of vacation days?", options: ["6", "7", "8", "10", "11"], correctAnswer: 2, points: 5 },
+        { id: 134, question: "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?", options: ["2", "5", "9", "12", "18"], correctAnswer: 4, points: 5 }
     ],
     
     "5-6": [
