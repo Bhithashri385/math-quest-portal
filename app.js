@@ -20,7 +20,31 @@ let timerInterval = null;
 document.addEventListener('DOMContentLoaded', () => {
     // Add SVG gradient for score circle
     addSVGGradient();
+    // Update question counts on dashboard
+    updateQuestionCounts();
 });
+
+// Update question counts dynamically
+function updateQuestionCounts() {
+    const grades = ['1-2', '3-4', '5-6', '7-8', '9-10', '11-12'];
+    const examQuestions = { '1-2': 18, '3-4': 18, '5-6': 20, '7-8': 20, '9-10': 20, '11-12': 20 };
+    let totalQuestions = 0;
+    
+    grades.forEach(grade => {
+        const pool = questionBank[grade] ? questionBank[grade].length : 0;
+        totalQuestions += pool;
+        
+        const metaElement = document.getElementById(`meta-${grade}`);
+        if (metaElement) {
+            metaElement.textContent = `${examQuestions[grade]} Questions • ${pool} in pool`;
+        }
+    });
+    
+    const totalTag = document.getElementById('total-questions-tag');
+    if (totalTag) {
+        totalTag.textContent = `🎯 ${totalQuestions}+ Questions`;
+    }
+}
 
 // Add SVG gradient definition
 function addSVGGradient() {
