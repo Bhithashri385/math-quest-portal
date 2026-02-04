@@ -83,7 +83,6 @@ const questionBank = {
     "3-4": [
         // === 3-POINT QUESTIONS ===
         { id: 1, question: "A clock shows 3:45. What time in 30 minutes?", options: ["3:75", "4:00", "4:15", "4:30", "4:45"], correctAnswer: 2, points: 3 },
-        { id: 2, question: "Sum of digits in 2024?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 3 },
         { id: 3, question: "Rectangle: 8m long, 5m wide. Perimeter?", options: ["13 m", "20 m", "26 m", "40 m", "45 m"], correctAnswer: 2, points: 3 },
         { id: 4, question: "36 stickers among 4 friends equally. Each gets?", options: ["6", "8", "9", "10", "12"], correctAnswer: 2, points: 3 },
         { id: 5, question: "Which is NOT a multiple of 6?", options: ["12", "18", "24", "28", "30"], correctAnswer: 3, points: 3 },
