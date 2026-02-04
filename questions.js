@@ -289,7 +289,20 @@ const questionBank = {
         
         // 5-point questions (2018)
         { id: 147, question: "To slay a dragon, Mathias cuts off heads. When 3 heads are cut, 1 grows back. After cutting 13 heads total, the dragon dies. How many heads did it have initially?", options: ["8", "9", "10", "11", "12"], correctAnswer: 1, points: 5 },
-        { id: 148, question: "A belt has 5 holes, each 2 cm apart. How much longer is the belt when using the 1st hole instead of the 5th?", options: ["4 cm", "8 cm", "10 cm", "16 cm", "20 cm"], correctAnswer: 1, points: 5 }
+        { id: 148, question: "A belt has 5 holes, each 2 cm apart. How much longer is the belt when using the 1st hole instead of the 5th?", options: ["4 cm", "8 cm", "10 cm", "16 cm", "20 cm"], correctAnswer: 1, points: 5 },
+        
+        // === KANGAROO 2017 ÉCOLIER QUESTIONS ===
+        // 4-point questions (2017)
+        { id: 149, question: "Four apples and one pear weigh as much as three pears. What is correct?", options: ["1 pear = 1 apple", "3 apples = 1 pear", "3 pears = 1 apple", "2 pears = 1 apple", "2 apples = 1 pear"], correctAnswer: 4, points: 4 },
+        { id: 150, question: "Balloons are sold in packages of 5, 10, or 25. Marius buys exactly 70 balloons. What is the minimum number of packages?", options: ["3", "4", "5", "6", "7"], correctAnswer: 1, points: 4 },
+        { id: 151, question: "13 children registered for a competition, then 19 more joined. Six equally big teams are needed. How many more children are needed?", options: ["1", "2", "3", "4", "5"], correctAnswer: 3, points: 4 },
+        { id: 152, question: "David has a stove with 2 hobs to prepare 5 dishes (40, 15, 35, 10, 45 min). He can only remove fully cooked dishes. Minimum time needed?", options: ["60 min", "70 min", "75 min", "80 min", "85 min"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2017)
+        { id: 153, question: "Four brothers ate 11 biscuits total. Everyone ate at least 1, all different amounts. Three brothers ate 9, one of them ate exactly 3. How many did the one who ate most have?", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 5 },
+        { id: 154, question: "In a 4×4 table with numbers [1,2,1,3; 4,1,1,2; 1,7,3,2; 2,1,3,1], find the 2×2 square with the greatest sum. What is this sum?", options: ["11", "12", "13", "14", "15"], correctAnswer: 3, points: 5 },
+        { id: 155, question: "Susi wants to visit exactly 2 of 4 zoo animals (giraffe, elephant, lion, turtle) but won't start with the lion. How many different visit orders are possible?", options: ["3", "7", "8", "9", "12"], correctAnswer: 3, points: 5 },
+        { id: 156, question: "Kate has flowers with 6, 7, 8, and 11 petals. She tears 1 petal from each of 3 different flowers, repeating until impossible. Minimum petals left?", options: ["1", "2", "3", "4", "5"], correctAnswer: 4, points: 5 }
     ],
     
     "5-6": [
