@@ -317,7 +317,22 @@ const questionBank = {
         { id: 161, question: "Numbers 1,2,3,4,9 are placed in a cross pattern. The sum of 3 horizontal numbers equals the sum of 3 vertical numbers. What number is in the middle?", options: ["1", "2", "3", "4", "9"], correctAnswer: 4, points: 5 },
         { id: 162, question: "On a 3×3 grid of dots (9 dots), you can draw squares by joining 4 dots. How many different sizes of squares can you draw?", options: ["0", "1", "2", "3", "4"], correctAnswer: 3, points: 5 },
         { id: 163, question: "Thomas cuts a pig and shark drawing into 3 pieces each (head, middle, tail). He takes 1 head, 1 middle, 1 tail to make new animals. How many different animals can he make?", options: ["2", "3", "4", "5", "8"], correctAnswer: 4, points: 5 },
-        { id: 164, question: "Anna baked 24, Berta 25, Charlie 26, David 27, Elisa 28 biscuits by weekend's end. One child has 2×, one 3×, one 4×, one 5×, one 6× their Saturday amount. Who baked most on Saturday?", options: ["Anna", "Berta", "Charlie", "David", "Elisa"], correctAnswer: 2, points: 5 }
+        { id: 164, question: "Anna baked 24, Berta 25, Charlie 26, David 27, Elisa 28 biscuits by weekend's end. One child has 2×, one 3×, one 4×, one 5×, one 6× their Saturday amount. Who baked most on Saturday?", options: ["Anna", "Berta", "Charlie", "David", "Elisa"], correctAnswer: 2, points: 5 },
+        
+        // === KANGAROO 2023 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2023)
+        { id: 165, question: "Anna has 4 discs of different sizes. She builds a tower using 3 discs, where smaller must be on top of bigger. How many different towers can she build?", options: ["1", "2", "4", "5", "6"], correctAnswer: 2, points: 3 },
+        
+        // 4-point questions (2023)
+        { id: 166, question: "Weights of 1,2,3,4,5,6 kg are placed on two scale pans (5 weights) to balance. Which weight is left aside?", options: ["1 kg", "2 kg", "3 kg", "4 kg", "5 kg"], correctAnswer: 2, points: 4 },
+        { id: 167, question: "North of Street A: 7 houses. East of Street B: 8 houses. South of Street A: 5 houses. How many houses West of Street B?", options: ["4", "5", "6", "7", "8"], correctAnswer: 0, points: 4 },
+        { id: 168, question: "8 cars in a ferry queue have 19 people total. Each car has 2 or 3 people. How many cars have exactly 2 people?", options: ["2", "3", "4", "5", "6"], correctAnswer: 3, points: 4 },
+        { id: 169, question: "6 beavers and 2 kangaroos stand in a row (8 positions). In every 3 consecutive animals, exactly 1 is a kangaroo. On which position does a kangaroo stand?", options: ["1", "2", "3", "4", "5"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2023)
+        { id: 170, question: "An underground train has stations A-B-C-D-E-F. It goes back and forth, stopping at each. Starting at B toward C, what is the 46th stop?", options: ["A", "B", "C", "D", "E"], correctAnswer: 3, points: 5 },
+        { id: 171, question: "Three boys enter a room one after another. Hermann is not first, Felix is not second, Clemens is not third. How many different orders are possible?", options: ["1", "2", "3", "4", "6"], correctAnswer: 1, points: 5 },
+        { id: 172, question: "Adam has 9 marbles, Brenda has 9. Together they have 8 white and 10 black. Brenda has twice as many black as white. How many black marbles does Adam have?", options: ["3", "4", "5", "6", "0"], correctAnswer: 1, points: 5 }
     ],
     
     "5-6": [
