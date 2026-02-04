@@ -77,7 +77,13 @@ const questionBank = {
         { id: 57, question: "What is half of 18?", options: ["6", "7", "8", "9", "10"], correctAnswer: 3, points: 4 },
         { id: 58, question: "3 + 3 + 3 + 3 = ?", options: ["9", "10", "11", "12", "13"], correctAnswer: 3, points: 3 },
         { id: 59, question: "A baker made 24 cookies. He put 6 on each plate. How many plates?", options: ["3", "4", "5", "6", "18"], correctAnswer: 1, points: 5 },
-        { id: 60, question: "What is the value of 3 dimes?", options: ["3 cents", "13 cents", "30 cents", "33 cents", "300 cents"], correctAnswer: 2, points: 4 }
+        { id: 60, question: "What is the value of 3 dimes?", options: ["3 cents", "13 cents", "30 cents", "33 cents", "300 cents"], correctAnswer: 2, points: 4 },
+        
+        // === KANGAROO 2014 FELIX QUESTIONS ===
+        // 5-point questions (2014)
+        { id: 61, question: "How many numbers using only digits 1, 2, or 3 are bigger than 10 and smaller than 32? (Digits can repeat)", options: ["2", "4", "6", "7", "8"], correctAnswer: 3, points: 5 },
+        { id: 62, question: "The rabbit family eats either 10 carrots OR 2 cabbages each day. Last week they ate 6 cabbages. How many carrots did they eat?", options: ["20", "30", "34", "40", "50"], correctAnswer: 3, points: 5 },
+        { id: 63, question: "Each digit 2, 3, 4, 5 is placed in a box to make two 2-digit numbers that are added. What is the biggest possible sum?", options: ["68", "77", "86", "95", "97"], correctAnswer: 3, points: 5 }
     ],
     
     "3-4": [
