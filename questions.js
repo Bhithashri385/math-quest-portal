@@ -275,7 +275,21 @@ const questionBank = {
         // 5-point questions (2019)
         { id: 139, question: "Robert makes 5 statements: A) My son Basil has 3 sisters. B) My daughter Ann has 2 brothers. C) Ann has 2 sisters. D) Basil has 2 brothers. E) I have 5 children. One is wrong. Which?", options: ["A", "B", "C", "D", "E"], correctAnswer: 3, points: 5 },
         { id: 140, question: "Emil takes selfies with his 8 cousins. Each cousin appears in 2 or 3 photos. Each photo has exactly 5 cousins. How many selfies does Emil take?", options: ["3", "4", "5", "6", "7"], correctAnswer: 1, points: 5 },
-        { id: 141, question: "Linus builds a 4×4×4 cube using 32 white and 32 black small cubes. He arranges them so the surface has as much white as possible. What fraction of the surface is white?", options: ["3/4", "2/3", "1/2", "3/8", "1/4"], correctAnswer: 0, points: 5 }
+        { id: 141, question: "Linus builds a 4×4×4 cube using 32 white and 32 black small cubes. He arranges them so the surface has as much white as possible. What fraction of the surface is white?", options: ["3/4", "2/3", "1/2", "3/8", "1/4"], correctAnswer: 0, points: 5 },
+        
+        // === KANGAROO 2018 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2018)
+        { id: 142, question: "Susanne is 6 years old. Her sister Lisa is 2 years younger. Brother Max is 2 years older than Susanne. How old are the 3 siblings altogether?", options: ["15", "16", "17", "18", "19"], correctAnswer: 3, points: 3 },
+        { id: 143, question: "Leonie has stamps for digits 0-9. She stamps the date 15.03.2018. How many different stamps does she use?", options: ["5", "6", "7", "9", "10"], correctAnswer: 1, points: 3 },
+        
+        // 4-point questions (2018)
+        { id: 144, question: "Diana throws 3 darts at a target with two scoring zones. First throw: 12 points. Second throw: 15 points. If the zones are worth 3 and 6 points, and her third throw has 3 darts in the 6-point zone, how many points?", options: ["18", "19", "20", "21", "22"], correctAnswer: 0, points: 4 },
+        { id: 145, question: "Felix the rabbit has 20 carrots and eats 2 each day. He ate the 12th carrot on a Wednesday. On which day did he start eating?", options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], correctAnswer: 4, points: 4 },
+        { id: 146, question: "On 8 flowers, butterflies and dragonflies sit (at most 1 per flower). More than half the flowers are occupied. Butterflies = 2 × dragonflies. How many butterflies?", options: ["2", "3", "4", "5", "6"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2018)
+        { id: 147, question: "To slay a dragon, Mathias cuts off heads. When 3 heads are cut, 1 grows back. After cutting 13 heads total, the dragon dies. How many heads did it have initially?", options: ["8", "9", "10", "11", "12"], correctAnswer: 1, points: 5 },
+        { id: 148, question: "A belt has 5 holes, each 2 cm apart. How much longer is the belt when using the 1st hole instead of the 5th?", options: ["4 cm", "8 cm", "10 cm", "16 cm", "20 cm"], correctAnswer: 1, points: 5 }
     ],
     
     "5-6": [
