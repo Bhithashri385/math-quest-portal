@@ -255,7 +255,21 @@ const questionBank = {
         { id: 131, question: "Numbers 1-8 are covered by triangles, squares, and a circle. Triangle sum = Square sum. Circle = 1/4 of triangle sum. What is the sum of numbers under triangles and circle?", options: ["18", "19", "20", "21", "22"], correctAnswer: 2, points: 5 },
         { id: 132, question: "Joana paints a parrot's head, tail, and wing using red, blue, or green. Head and tail may match, but wing must differ from both. How many unique paintings are possible?", options: ["3", "6", "9", "12", "15"], correctAnswer: 3, points: 5 },
         { id: 133, question: "Jonas and Elias ate ice cream every vacation day. Each ice cream had 2 or 3 scoops. Jonas had 23 scoops total, Elias had 19. What's the minimum number of vacation days?", options: ["6", "7", "8", "10", "11"], correctAnswer: 2, points: 5 },
-        { id: 134, question: "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?", options: ["2", "5", "9", "12", "18"], correctAnswer: 4, points: 5 }
+        { id: 134, question: "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?", options: ["2", "5", "9", "12", "18"], correctAnswer: 4, points: 5 },
+        
+        // === KANGAROO 2019 BENJAMIN QUESTIONS ===
+        // 3-point questions (2019)
+        { id: 135, question: "In a nursery group there are 14 girls and 12 boys. Half of the group go for a walk. What is the minimum number of girls that must be in that group?", options: ["5", "4", "3", "2", "1"], correctAnswer: 4, points: 3 },
+        { id: 136, question: "In an enclosure, the sum of all kangaroos' ages is 36 years. In two years, all kangaroos together will be 60 years old. How many kangaroos are in the enclosure?", options: ["12", "15", "18", "20", "24"], correctAnswer: 0, points: 3 },
+        
+        // 4-point questions (2019)
+        { id: 137, question: "A die has the six smallest odd numbers (1, 3, 5, 7, 9, 11) on its faces. Toni rolls it three times and adds the results. Which sum is impossible to make?", options: ["3", "19", "21", "29", "35"], correctAnswer: 4, points: 4 },
+        { id: 138, question: "In a witch's garden there are 30 animals: dogs, cats, and mice. She changes 6 dogs into cats, then 5 cats into mice. Now there are equal numbers of each. How many cats were there originally?", options: ["4", "5", "9", "10", "11"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2019)
+        { id: 139, question: "Robert makes 5 statements: A) My son Basil has 3 sisters. B) My daughter Ann has 2 brothers. C) Ann has 2 sisters. D) Basil has 2 brothers. E) I have 5 children. One is wrong. Which?", options: ["A", "B", "C", "D", "E"], correctAnswer: 3, points: 5 },
+        { id: 140, question: "Emil takes selfies with his 8 cousins. Each cousin appears in 2 or 3 photos. Each photo has exactly 5 cousins. How many selfies does Emil take?", options: ["3", "4", "5", "6", "7"], correctAnswer: 1, points: 5 },
+        { id: 141, question: "Linus builds a 4×4×4 cube using 32 white and 32 black small cubes. He arranges them so the surface has as much white as possible. What fraction of the surface is white?", options: ["3/4", "2/3", "1/2", "3/8", "1/4"], correctAnswer: 0, points: 5 }
     ],
     
     "5-6": [
