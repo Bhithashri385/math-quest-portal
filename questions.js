@@ -302,7 +302,22 @@ const questionBank = {
         { id: 153, question: "Four brothers ate 11 biscuits total. Everyone ate at least 1, all different amounts. Three brothers ate 9, one of them ate exactly 3. How many did the one who ate most have?", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 5 },
         { id: 154, question: "In a 4×4 table with numbers [1,2,1,3; 4,1,1,2; 1,7,3,2; 2,1,3,1], find the 2×2 square with the greatest sum. What is this sum?", options: ["11", "12", "13", "14", "15"], correctAnswer: 3, points: 5 },
         { id: 155, question: "Susi wants to visit exactly 2 of 4 zoo animals (giraffe, elephant, lion, turtle) but won't start with the lion. How many different visit orders are possible?", options: ["3", "7", "8", "9", "12"], correctAnswer: 3, points: 5 },
-        { id: 156, question: "Kate has flowers with 6, 7, 8, and 11 petals. She tears 1 petal from each of 3 different flowers, repeating until impossible. Minimum petals left?", options: ["1", "2", "3", "4", "5"], correctAnswer: 4, points: 5 }
+        { id: 156, question: "Kate has flowers with 6, 7, 8, and 11 petals. She tears 1 petal from each of 3 different flowers, repeating until impossible. Minimum petals left?", options: ["1", "2", "3", "4", "5"], correctAnswer: 4, points: 5 },
+        
+        // === KANGAROO 2015 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2015)
+        { id: 157, question: "If you multiply the digits of 35, you get 15 (3×5=15). What is the sum of the digits of 35?", options: ["2", "4", "6", "7", "8"], correctAnswer: 4, points: 3 },
+        
+        // 4-point questions (2015)
+        { id: 158, question: "Luis has 7 apples and 2 bananas. He gives 2 apples to Jacob, who gives him bananas in return. Now Luis has equal apples and bananas. How many bananas did he get?", options: ["2", "3", "4", "5", "7"], correctAnswer: 1, points: 4 },
+        { id: 159, question: "10 runners start a race. At finish, there are 3 more runners behind Thomas than in front of him. In which position did Thomas finish?", options: ["1", "3", "4", "6", "7"], correctAnswer: 2, points: 4 },
+        { id: 160, question: "Joseph has a car, teddy, ball, and ship. He arranges them so ship is next to car, and teddy is also next to car. How many different arrangements are possible?", options: ["2", "4", "5", "6", "8"], correctAnswer: 1, points: 4 },
+        
+        // 5-point questions (2015)
+        { id: 161, question: "Numbers 1,2,3,4,9 are placed in a cross pattern. The sum of 3 horizontal numbers equals the sum of 3 vertical numbers. What number is in the middle?", options: ["1", "2", "3", "4", "9"], correctAnswer: 4, points: 5 },
+        { id: 162, question: "On a 3×3 grid of dots (9 dots), you can draw squares by joining 4 dots. How many different sizes of squares can you draw?", options: ["0", "1", "2", "3", "4"], correctAnswer: 3, points: 5 },
+        { id: 163, question: "Thomas cuts a pig and shark drawing into 3 pieces each (head, middle, tail). He takes 1 head, 1 middle, 1 tail to make new animals. How many different animals can he make?", options: ["2", "3", "4", "5", "8"], correctAnswer: 4, points: 5 },
+        { id: 164, question: "Anna baked 24, Berta 25, Charlie 26, David 27, Elisa 28 biscuits by weekend's end. One child has 2×, one 3×, one 4×, one 5×, one 6× their Saturday amount. Who baked most on Saturday?", options: ["Anna", "Berta", "Charlie", "David", "Elisa"], correctAnswer: 2, points: 5 }
     ],
     
     "5-6": [
