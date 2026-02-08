@@ -100,7 +100,6 @@ const questionBank = {
         { id: 14, question: "Sam is 9. Dad is 4× older. Dad's age?", options: ["13", "27", "32", "36", "45"], correctAnswer: 3, points: 3 },
         { id: 15, question: "What is 1000 - 456?", options: ["444", "454", "544", "554", "644"], correctAnswer: 2, points: 3 },
         { id: 16, question: "How many sides does an octagon have?", options: ["5", "6", "7", "8", "10"], correctAnswer: 3, points: 3 },
-        { id: 17, question: "What is 25 × 4?", options: ["80", "90", "100", "110", "125"], correctAnswer: 2, points: 3 },
         { id: 18, question: "A dozen eggs is 12. How many in 3 dozen?", options: ["24", "30", "36", "42", "48"], correctAnswer: 2, points: 3 },
         { id: 19, question: "Round 3847 to nearest hundred:", options: ["3800", "3850", "3900", "4000", "3840"], correctAnswer: 0, points: 3 },
         { id: 20, question: "How many hours in 2 days?", options: ["24", "36", "48", "60", "72"], correctAnswer: 2, points: 3 },
