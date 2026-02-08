@@ -53,6 +53,8 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    /* iOS safe area support */
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 body {
@@ -61,12 +63,35 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow-x: hidden;
+    /* Prevent iOS rubber-banding */
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .app-container {
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     position: relative;
+    /* Safe area padding for notched devices */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* iOS standalone mode adjustments */
+@media all and (display-mode: standalone) {
+    .app-container {
+        padding-top: max(env(safe-area-inset-top), 20px);
+    }
+}
+
+/* Touch optimizations for Apple devices */
+@supports (-webkit-touch-callout: none) {
+    button, .option-btn, .grade-card {
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+    }
 }
 
 /* Page Transitions */

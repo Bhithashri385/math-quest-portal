@@ -1,0 +1,23 @@
+{
+  "name": "math-quest-portal",
+  "version": "1.0.0",
+  "description": "Practice math exams for grades 1-8 with competition-style questions",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js www/ && cp -r icons www/",
+    "ios:sync": "npm run build && npx cap sync ios",
+    "ios:open": "npx cap open ios",
+    "ios": "npm run ios:sync && npm run ios:open"
+  },
+  "keywords": ["math", "education", "practice", "exams", "kids"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "serve": "^14.2.0"
+  }
+}
