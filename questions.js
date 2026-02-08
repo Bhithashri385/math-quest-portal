@@ -11,21 +11,21 @@ const questionBank = {
         // === 3-POINT QUESTIONS (Easy) ===
         // 2010-2015 Style
         { id: 1, question: "A kangaroo makes 3 jumps. Each jump is 2 meters long. How far does the kangaroo travel?", options: ["3 m", "5 m", "6 m", "7 m", "8 m"], correctAnswer: 2, points: 3 },
-        { id: 2, question: "Lisa has 8 balloons. 3 fly away. How many are left?", options: ["3", "4", "5", "6", "11"], correctAnswer: 2, points: 3 },
-        { id: 3, question: "Tom has 4 toy cars. His brother gives him 3 more. How many does Tom have?", options: ["1", "4", "6", "7", "12"], correctAnswer: 3, points: 3 },
+        { id: 2, question: "Zara has 8 balloons. 3 fly away. How many are left?", options: ["3", "4", "5", "6", "11"], correctAnswer: 2, points: 3 },
+        { id: 3, question: "Kai has 4 toy cars. His brother gives him 3 more. How many does Kai have?", options: ["1", "4", "6", "7", "12"], correctAnswer: 3, points: 3 },
         { id: 4, question: "What comes next: ○ ● ○ ● ○ ● ○ ?", options: ["○", "●", "□", "■", "△"], correctAnswer: 1, points: 3 },
         { id: 5, question: "A ladybug has 6 legs. How many legs do 2 ladybugs have?", options: ["6", "8", "10", "12", "14"], correctAnswer: 3, points: 3 },
-        { id: 6, question: "Anna is 7 years old. Her sister is 2 years younger. How old is the sister?", options: ["2", "3", "4", "5", "9"], correctAnswer: 3, points: 3 },
+        { id: 6, question: "Priya is 7 years old. Her sister is 2 years younger. How old is the sister?", options: ["2", "3", "4", "5", "9"], correctAnswer: 3, points: 3 },
         { id: 7, question: "How many corners does a rectangle have?", options: ["2", "3", "4", "5", "6"], correctAnswer: 2, points: 3 },
         { id: 8, question: "Count: ★ ★ ★ ★ ★ ★. How many stars?", options: ["4", "5", "6", "7", "8"], correctAnswer: 2, points: 3 },
         { id: 9, question: "What number comes after 19?", options: ["18", "20", "21", "29", "91"], correctAnswer: 1, points: 3 },
-        { id: 10, question: "Sam has 5 red and 4 green apples. How many total?", options: ["1", "4", "5", "9", "20"], correctAnswer: 3, points: 3 },
+        { id: 10, question: "Ravi has 5 red and 4 green apples. How many total?", options: ["1", "4", "5", "9", "20"], correctAnswer: 3, points: 3 },
         // 2016-2020 Style
         { id: 11, question: "A bicycle has 2 wheels. How many wheels do 3 bicycles have?", options: ["3", "5", "6", "8", "9"], correctAnswer: 2, points: 3 },
         { id: 12, question: "Which shape has 3 sides?", options: ["Circle", "Square", "Triangle", "Rectangle", "Pentagon"], correctAnswer: 2, points: 3 },
         { id: 13, question: "What is 7 + 5?", options: ["10", "11", "12", "13", "14"], correctAnswer: 2, points: 3 },
         { id: 14, question: "How many fingers on two hands?", options: ["5", "8", "10", "12", "20"], correctAnswer: 2, points: 3 },
-        { id: 15, question: "Emma has 10 cookies. She eats 3. How many left?", options: ["3", "5", "7", "10", "13"], correctAnswer: 2, points: 3 },
+        { id: 15, question: "Luna has 10 cookies. She eats 3. How many left?", options: ["3", "5", "7", "10", "13"], correctAnswer: 2, points: 3 },
         { id: 16, question: "A dog has 4 legs. How many legs do 2 dogs have?", options: ["4", "6", "8", "10", "12"], correctAnswer: 2, points: 3 },
         { id: 17, question: "What is 8 - 3?", options: ["3", "4", "5", "6", "11"], correctAnswer: 2, points: 3 },
         { id: 18, question: "How many ears does a rabbit have?", options: ["1", "2", "3", "4", "5"], correctAnswer: 1, points: 3 },
@@ -35,14 +35,14 @@ const questionBank = {
         { id: 21, question: "Count the dots: • • • • •", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 3 },
         { id: 22, question: "A triangle has how many corners?", options: ["1", "2", "3", "4", "5"], correctAnswer: 2, points: 3 },
         { id: 23, question: "What is 6 + 4?", options: ["8", "9", "10", "11", "12"], correctAnswer: 2, points: 3 },
-        { id: 24, question: "Tim has 9 marbles. He loses 4. How many left?", options: ["4", "5", "6", "9", "13"], correctAnswer: 1, points: 3 },
+        { id: 24, question: "Nico has 9 marbles. He loses 4. How many left?", options: ["4", "5", "6", "9", "13"], correctAnswer: 1, points: 3 },
         { id: 25, question: "Which is smallest: 15, 51, 11?", options: ["15", "51", "11", "All same", "Cannot tell"], correctAnswer: 2, points: 3 },
 
         // === 4-POINT QUESTIONS (Medium) ===
-        { id: 26, question: "Maria has 10 candies. She eats 3 and gives 2 away. How many left?", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 4 },
+        { id: 26, question: "Aisha has 10 candies. She eats 3 and gives 2 away. How many left?", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 4 },
         { id: 27, question: "A snail climbs 4 steps up, slides 2 down. Which step is it on?", options: ["Step 1", "Step 2", "Step 3", "Step 4", "Step 6"], correctAnswer: 1, points: 4 },
         { id: 28, question: "Monday is day 1. What is day 5?", options: ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], correctAnswer: 2, points: 4 },
-        { id: 29, question: "Peter gives 4 apples away and has 6 left. How many did he start with?", options: ["2", "6", "8", "10", "12"], correctAnswer: 3, points: 4 },
+        { id: 29, question: "Omar gives 4 apples away and has 6 left. How many did he start with?", options: ["2", "6", "8", "10", "12"], correctAnswer: 3, points: 4 },
         { id: 30, question: "A frog jumps 3 pads forward, 1 back. Starting at 1, where is it?", options: ["Pad 1", "Pad 2", "Pad 3", "Pad 4", "Pad 5"], correctAnswer: 2, points: 4 },
         { id: 31, question: "How many days in 2 weeks?", options: ["7", "10", "12", "14", "21"], correctAnswer: 3, points: 4 },
         { id: 32, question: "A rabbit eats 2 carrots daily. How many in 5 days?", options: ["5", "7", "8", "10", "12"], correctAnswer: 3, points: 4 },
@@ -52,16 +52,16 @@ const questionBank = {
         { id: 36, question: "12 cookies on 3 plates equally. How many per plate?", options: ["3", "4", "5", "6", "9"], correctAnswer: 1, points: 4 },
         { id: 37, question: "Pattern: 2, 4, 6, ?, 10. What's missing?", options: ["5", "7", "8", "9", "12"], correctAnswer: 2, points: 4 },
         { id: 38, question: "A clock shows 3:00. What time in 2 hours?", options: ["4:00", "5:00", "6:00", "1:00", "2:00"], correctAnswer: 1, points: 4 },
-        { id: 39, question: "John is 8. His dad is 30. How much older is dad?", options: ["22", "24", "28", "32", "38"], correctAnswer: 0, points: 4 },
+        { id: 39, question: "Yuki is 8. His dad is 30. How much older is dad?", options: ["22", "24", "28", "32", "38"], correctAnswer: 0, points: 4 },
         { id: 40, question: "A pencil costs 5 cents. How much for 4 pencils?", options: ["9 cents", "15 cents", "20 cents", "25 cents", "40 cents"], correctAnswer: 2, points: 4 },
 
         // === 5-POINT QUESTIONS (Hard) ===
-        { id: 41, question: "Ben puts 15 marbles equally in 3 boxes. How many per box?", options: ["3", "4", "5", "6", "12"], correctAnswer: 2, points: 5 },
-        { id: 42, question: "Amy finished before Ben but after Carol. Who won?", options: ["Amy", "Ben", "Carol", "Tie", "Cannot tell"], correctAnswer: 2, points: 5 },
+        { id: 41, question: "Theo puts 15 marbles equally in 3 boxes. How many per box?", options: ["3", "4", "5", "6", "12"], correctAnswer: 2, points: 5 },
+        { id: 42, question: "Ivy finished before Theo but after Jade. Who won?", options: ["Ivy", "Theo", "Jade", "Tie", "Cannot tell"], correctAnswer: 2, points: 5 },
         { id: 43, question: "A train has 5 carriages with 4 wheels each. Total wheels?", options: ["9", "15", "16", "20", "25"], correctAnswer: 3, points: 5 },
-        { id: 44, question: "Sophie gives equal stickers to 4 friends from 20. How many each?", options: ["4", "5", "6", "8", "10"], correctAnswer: 1, points: 5 },
+        { id: 44, question: "Nadia gives equal stickers to 4 friends from 20. How many each?", options: ["4", "5", "6", "8", "10"], correctAnswer: 1, points: 5 },
         { id: 45, question: "Today is Tuesday. What day was 3 days ago?", options: ["Friday", "Saturday", "Sunday", "Monday", "Wednesday"], correctAnswer: 1, points: 5 },
-        { id: 46, question: "A toy costs $8. John has $5. Mom gives some more. How much from mom?", options: ["$2", "$3", "$4", "$5", "$8"], correctAnswer: 1, points: 5 },
+        { id: 46, question: "A toy costs $8. Yuki has $5. Mom gives some more. How much from mom?", options: ["$2", "$3", "$4", "$5", "$8"], correctAnswer: 1, points: 5 },
         { id: 47, question: "3 red, 4 blue, 2 green balls. Total?", options: ["6", "7", "8", "9", "10"], correctAnswer: 3, points: 5 },
         { id: 48, question: "A spider has 8 legs. 3 spiders have how many legs?", options: ["11", "16", "21", "24", "32"], correctAnswer: 3, points: 5 },
         { id: 49, question: "What's the sum of 1+2+3+4?", options: ["8", "9", "10", "11", "12"], correctAnswer: 2, points: 5 },
@@ -97,7 +97,7 @@ const questionBank = {
         { id: 11, question: "What is 144 ÷ 12?", options: ["10", "11", "12", "13", "14"], correctAnswer: 2, points: 3 },
         { id: 12, question: "Apples in bags of 6. Bags needed for 42?", options: ["5", "6", "7", "8", "9"], correctAnswer: 2, points: 3 },
         { id: 13, question: "Largest 2-digit even number?", options: ["88", "96", "98", "99", "100"], correctAnswer: 2, points: 3 },
-        { id: 14, question: "Sam is 9. Dad is 4× older. Dad's age?", options: ["13", "27", "32", "36", "45"], correctAnswer: 3, points: 3 },
+        { id: 14, question: "Ravi is 9. Dad is 4× older. Dad's age?", options: ["13", "27", "32", "36", "45"], correctAnswer: 3, points: 3 },
         { id: 15, question: "What is 1000 - 456?", options: ["444", "454", "544", "554", "644"], correctAnswer: 2, points: 3 },
         { id: 16, question: "How many sides does an octagon have?", options: ["5", "6", "7", "8", "10"], correctAnswer: 3, points: 3 },
         { id: 18, question: "A dozen eggs is 12. How many in 3 dozen?", options: ["24", "30", "36", "42", "48"], correctAnswer: 2, points: 3 },
@@ -122,7 +122,7 @@ const questionBank = {
         { id: 35, question: "How many faces on a cube?", options: ["4", "5", "6", "8", "12"], correctAnswer: 2, points: 4 },
 
         // === 5-POINT QUESTIONS ===
-        { id: 36, question: "5 children in line. Alex not first/last. Beth between Alex and Carol. David at end. Emily next to David. Who's middle?", options: ["Alex", "Beth", "Carol", "David", "Emily"], correctAnswer: 1, points: 5 },
+        { id: 36, question: "5 children in line. Milo not first/last. Rosa between Milo and Jade. Ethan at end. Olive next to Ethan. Who's middle?", options: ["Milo", "Rosa", "Jade", "Ethan", "Olive"], correctAnswer: 1, points: 5 },
         { id: 37, question: "Chickens + rabbits = 20 heads, 56 legs. Rabbits?", options: ["6", "8", "10", "12", "14"], correctAnswer: 1, points: 5 },
         { id: 38, question: "3 consecutive numbers sum to 48. Largest?", options: ["15", "16", "17", "18", "19"], correctAnswer: 2, points: 5 },
         { id: 39, question: "Magic square 1-9, rows/cols/diags = 15. Center?", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 5 },
@@ -149,54 +149,54 @@ const questionBank = {
         // 3-point questions (Kangaroo 2009)
         { id: 56, question: "2 × 9 + 200 + 9 = ?", options: ["292", "209", "290", "272", "227"], correctAnswer: 4, points: 3 },
         { id: 57, question: "Four sticks have 8 ends. How many ends do 7 sticks have?", options: ["6", "8", "12", "13", "14"], correctAnswer: 4, points: 3 },
-        { id: 58, question: "Mother bought 16 mandarins. Karl ate half of them, Eva ate two, and Dana ate the rest. How many mandarins did Dana eat?", options: ["4", "6", "8", "10", "12"], correctAnswer: 1, points: 3 },
-        { id: 59, question: "Sophie rolled a die four times and scored a total of 23 points. How often did she roll a six?", options: ["0", "1", "2", "3", "4"], correctAnswer: 3, points: 3 },
+        { id: 58, question: "Mother bought 16 mandarins. Finn ate half of them, Lily ate two, and Mira ate the rest. How many mandarins did Mira eat?", options: ["4", "6", "8", "10", "12"], correctAnswer: 1, points: 3 },
+        { id: 59, question: "Nadia rolled a die four times and scored a total of 23 points. How often did she roll a six?", options: ["0", "1", "2", "3", "4"], correctAnswer: 3, points: 3 },
         { id: 60, question: "A film lasts 90 minutes and begins at 17:10. During the film there are two advert breaks, one lasting 8 minutes and the other 5 minutes. At what time will the film end?", options: ["18:13", "18:27", "18:47", "18:53", "19:13"], correctAnswer: 3, points: 3 },
         
         // 4-point questions (Kangaroo 2009)
         { id: 61, question: "In a dance group there are 25 boys and 19 girls. Every week 2 more boys and 3 more girls join. After how many weeks will there be the same number of boys as girls?", options: ["6", "5", "4", "3", "2"], correctAnswer: 0, points: 4 },
-        { id: 62, question: "Peter shared a bar of chocolate. First he broke off a row with 5 pieces for his brother. Then he broke off a column with 7 pieces for his sister. How many pieces were there in the entire bar?", options: ["28", "32", "35", "40", "54"], correctAnswer: 3, points: 4 },
+        { id: 62, question: "Omar shared a bar of chocolate. First he broke off a row with 5 pieces for his brother. Then he broke off a column with 7 pieces for his sister. How many pieces were there in the entire bar?", options: ["28", "32", "35", "40", "54"], correctAnswer: 3, points: 4 },
         { id: 63, question: "A farmer has 30 cows, some chickens and no other animals. The total number of chicken legs equals the total number of cow legs. How many animals does the farmer have?", options: ["60", "90", "120", "180", "240"], correctAnswer: 1, points: 4 },
         { id: 64, question: "The length of a rectangle is 8 cm. The width is half as long. How long are the sides of a square that has the same perimeter as the rectangle?", options: ["4 cm", "6 cm", "8 cm", "12 cm", "24 cm"], correctAnswer: 1, points: 4 },
         { id: 65, question: "Three squirrels Anni, Asia and Elli collected 7 nuts total. They all collected different amounts, and each collected at least one. Anni collected the least and Asia the most. How many nuts did Elli collect?", options: ["1", "2", "3", "4", "Not possible to answer"], correctAnswer: 1, points: 4 },
         
         // 5-point questions (Kangaroo 2009)
         { id: 66, question: "A white and a black pig weigh together 320 kg. The black pig weighs 32 kg more than the white one. How much does the white pig weigh?", options: ["128 kg", "144 kg", "160 kg", "176 kg", "192 kg"], correctAnswer: 1, points: 5 },
-        { id: 67, question: "Anna and Peter live on the same street. On one side of Anna's house there are 27 houses, and on the other side 13 houses. Peter lives in the house right in the middle of the street. How many houses are between Anna's and Peter's houses?", options: ["6", "7", "8", "14", "21"], correctAnswer: 0, points: 5 },
+        { id: 67, question: "Priya and Omar live on the same street. On one side of Priya's house there are 27 houses, and on the other side 13 houses. Omar lives in the house right in the middle of the street. How many houses are between Priya's and Omar's houses?", options: ["6", "7", "8", "14", "21"], correctAnswer: 0, points: 5 },
         { id: 68, question: "A secret agent wants to crack a 6-digit code. The sum of digits in even positions equals the sum of digits in odd positions. Which could be the code? (Format: 12_9_8 means positions 3 and 5 are unknown)", options: ["81__61", "7_727_", "4_4141", "12_9_8", "181_2_"], correctAnswer: 3, points: 5 },
-        { id: 69, question: "Meta collects pictures of sports people. Each year she collects as many as in the previous two years combined. In 2008 she had 60 photos and in 2009 she has 96. How many did she have in 2006?", options: ["20", "24", "36", "40", "48"], correctAnswer: 1, points: 5 },
-        { id: 70, question: "In a vase there is one red, blue, yellow and white flower. Maja the bee visits each flower exactly once. She begins with the red flower and never flies directly from yellow to white. In how many different ways can she visit each flower?", options: ["1", "2", "3", "4", "6"], correctAnswer: 3, points: 5 },
+        { id: 69, question: "Tara collects pictures of sports people. Each year she collects as many as in the previous two years combined. In 2008 she had 60 photos and in 2009 she has 96. How many did she have in 2006?", options: ["20", "24", "36", "40", "48"], correctAnswer: 1, points: 5 },
+        { id: 70, question: "In a vase there is one red, blue, yellow and white flower. Zoe the bee visits each flower exactly once. She begins with the red flower and never flies directly from yellow to white. In how many different ways can she visit each flower?", options: ["1", "2", "3", "4", "6"], correctAnswer: 3, points: 5 },
         { id: 71, question: "In a haunted house, a ghost disappears at 6:15. A strange clock that showed correct time before starts counting backwards. When the ghost reappears at 19:30 real time, what time does the strange clock show?", options: ["17:00", "17:45", "18:30", "19:00", "19:15"], correctAnswer: 0, points: 5 },
         
         // === ADDITIONAL KANGAROO-STYLE QUESTIONS ===
         // 3-point questions (Easy)
         { id: 72, question: "A caterpillar climbs 5 cm up a plant during the day, but slides down 2 cm each night. After 4 complete days and nights, how high is the caterpillar?", options: ["8 cm", "10 cm", "12 cm", "14 cm", "20 cm"], correctAnswer: 2, points: 3 },
-        { id: 73, question: "Emma has 3 boxes. Each box contains 4 bags, and each bag contains 5 marbles. How many marbles does Emma have in total?", options: ["12", "20", "35", "60", "80"], correctAnswer: 3, points: 3 },
+        { id: 73, question: "Luna has 3 boxes. Each box contains 4 bags, and each bag contains 5 marbles. How many marbles does Luna have in total?", options: ["12", "20", "35", "60", "80"], correctAnswer: 3, points: 3 },
         { id: 74, question: "A magic frog doubles every minute. At 10:00 there is 1 frog. At what time will there be 8 frogs?", options: ["10:02", "10:03", "10:04", "10:08", "10:16"], correctAnswer: 1, points: 3 },
-        { id: 75, question: "Tom is 8 years old. His grandmother is 7 times as old as Tom. How old will grandmother be when Tom is 12?", options: ["52", "56", "60", "64", "84"], correctAnswer: 2, points: 3 },
+        { id: 75, question: "Kai is 8 years old. His grandmother is 7 times as old as Kai. How old will grandmother be when Kai is 12?", options: ["52", "56", "60", "64", "84"], correctAnswer: 2, points: 3 },
         { id: 76, question: "A baker makes 24 cookies and puts them equally into 6 bags. How many cookies are in each bag?", options: ["3", "4", "5", "6", "8"], correctAnswer: 1, points: 3 },
-        { id: 77, question: "In a row of 15 houses, Maria lives in the middle house. What is the number of her house?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 3 },
+        { id: 77, question: "In a row of 15 houses, Aisha lives in the middle house. What is the number of her house?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 3 },
         { id: 78, question: "A train has 6 carriages. Each carriage has 8 windows on each side. How many windows does the whole train have?", options: ["48", "56", "72", "96", "108"], correctAnswer: 3, points: 3 },
         
         // 4-point questions (Medium)
-        { id: 79, question: "Alex, Ben, and Carla share some stickers. Alex has twice as many as Ben, and Carla has 5 more than Ben. Together they have 45 stickers. How many does Ben have?", options: ["8", "10", "12", "15", "20"], correctAnswer: 1, points: 4 },
+        { id: 79, question: "Milo, Theo, and Freya share some stickers. Milo has twice as many as Theo, and Freya has 5 more than Theo. Together they have 45 stickers. How many does Theo have?", options: ["8", "10", "12", "15", "20"], correctAnswer: 1, points: 4 },
         { id: 80, question: "A clock loses 5 minutes every hour. If it shows the correct time at 8:00 AM, what time will it show when the real time is 12:00 noon?", options: ["11:00", "11:20", "11:40", "11:45", "11:50"], correctAnswer: 2, points: 4 },
         { id: 81, question: "In a garden, there are twice as many roses as tulips, and 12 more daisies than roses. If there are 8 tulips, how many flowers are there in total?", options: ["36", "44", "48", "52", "60"], correctAnswer: 3, points: 4 },
         { id: 82, question: "A snail travels around a square garden with sides of 12 meters. It travels 3 meters per minute. How many minutes does it take to go all the way around?", options: ["12", "14", "16", "18", "48"], correctAnswer: 2, points: 4 },
-        { id: 83, question: "Five friends sit in a row. Amy is not at either end. Beth is to the right of Amy. Carol is at the left end. Dana is between Carol and Amy. Who is at the right end?", options: ["Amy", "Beth", "Carol", "Dana", "Eva"], correctAnswer: 4, points: 4 },
-        { id: 84, question: "A staircase has 20 steps. Leo climbs 2 steps, then goes back 1 step, and repeats this pattern. How many moves does he need to reach the top step?", options: ["19", "20", "37", "38", "40"], correctAnswer: 2, points: 4 },
-        { id: 85, question: "Sarah counts from 1 to 100. How many times does she say a number containing the digit 7?", options: ["10", "11", "19", "20", "21"], correctAnswer: 2, points: 4 },
+        { id: 83, question: "Five friends sit in a row. Ivy is not at either end. Rosa is to the right of Ivy. Jade is at the left end. Mira is between Jade and Ivy. Who is at the right end?", options: ["Ivy", "Rosa", "Jade", "Mira", "Olive"], correctAnswer: 4, points: 4 },
+        { id: 84, question: "A staircase has 20 steps. Cruz climbs 2 steps, then goes back 1 step, and repeats this pattern. How many moves does he need to reach the top step?", options: ["19", "20", "37", "38", "40"], correctAnswer: 2, points: 4 },
+        { id: 85, question: "Iris counts from 1 to 100. How many times does she say a number containing the digit 7?", options: ["10", "11", "19", "20", "21"], correctAnswer: 2, points: 4 },
         { id: 86, question: "A library has 4 shelves. The first shelf has 15 books, and each next shelf has 8 more books than the previous one. How many books are there in total?", options: ["84", "92", "100", "108", "120"], correctAnswer: 3, points: 4 },
         
         // 5-point questions (Hard)
         { id: 87, question: "In a class, each child has either a cat or a dog or both. 15 children have a cat, 12 have a dog, and 5 have both. How many children are in the class?", options: ["17", "20", "22", "27", "32"], correctAnswer: 2, points: 5 },
         { id: 88, question: "A dragon has 3 heads. When one head is cut off, 2 new heads grow. If a knight cuts off 5 heads, how many heads will the dragon have?", options: ["5", "6", "7", "8", "10"], correctAnswer: 3, points: 5 },
-        { id: 89, question: "Anna thinks of a number. She doubles it, adds 10, divides by 2, and subtracts 3. The result is 12. What number did Anna think of?", options: ["7", "8", "9", "10", "12"], correctAnswer: 3, points: 5 },
+        { id: 89, question: "Priya thinks of a number. She doubles it, adds 10, divides by 2, and subtracts 3. The result is 12. What number did Priya think of?", options: ["7", "8", "9", "10", "12"], correctAnswer: 3, points: 5 },
         { id: 90, question: "At a party, everyone shakes hands with everyone else exactly once. There are 28 handshakes in total. How many people are at the party?", options: ["6", "7", "8", "9", "14"], correctAnswer: 2, points: 5 },
         { id: 91, question: "A frog jumps between lily pads numbered 1 to 10 in a row. Each jump is exactly 3 pads forward or 2 pads backward. Starting at pad 1, what is the minimum number of jumps to reach pad 10?", options: ["3", "4", "5", "6", "7"], correctAnswer: 0, points: 5 },
         { id: 92, question: "In a village, every house has a red or blue door. Houses with red doors have 3 windows, and houses with blue doors have 5 windows. There are 20 houses and 76 windows in total. How many houses have red doors?", options: ["8", "10", "12", "14", "16"], correctAnswer: 2, points: 5 },
         { id: 93, question: "A code uses only the digits 1, 2, and 3. Each digit can be used any number of times. How many different 3-digit codes are possible?", options: ["6", "9", "18", "27", "81"], correctAnswer: 3, points: 5 },
-        { id: 94, question: "Max writes all numbers from 1 to 50. How many times does he write the digit 3?", options: ["5", "10", "14", "15", "20"], correctAnswer: 3, points: 5 },
+        { id: 94, question: "Axel writes all numbers from 1 to 50. How many times does he write the digit 3?", options: ["5", "10", "14", "15", "20"], correctAnswer: 3, points: 5 },
         
         // === KANGAROO 2025 ÉCOLIER QUESTIONS ===
         // 3-point questions (2025)
@@ -204,9 +204,9 @@ const questionBank = {
         { id: 96, question: "On a die, opposite sides always add up to 7. If you can see 1, 2, and 3 on a die, what is the sum of the three hidden faces?", options: ["9", "10", "12", "14", "15"], correctAnswer: 4, points: 3 },
         
         // 4-point questions (2025)
-        { id: 97, question: "Lisa and Max start at point A on a circle. Lisa walks clockwise, Max walks counter-clockwise. They meet at B, then C, then D, then back at A. These points divide the circle into 4 equal parts. How many times has Max gone around the circle?", options: ["1", "2", "3", "4", "5"], correctAnswer: 2, points: 4 },
-        { id: 98, question: "Rudi feeds six sheep a total of 210g of food. Five large sheep each get the same amount, and the small sheep gets twice as much as each large sheep. How much food does the small sheep get?", options: ["50g", "55g", "60g", "65g", "70g"], correctAnswer: 2, points: 4 },
-        { id: 99, question: "Anna has 3 cookies, Bonnie has 5 cookies, and Caspar has 7 cookies. They get 15 more cookies to share so each child ends up with the same number. How many cookies does Anna get added to her plate?", options: ["3", "4", "5", "6", "7"], correctAnswer: 4, points: 4 },
+        { id: 97, question: "Zara and Axel start at point A on a circle. Zara walks clockwise, Axel walks counter-clockwise. They meet at B, then C, then D, then back at A. These points divide the circle into 4 equal parts. How many times has Axel gone around the circle?", options: ["1", "2", "3", "4", "5"], correctAnswer: 2, points: 4 },
+        { id: 98, question: "Hans feeds six sheep a total of 210g of food. Five large sheep each get the same amount, and the small sheep gets twice as much as each large sheep. How much food does the small sheep get?", options: ["50g", "55g", "60g", "65g", "70g"], correctAnswer: 2, points: 4 },
+        { id: 99, question: "Priya has 3 cookies, Chloe has 5 cookies, and Felix has 7 cookies. They get 15 more cookies to share so each child ends up with the same number. How many cookies does Priya get added to her plate?", options: ["3", "4", "5", "6", "7"], correctAnswer: 4, points: 4 },
         
         // 5-point questions (2025)
         { id: 100, question: "Jana has toys weighing 22g, 23g, 25g, 34g, and 36g. She wants to divide them into two boxes of equal weight. Which two toys must NOT go in the same box?", options: ["22g and 23g", "22g and 25g", "23g and 25g", "34g and 36g", "22g and 34g"], correctAnswer: 4, points: 5 },
@@ -216,7 +216,7 @@ const questionBank = {
         
         // === ADDITIONAL 2025-STYLE QUESTIONS ===
         // 3-point questions
-        { id: 104, question: "Leo writes the numbers 1, 3, 5, 7 in boxes: □ × □ - □ × □. What order gives the biggest result?", options: ["1, 7, 3, 5", "7, 5, 1, 3", "7, 5, 3, 1", "5, 7, 1, 3", "3, 7, 1, 5"], correctAnswer: 2, points: 3 },
+        { id: 104, question: "Cruz writes the numbers 1, 3, 5, 7 in boxes: □ × □ - □ × □. What order gives the biggest result?", options: ["1, 7, 3, 5", "7, 5, 1, 3", "7, 5, 3, 1", "5, 7, 1, 3", "3, 7, 1, 5"], correctAnswer: 2, points: 3 },
         { id: 105, question: "A robot moves on a grid: →3, ↑2, ←1, ↑1. How far right and how far up is the robot from the start?", options: ["2 right, 3 up", "3 right, 2 up", "2 right, 2 up", "4 right, 3 up", "1 right, 3 up"], correctAnswer: 0, points: 3 },
         { id: 106, question: "Each shell is worth 5 points and each star is worth 3 points. Which combination gives exactly 19 points?", options: ["2 shells, 3 stars", "3 shells, 2 stars", "1 shell, 5 stars", "4 shells, 0 stars", "2 shells, 4 stars"], correctAnswer: 0, points: 3 },
         { id: 107, question: "On a special die, opposite faces multiply to give 6. If you see faces 1, 2, and 6, what is the sum of the hidden faces?", options: ["6", "8", "9", "10", "12"], correctAnswer: 3, points: 3 },
@@ -225,7 +225,7 @@ const questionBank = {
         { id: 110, question: "A clock shows 2:45. The minute hand has moved 90 degrees since the last hour. What time was it at the last hour?", options: ["1:00", "2:00", "2:30", "3:00", "12:00"], correctAnswer: 1, points: 3 },
         
         // 4-point questions
-        { id: 111, question: "Four children collect stamps. Ada has 12, Ben has 8, Cara has 16, and Dan has 4. They share 20 more stamps so everyone has equal amounts. How many stamps does Ben receive?", options: ["5", "7", "9", "11", "13"], correctAnswer: 1, points: 4 },
+        { id: 111, question: "Four children collect stamps. Vera has 12, Theo has 8, Lena has 16, and Hugo has 4. They share 20 more stamps so everyone has equal amounts. How many stamps does Theo receive?", options: ["5", "7", "9", "11", "13"], correctAnswer: 1, points: 4 },
         { id: 112, question: "In a pet shop, 3 cats eat the same amount as 5 hamsters. Each cat eats 10g per day. How much does each hamster eat?", options: ["2g", "4g", "5g", "6g", "8g"], correctAnswer: 3, points: 4 },
         { id: 113, question: "Two runners start at the same point on a track. Runner A completes 3 laps while Runner B completes 2 laps. They started together and finished at the same time. If B's speed is 8 m/s, what is A's speed?", options: ["10 m/s", "11 m/s", "12 m/s", "14 m/s", "16 m/s"], correctAnswer: 2, points: 4 },
         { id: 114, question: "A farmer has chickens and rabbits. He counts 20 heads and 64 legs. How many rabbits does he have?", options: ["8", "10", "12", "14", "16"], correctAnswer: 2, points: 4 },
@@ -237,7 +237,7 @@ const questionBank = {
         // 5-point questions
         { id: 119, question: "Six children sit in a circle. Each child has some candies. They pass half their candies to the right. After one pass, everyone has 8 candies. How many candies were there in total at the start?", options: ["36", "42", "48", "54", "60"], correctAnswer: 2, points: 5 },
         { id: 120, question: "A wizard's potion doubles every hour. At noon, the cauldron is full. At what time was the cauldron 1/8 full?", options: ["9:00 AM", "10:00 AM", "11:00 AM", "8:00 AM", "7:00 AM"], correctAnswer: 0, points: 5 },
-        { id: 121, question: "Tom has weights of 1g, 3g, 9g, and 27g. Using a balance scale (weights can go on either side), what is the lightest weight he CANNOT measure?", options: ["2g", "5g", "14g", "None - he can measure any weight up to 40g", "21g"], correctAnswer: 3, points: 5 },
+        { id: 121, question: "Kai has weights of 1g, 3g, 9g, and 27g. Using a balance scale (weights can go on either side), what is the lightest weight he CANNOT measure?", options: ["2g", "5g", "14g", "None - he can measure any weight up to 40g", "21g"], correctAnswer: 3, points: 5 },
         { id: 122, question: "In a tournament, every team plays every other team once. There are 28 games in total. How many teams are playing?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 5 },
         { id: 123, question: "A snail climbs a 10-meter well. Each day it climbs 3m, but each night it slides back 2m. On which day does it reach the top?", options: ["7th", "8th", "9th", "10th", "11th"], correctAnswer: 1, points: 5 },
         { id: 124, question: "Three boxes contain apples. Box A has twice as many as Box B. Box C has 4 more than Box A. Together they have 44 apples. How many are in Box C?", options: ["12", "16", "20", "24", "28"], correctAnswer: 2, points: 5 },
@@ -246,17 +246,17 @@ const questionBank = {
         
         // === KANGAROO 2020 ÉCOLIER QUESTIONS ===
         // 3-point questions (2020)
-        { id: 127, question: "Eli drew a board with 9 squares and wrote numbers starting from 1, adding 3 each time (1, 4, 7, 10, ...). Which number could be in one of the squares?", options: ["14", "17", "20", "22", "24"], correctAnswer: 3, points: 3 },
+        { id: 127, question: "Arlo drew a board with 9 squares and wrote numbers starting from 1, adding 3 each time (1, 4, 7, 10, ...). Which number could be in one of the squares?", options: ["14", "17", "20", "22", "24"], correctAnswer: 3, points: 3 },
         
         // 4-point questions (2020)
         { id: 128, question: "Whenever a kangaroo hops up 7 steps, a rabbit hops down 3 steps. They start at step 100. When the kangaroo reaches step 156, what step is the rabbit on?", options: ["73", "76", "79", "82", "85"], correctAnswer: 1, points: 4 },
-        { id: 129, question: "Ana, Bia and Cris have 100 reais together. Ana has twice as much as each friend. After each pays for a movie ticket, Ana has 3 times what both friends have together. How much was the ticket?", options: ["R$ 8", "R$ 10", "R$ 12", "R$ 15", "R$ 20"], correctAnswer: 4, points: 4 },
+        { id: 129, question: "Vera, Lena and Rosa have 100 reais together. Vera has twice as much as each friend. After each pays for a movie ticket, Vera has 3 times what both friends have together. How much was the ticket?", options: ["R$ 8", "R$ 10", "R$ 12", "R$ 15", "R$ 20"], correctAnswer: 4, points: 4 },
         
         // 5-point questions (2020)
-        { id: 130, question: "Five friends discuss what day it is. Adam: 'Yesterday was Wednesday.' Beto: 'Tomorrow is Friday.' Carlos: 'Day before yesterday was Tuesday.' David: 'Day after tomorrow is Saturday.' Eli: 'Today is Monday.' One is wrong. Who?", options: ["Adam", "Beto", "Carlos", "David", "Eli"], correctAnswer: 4, points: 5 },
+        { id: 130, question: "Five friends discuss what day it is. Noah: 'Yesterday was Wednesday.' Paulo: 'Tomorrow is Friday.' Diego: 'Day before yesterday was Tuesday.' Ethan: 'Day after tomorrow is Saturday.' Arlo: 'Today is Monday.' One is wrong. Who?", options: ["Noah", "Paulo", "Diego", "Ethan", "Arlo"], correctAnswer: 4, points: 5 },
         { id: 131, question: "Numbers 1-8 are covered by triangles, squares, and a circle. Triangle sum = Square sum. Circle = 1/4 of triangle sum. What is the sum of numbers under triangles and circle?", options: ["18", "19", "20", "21", "22"], correctAnswer: 2, points: 5 },
-        { id: 132, question: "Joana paints a parrot's head, tail, and wing using red, blue, or green. Head and tail may match, but wing must differ from both. How many unique paintings are possible?", options: ["3", "6", "9", "12", "15"], correctAnswer: 3, points: 5 },
-        { id: 133, question: "Jonas and Elias ate ice cream every vacation day. Each ice cream had 2 or 3 scoops. Jonas had 23 scoops total, Elias had 19. What's the minimum number of vacation days?", options: ["6", "7", "8", "10", "11"], correctAnswer: 2, points: 5 },
+        { id: 132, question: "Ines paints a parrot's head, tail, and wing using red, blue, or green. Head and tail may match, but wing must differ from both. How many unique paintings are possible?", options: ["3", "6", "9", "12", "15"], correctAnswer: 3, points: 5 },
+        { id: 133, question: "Marco and Bruno ate ice cream every vacation day. Each ice cream had 2 or 3 scoops. Marco had 23 scoops total, Bruno had 19. What's the minimum number of vacation days?", options: ["6", "7", "8", "10", "11"], correctAnswer: 2, points: 5 },
         { id: 134, question: "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?", options: ["2", "5", "9", "12", "18"], correctAnswer: 4, points: 5 },
         
         // === KANGAROO 2019 BENJAMIN QUESTIONS ===
@@ -265,7 +265,7 @@ const questionBank = {
         { id: 136, question: "In an enclosure, the sum of all kangaroos' ages is 36 years. In two years, all kangaroos together will be 60 years old. How many kangaroos are in the enclosure?", options: ["12", "15", "18", "20", "24"], correctAnswer: 0, points: 3 },
         
         // 4-point questions (2019)
-        { id: 137, question: "A die has the six smallest odd numbers (1, 3, 5, 7, 9, 11) on its faces. Toni rolls it three times and adds the results. Which sum is impossible to make?", options: ["3", "19", "21", "29", "35"], correctAnswer: 4, points: 4 },
+        { id: 137, question: "A die has the six smallest odd numbers (1, 3, 5, 7, 9, 11) on its faces. Rico rolls it three times and adds the results. Which sum is impossible to make?", options: ["3", "19", "21", "29", "35"], correctAnswer: 4, points: 4 },
         { id: 138, question: "In a witch's garden there are 30 animals: dogs, cats, and mice. She changes 6 dogs into cats, then 5 cats into mice. Now there are equal numbers of each. How many cats were there originally?", options: ["4", "5", "9", "10", "11"], correctAnswer: 2, points: 4 },
         
         // 5-point questions (2019)
