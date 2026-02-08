@@ -77,20 +77,22 @@ const questionBank = {
         { id: 57, question: "What is half of 18?", options: ["6", "7", "8", "9", "10"], correctAnswer: 3, points: 4 },
         { id: 58, question: "3 + 3 + 3 + 3 = ?", options: ["9", "10", "11", "12", "13"], correctAnswer: 3, points: 3 },
         { id: 59, question: "A baker made 24 cookies. He put 6 on each plate. How many plates?", options: ["3", "4", "5", "6", "18"], correctAnswer: 1, points: 5 },
-        { id: 60, question: "What is the value of 3 dimes?", options: ["3 cents", "13 cents", "30 cents", "33 cents", "300 cents"], correctAnswer: 2, points: 4 }
+        { id: 60, question: "What is the value of 3 dimes?", options: ["3 cents", "13 cents", "30 cents", "33 cents", "300 cents"], correctAnswer: 2, points: 4 },
+        
+        // === KANGAROO 2014 FELIX QUESTIONS ===
+        // 5-point questions (2014)
+        { id: 61, question: "How many numbers using only digits 1, 2, or 3 are bigger than 10 and smaller than 32? (Digits can repeat)", options: ["2", "4", "6", "7", "8"], correctAnswer: 3, points: 5 },
+        { id: 62, question: "The rabbit family eats either 10 carrots OR 2 cabbages each day. Last week they ate 6 cabbages. How many carrots did they eat?", options: ["20", "30", "34", "40", "50"], correctAnswer: 3, points: 5 },
+        { id: 63, question: "Each digit 2, 3, 4, 5 is placed in a box to make two 2-digit numbers that are added. What is the biggest possible sum?", options: ["68", "77", "86", "95", "97"], correctAnswer: 3, points: 5 }
     ],
     
     "3-4": [
         // === 3-POINT QUESTIONS ===
         { id: 1, question: "A clock shows 3:45. What time in 30 minutes?", options: ["3:75", "4:00", "4:15", "4:30", "4:45"], correctAnswer: 2, points: 3 },
-        { id: 2, question: "Sum of digits in 2024?", options: ["6", "7", "8", "9", "10"], correctAnswer: 2, points: 3 },
         { id: 3, question: "Rectangle: 8m long, 5m wide. Perimeter?", options: ["13 m", "20 m", "26 m", "40 m", "45 m"], correctAnswer: 2, points: 3 },
         { id: 4, question: "36 stickers among 4 friends equally. Each gets?", options: ["6", "8", "9", "10", "12"], correctAnswer: 2, points: 3 },
-        { id: 5, question: "Which is NOT a multiple of 6?", options: ["12", "18", "24", "28", "30"], correctAnswer: 3, points: 3 },
         { id: 6, question: "Book: 248 pages, read 135. Pages left?", options: ["103", "113", "123", "133", "383"], correctAnswer: 1, points: 3 },
-        { id: 7, question: "How many minutes in 2 hours 15 minutes?", options: ["125", "130", "135", "140", "215"], correctAnswer: 2, points: 3 },
         { id: 8, question: "Kangaroo jumps 7 times, 3m each. Distance?", options: ["10 m", "14 m", "18 m", "21 m", "24 m"], correctAnswer: 3, points: 3 },
-        { id: 9, question: "What is 7 × 8?", options: ["48", "54", "56", "63", "64"], correctAnswer: 2, points: 3 },
         { id: 10, question: "Triangle sides: 5, 7, 9 cm. Perimeter?", options: ["12 cm", "19 cm", "21 cm", "35 cm", "45 cm"], correctAnswer: 2, points: 3 },
         { id: 11, question: "What is 144 ÷ 12?", options: ["10", "11", "12", "13", "14"], correctAnswer: 2, points: 3 },
         { id: 12, question: "Apples in bags of 6. Bags needed for 42?", options: ["5", "6", "7", "8", "9"], correctAnswer: 2, points: 3 },
@@ -98,7 +100,6 @@ const questionBank = {
         { id: 14, question: "Sam is 9. Dad is 4× older. Dad's age?", options: ["13", "27", "32", "36", "45"], correctAnswer: 3, points: 3 },
         { id: 15, question: "What is 1000 - 456?", options: ["444", "454", "544", "554", "644"], correctAnswer: 2, points: 3 },
         { id: 16, question: "How many sides does an octagon have?", options: ["5", "6", "7", "8", "10"], correctAnswer: 3, points: 3 },
-        { id: 17, question: "What is 25 × 4?", options: ["80", "90", "100", "110", "125"], correctAnswer: 2, points: 3 },
         { id: 18, question: "A dozen eggs is 12. How many in 3 dozen?", options: ["24", "30", "36", "42", "48"], correctAnswer: 2, points: 3 },
         { id: 19, question: "Round 3847 to nearest hundred:", options: ["3800", "3850", "3900", "4000", "3840"], correctAnswer: 0, points: 3 },
         { id: 20, question: "How many hours in 2 days?", options: ["24", "36", "48", "60", "72"], correctAnswer: 2, points: 3 },
@@ -256,7 +257,78 @@ const questionBank = {
         { id: 131, question: "Numbers 1-8 are covered by triangles, squares, and a circle. Triangle sum = Square sum. Circle = 1/4 of triangle sum. What is the sum of numbers under triangles and circle?", options: ["18", "19", "20", "21", "22"], correctAnswer: 2, points: 5 },
         { id: 132, question: "Joana paints a parrot's head, tail, and wing using red, blue, or green. Head and tail may match, but wing must differ from both. How many unique paintings are possible?", options: ["3", "6", "9", "12", "15"], correctAnswer: 3, points: 5 },
         { id: 133, question: "Jonas and Elias ate ice cream every vacation day. Each ice cream had 2 or 3 scoops. Jonas had 23 scoops total, Elias had 19. What's the minimum number of vacation days?", options: ["6", "7", "8", "10", "11"], correctAnswer: 2, points: 5 },
-        { id: 134, question: "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?", options: ["2", "5", "9", "12", "18"], correctAnswer: 4, points: 5 }
+        { id: 134, question: "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?", options: ["2", "5", "9", "12", "18"], correctAnswer: 4, points: 5 },
+        
+        // === KANGAROO 2019 BENJAMIN QUESTIONS ===
+        // 3-point questions (2019)
+        { id: 135, question: "In a nursery group there are 14 girls and 12 boys. Half of the group go for a walk. What is the minimum number of girls that must be in that group?", options: ["5", "4", "3", "2", "1"], correctAnswer: 4, points: 3 },
+        { id: 136, question: "In an enclosure, the sum of all kangaroos' ages is 36 years. In two years, all kangaroos together will be 60 years old. How many kangaroos are in the enclosure?", options: ["12", "15", "18", "20", "24"], correctAnswer: 0, points: 3 },
+        
+        // 4-point questions (2019)
+        { id: 137, question: "A die has the six smallest odd numbers (1, 3, 5, 7, 9, 11) on its faces. Toni rolls it three times and adds the results. Which sum is impossible to make?", options: ["3", "19", "21", "29", "35"], correctAnswer: 4, points: 4 },
+        { id: 138, question: "In a witch's garden there are 30 animals: dogs, cats, and mice. She changes 6 dogs into cats, then 5 cats into mice. Now there are equal numbers of each. How many cats were there originally?", options: ["4", "5", "9", "10", "11"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2019)
+        { id: 139, question: "Robert makes 5 statements: A) My son Basil has 3 sisters. B) My daughter Ann has 2 brothers. C) Ann has 2 sisters. D) Basil has 2 brothers. E) I have 5 children. One is wrong. Which?", options: ["A", "B", "C", "D", "E"], correctAnswer: 3, points: 5 },
+        { id: 140, question: "Emil takes selfies with his 8 cousins. Each cousin appears in 2 or 3 photos. Each photo has exactly 5 cousins. How many selfies does Emil take?", options: ["3", "4", "5", "6", "7"], correctAnswer: 1, points: 5 },
+        { id: 141, question: "Linus builds a 4×4×4 cube using 32 white and 32 black small cubes. He arranges them so the surface has as much white as possible. What fraction of the surface is white?", options: ["3/4", "2/3", "1/2", "3/8", "1/4"], correctAnswer: 0, points: 5 },
+        
+        // === KANGAROO 2018 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2018)
+        { id: 142, question: "Susanne is 6 years old. Her sister Lisa is 2 years younger. Brother Max is 2 years older than Susanne. How old are the 3 siblings altogether?", options: ["15", "16", "17", "18", "19"], correctAnswer: 3, points: 3 },
+        { id: 143, question: "Leonie has stamps for digits 0-9. She stamps the date 15.03.2018. How many different stamps does she use?", options: ["5", "6", "7", "9", "10"], correctAnswer: 1, points: 3 },
+        
+        // 4-point questions (2018)
+        { id: 144, question: "Diana throws 3 darts at a target with two scoring zones. First throw: 12 points. Second throw: 15 points. If the zones are worth 3 and 6 points, and her third throw has 3 darts in the 6-point zone, how many points?", options: ["18", "19", "20", "21", "22"], correctAnswer: 0, points: 4 },
+        { id: 145, question: "Felix the rabbit has 20 carrots and eats 2 each day. He ate the 12th carrot on a Wednesday. On which day did he start eating?", options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], correctAnswer: 4, points: 4 },
+        { id: 146, question: "On 8 flowers, butterflies and dragonflies sit (at most 1 per flower). More than half the flowers are occupied. Butterflies = 2 × dragonflies. How many butterflies?", options: ["2", "3", "4", "5", "6"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2018)
+        { id: 147, question: "To slay a dragon, Mathias cuts off heads. When 3 heads are cut, 1 grows back. After cutting 13 heads total, the dragon dies. How many heads did it have initially?", options: ["8", "9", "10", "11", "12"], correctAnswer: 1, points: 5 },
+        { id: 148, question: "A belt has 5 holes, each 2 cm apart. How much longer is the belt when using the 1st hole instead of the 5th?", options: ["4 cm", "8 cm", "10 cm", "16 cm", "20 cm"], correctAnswer: 1, points: 5 },
+        
+        // === KANGAROO 2017 ÉCOLIER QUESTIONS ===
+        // 4-point questions (2017)
+        { id: 149, question: "Four apples and one pear weigh as much as three pears. What is correct?", options: ["1 pear = 1 apple", "3 apples = 1 pear", "3 pears = 1 apple", "2 pears = 1 apple", "2 apples = 1 pear"], correctAnswer: 4, points: 4 },
+        { id: 150, question: "Balloons are sold in packages of 5, 10, or 25. Marius buys exactly 70 balloons. What is the minimum number of packages?", options: ["3", "4", "5", "6", "7"], correctAnswer: 1, points: 4 },
+        { id: 151, question: "13 children registered for a competition, then 19 more joined. Six equally big teams are needed. How many more children are needed?", options: ["1", "2", "3", "4", "5"], correctAnswer: 3, points: 4 },
+        { id: 152, question: "David has a stove with 2 hobs to prepare 5 dishes (40, 15, 35, 10, 45 min). He can only remove fully cooked dishes. Minimum time needed?", options: ["60 min", "70 min", "75 min", "80 min", "85 min"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2017)
+        { id: 153, question: "Four brothers ate 11 biscuits total. Everyone ate at least 1, all different amounts. Three brothers ate 9, one of them ate exactly 3. How many did the one who ate most have?", options: ["3", "4", "5", "6", "7"], correctAnswer: 2, points: 5 },
+        { id: 154, question: "In a 4×4 table with numbers [1,2,1,3; 4,1,1,2; 1,7,3,2; 2,1,3,1], find the 2×2 square with the greatest sum. What is this sum?", options: ["11", "12", "13", "14", "15"], correctAnswer: 3, points: 5 },
+        { id: 155, question: "Susi wants to visit exactly 2 of 4 zoo animals (giraffe, elephant, lion, turtle) but won't start with the lion. How many different visit orders are possible?", options: ["3", "7", "8", "9", "12"], correctAnswer: 3, points: 5 },
+        { id: 156, question: "Kate has flowers with 6, 7, 8, and 11 petals. She tears 1 petal from each of 3 different flowers, repeating until impossible. Minimum petals left?", options: ["1", "2", "3", "4", "5"], correctAnswer: 4, points: 5 },
+        
+        // === KANGAROO 2015 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2015)
+        { id: 157, question: "If you multiply the digits of 35, you get 15 (3×5=15). What is the sum of the digits of 35?", options: ["2", "4", "6", "7", "8"], correctAnswer: 4, points: 3 },
+        
+        // 4-point questions (2015)
+        { id: 158, question: "Luis has 7 apples and 2 bananas. He gives 2 apples to Jacob, who gives him bananas in return. Now Luis has equal apples and bananas. How many bananas did he get?", options: ["2", "3", "4", "5", "7"], correctAnswer: 1, points: 4 },
+        { id: 159, question: "10 runners start a race. At finish, there are 3 more runners behind Thomas than in front of him. In which position did Thomas finish?", options: ["1", "3", "4", "6", "7"], correctAnswer: 2, points: 4 },
+        { id: 160, question: "Joseph has a car, teddy, ball, and ship. He arranges them so ship is next to car, and teddy is also next to car. How many different arrangements are possible?", options: ["2", "4", "5", "6", "8"], correctAnswer: 1, points: 4 },
+        
+        // 5-point questions (2015)
+        { id: 161, question: "Numbers 1,2,3,4,9 are placed in a cross pattern. The sum of 3 horizontal numbers equals the sum of 3 vertical numbers. What number is in the middle?", options: ["1", "2", "3", "4", "9"], correctAnswer: 4, points: 5 },
+        { id: 162, question: "On a 3×3 grid of dots (9 dots), you can draw squares by joining 4 dots. How many different sizes of squares can you draw?", options: ["0", "1", "2", "3", "4"], correctAnswer: 3, points: 5 },
+        { id: 163, question: "Thomas cuts a pig and shark drawing into 3 pieces each (head, middle, tail). He takes 1 head, 1 middle, 1 tail to make new animals. How many different animals can he make?", options: ["2", "3", "4", "5", "8"], correctAnswer: 4, points: 5 },
+        { id: 164, question: "Anna baked 24, Berta 25, Charlie 26, David 27, Elisa 28 biscuits by weekend's end. One child has 2×, one 3×, one 4×, one 5×, one 6× their Saturday amount. Who baked most on Saturday?", options: ["Anna", "Berta", "Charlie", "David", "Elisa"], correctAnswer: 2, points: 5 },
+        
+        // === KANGAROO 2023 ÉCOLIER QUESTIONS ===
+        // 3-point questions (2023)
+        { id: 165, question: "Anna has 4 discs of different sizes. She builds a tower using 3 discs, where smaller must be on top of bigger. How many different towers can she build?", options: ["1", "2", "4", "5", "6"], correctAnswer: 2, points: 3 },
+        
+        // 4-point questions (2023)
+        { id: 166, question: "Weights of 1,2,3,4,5,6 kg are placed on two scale pans (5 weights) to balance. Which weight is left aside?", options: ["1 kg", "2 kg", "3 kg", "4 kg", "5 kg"], correctAnswer: 2, points: 4 },
+        { id: 167, question: "North of Street A: 7 houses. East of Street B: 8 houses. South of Street A: 5 houses. How many houses West of Street B?", options: ["4", "5", "6", "7", "8"], correctAnswer: 0, points: 4 },
+        { id: 168, question: "8 cars in a ferry queue have 19 people total. Each car has 2 or 3 people. How many cars have exactly 2 people?", options: ["2", "3", "4", "5", "6"], correctAnswer: 3, points: 4 },
+        { id: 169, question: "6 beavers and 2 kangaroos stand in a row (8 positions). In every 3 consecutive animals, exactly 1 is a kangaroo. On which position does a kangaroo stand?", options: ["1", "2", "3", "4", "5"], correctAnswer: 2, points: 4 },
+        
+        // 5-point questions (2023)
+        { id: 170, question: "An underground train has stations A-B-C-D-E-F. It goes back and forth, stopping at each. Starting at B toward C, what is the 46th stop?", options: ["A", "B", "C", "D", "E"], correctAnswer: 3, points: 5 },
+        { id: 171, question: "Three boys enter a room one after another. Hermann is not first, Felix is not second, Clemens is not third. How many different orders are possible?", options: ["1", "2", "3", "4", "6"], correctAnswer: 1, points: 5 },
+        { id: 172, question: "Adam has 9 marbles, Brenda has 9. Together they have 8 white and 10 black. Brenda has twice as many black as white. How many black marbles does Adam have?", options: ["3", "4", "5", "6", "0"], correctAnswer: 1, points: 5 }
     ],
     
     "5-6": [
