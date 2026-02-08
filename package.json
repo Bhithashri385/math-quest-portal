@@ -5,19 +5,26 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js www/ && cp -r icons www/",
+    "build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js privacy.html www/ && cp -r icons www/",
+    "icons": "node scripts/generate-icons.js",
     "ios:sync": "npm run build && npx cap sync ios",
     "ios:open": "npx cap open ios",
     "ios": "npm run ios:sync && npm run ios:open"
   },
-  "keywords": ["math", "education", "practice", "exams", "kids"],
+  "keywords": [
+    "math",
+    "education",
+    "practice",
+    "exams",
+    "kids"
+  ],
   "author": "",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@capacitor/cli": "^6.0.0",
     "@capacitor/core": "^6.0.0",
     "@capacitor/ios": "^6.0.0",
+    "canvas": "^3.2.1",
     "serve": "^14.2.0"
   }
 }
