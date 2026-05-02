@@ -1,0 +1,981 @@
+{
+  "gradeBand": "7-8",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Simplify: 2(3x - 4) - (x - 5)",
+      "options": [
+        "5x - 3",
+        "5x - 13",
+        "5x + 3",
+        "7x - 3",
+        "7x - 13"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "question": "What is 2⁵?",
+      "options": [
+        "10",
+        "16",
+        "25",
+        "32",
+        "64"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "question": "If a = -3, what is a² - 2a?",
+      "options": [
+        "3",
+        "9",
+        "12",
+        "15",
+        "21"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "question": "Triangle angles 55° and 65°. Third angle?",
+      "options": [
+        "50°",
+        "55°",
+        "60°",
+        "65°",
+        "70°"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "question": "P(rolling > 4 on die)?",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3",
+        "4/6"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "question": "Ratio 3:5 as percentage?",
+      "options": [
+        "35%",
+        "50%",
+        "60%",
+        "75%",
+        "150%"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "question": "Slope through (0,0) and (4,8)?",
+      "options": [
+        "1/2",
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "question": "Solve: 2x + 7 = 15",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 5",
+        "x = 8",
+        "x = 11"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "question": "Circle diameter 14 cm. Radius?",
+      "options": [
+        "3.5 cm",
+        "7 cm",
+        "14 cm",
+        "28 cm",
+        "44 cm"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "question": "|-7| + |-3| = ?",
+      "options": [
+        "-10",
+        "-4",
+        "4",
+        "10",
+        "21"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "question": "Simplify: 3x + 2y - x + 5y",
+      "options": [
+        "2x + 7y",
+        "4x + 7y",
+        "2x + 3y",
+        "4x + 3y",
+        "3x + 7y"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "question": "√144 = ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "72"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "question": "y = 3x + 2, x = 4. y = ?",
+      "options": [
+        "9",
+        "12",
+        "14",
+        "17",
+        "38"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "question": "40% as fraction (lowest terms)?",
+      "options": [
+        "4/10",
+        "2/5",
+        "4/5",
+        "1/4",
+        "2/4"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "question": "Supplement of 65°?",
+      "options": [
+        "25°",
+        "65°",
+        "90°",
+        "115°",
+        "295°"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "question": "Solve: 5x - 3 = 2x + 9",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 5",
+        "x = 6"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "question": "What is (-2)³?",
+      "options": [
+        "-8",
+        "-6",
+        "6",
+        "8",
+        "-2"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "question": "Complementary angle to 35°?",
+      "options": [
+        "35°",
+        "45°",
+        "55°",
+        "65°",
+        "145°"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "question": "Evaluate: 2 × 3²",
+      "options": [
+        "12",
+        "18",
+        "36",
+        "64",
+        "81"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "question": "If 3x = 15, what is 2x + 1?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "31"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "question": "Price +20%, then -20%. Net change?",
+      "options": [
+        "Same",
+        "4% less",
+        "4% more",
+        "10% less",
+        "10% more"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "question": "x + y = 7, x - y = 3. xy = ?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12",
+        "21"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "question": "Triangle 5, 12, 13. Type?",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Isosceles",
+        "Equilateral"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "question": "Integers between √50 and √200?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 25,
+      "question": "Bag: 3 red, 4 blue, 5 green. P(blue)?",
+      "options": [
+        "1/4",
+        "1/3",
+        "4/12",
+        "5/12",
+        "1/2"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "question": "Regular polygon exterior angle 45°. Sides?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 27,
+      "question": "Solve: 3(2x - 1) = 5x + 4",
+      "options": [
+        "x = -1",
+        "x = 1",
+        "x = 5",
+        "x = 7",
+        "x = 11"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 28,
+      "question": "Circle radius 7 cm. Area? (π = 22/7)",
+      "options": [
+        "44 cm²",
+        "88 cm²",
+        "154 cm²",
+        "308 cm²",
+        "616 cm²"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 29,
+      "question": "If 2ˣ = 64, x = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 30,
+      "question": "5 numbers mean 8. Add one more, mean 9. New number?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 31,
+      "question": "Simplify: (x² - 4)/(x - 2)",
+      "options": [
+        "x - 2",
+        "x + 2",
+        "x² - 2",
+        "x/2",
+        "2x"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "question": "Survey: 60% chose A. 45 chose A. Total surveyed?",
+      "options": [
+        "27",
+        "60",
+        "75",
+        "90",
+        "105"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "question": "Pentagon interior angles sum?",
+      "options": [
+        "360°",
+        "450°",
+        "540°",
+        "720°",
+        "900°"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 34,
+      "question": "Simplify: 2³ × 2⁴",
+      "options": [
+        "2⁷",
+        "2¹²",
+        "4⁷",
+        "4¹²",
+        "8⁷"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 35,
+      "question": "If f(x) = 2x - 3, f(5) = ?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "10",
+        "13"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 36,
+      "question": "Two-digit = 7× digit sum. Subtract 27, digits reverse. Number?",
+      "options": [
+        "21",
+        "42",
+        "63",
+        "84",
+        "96"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "question": "5 students line up. Ways?",
+      "options": [
+        "20",
+        "25",
+        "60",
+        "100",
+        "120"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 38,
+      "question": "5m ladder, foot 3m from wall. Height on wall?",
+      "options": [
+        "2 m",
+        "3 m",
+        "4 m",
+        "5 m",
+        "8 m"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "question": "Two numbers: sum 20, sum of squares 208. Product?",
+      "options": [
+        "91",
+        "96",
+        "99",
+        "104",
+        "108"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 40,
+      "question": "Train: 60 km/h one way, 40 km/h return. Average speed?",
+      "options": [
+        "45 km/h",
+        "48 km/h",
+        "50 km/h",
+        "52 km/h",
+        "55 km/h"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 41,
+      "question": "4-digit numbers with all distinct digits?",
+      "options": [
+        "4032",
+        "4536",
+        "5040",
+        "6480",
+        "9000"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 42,
+      "question": "Cone and cylinder: same base and height. Volume ratio?",
+      "options": [
+        "1:2",
+        "1:3",
+        "2:3",
+        "3:1",
+        "3:2"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "question": "x² - 5x + k = 0 roots in ratio 2:3. k = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 44,
+      "question": "AP: first term 3, common diff 4, 10 terms. Sum?",
+      "options": [
+        "180",
+        "200",
+        "210",
+        "220",
+        "240"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 45,
+      "question": "How many factors does 36 have?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 46,
+      "question": "Solve: 3x - 7 = 2x + 5",
+      "options": [
+        "x = -12",
+        "x = -2",
+        "x = 2",
+        "x = 12",
+        "x = 15"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "question": "What is the value of |-5| + |3| - |-2|?",
+      "options": [
+        "0",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "question": "A 30-60-90 triangle has short leg 5. Hypotenuse?",
+      "options": [
+        "5√2",
+        "5√3",
+        "10",
+        "10√3",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 49,
+      "question": "What percent of 80 is 20?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "40%",
+        "400%"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "question": "Simplify: (3x²y)(2xy³)",
+      "options": [
+        "5x³y⁴",
+        "6x³y⁴",
+        "6x²y³",
+        "5x²y³",
+        "6xy"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 51,
+      "question": "In similar triangles, sides are 3:5. Area ratio?",
+      "options": [
+        "3:5",
+        "6:10",
+        "9:15",
+        "9:25",
+        "27:125"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 52,
+      "question": "What is the slope of 3x + 4y = 12?",
+      "options": [
+        "-4/3",
+        "-3/4",
+        "3/4",
+        "4/3",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 53,
+      "question": "If f(x) = x² - 4x + 3, find f(5).",
+      "options": [
+        "3",
+        "8",
+        "12",
+        "18",
+        "28"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 54,
+      "question": "How many terms in the arithmetic sequence 5, 9, 13, ... 101?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 55,
+      "question": "The diagonal of a square is 10 cm. Side length?",
+      "options": [
+        "5 cm",
+        "5√2 cm",
+        "10/√2 cm",
+        "7.07 cm",
+        "Both B and C"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 56,
+      "question": "Four boys report dancing with 3, 1, 2, and 2 girls. Three girls report dancing with 2, 2, and 2 boys. How many boys did the fourth girl dance with?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 57,
+      "question": "A woodcutter makes 53 cuts, each cut splitting one piece into two. If he ends with 72 pieces, how many pieces did he start with?",
+      "options": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 58,
+      "question": "Ellie has 5 cubes and 3 tetrahedrons. Counting faces, how many sides do all the solids have together?",
+      "options": [
+        "42",
+        "48",
+        "50",
+        "52",
+        "56"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 59,
+      "question": "A soccer team scored 3 goals and allowed 1 goal over three games: one win, one loss, and one tie. What was the score of the game it won?",
+      "options": [
+        "2-0",
+        "1-0",
+        "2-1",
+        "3-1",
+        "3-0"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 60,
+      "question": "The Math Kangaroo contest is on the third Thursday of March. What is the latest possible date for it?",
+      "options": [
+        "March 14",
+        "March 15",
+        "March 20",
+        "March 21",
+        "March 22"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 61,
+      "question": "Twelve students eat 18 cupcakes total. Nobody eats more than 2, and 2 students eat none. How many students eat 2 cupcakes?",
+      "options": [
+        "2",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "7-8",
+      "source": "Math Quest Portal",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "gradeBand": "1-2",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A kangaroo makes 3 jumps. Each jump is 2 meters long. How far does the kangaroo travel?",
+      "options": [
+        "3 m",
+        "5 m",
+        "6 m",
+        "7 m",
+        "8 m"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "question": "Zara has 8 balloons. 3 fly away. How many are left?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "question": "Kai has 4 toy cars. His brother gives him 3 more. How many does Kai have?",
+      "options": [
+        "1",
+        "4",
+        "6",
+        "7",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "question": "What comes next: ○ ● ○ ● ○ ● ○ ?",
+      "options": [
+        "○",
+        "●",
+        "□",
+        "■",
+        "△"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "question": "A ladybug has 6 legs. How many legs do 2 ladybugs have?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "question": "Priya is 7 years old. Her sister is 2 years younger. How old is the sister?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "question": "How many corners does a rectangle have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "question": "Count: ★ ★ ★ ★ ★ ★. How many stars?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "question": "What number comes after 19?",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "29",
+        "91"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "question": "Ravi has 5 red and 4 green apples. How many total?",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "9",
+        "20"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "question": "A bicycle has 2 wheels. How many wheels do 3 bicycles have?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "question": "Which shape has 3 sides?",
+      "options": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Rectangle",
+        "Pentagon"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "question": "What is 7 + 5?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "question": "How many fingers on two hands?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "12",
+        "20"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "question": "Luna has 10 cookies. She eats 3. How many left?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10",
+        "13"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "question": "A dog has 4 legs. How many legs do 2 dogs have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "question": "What is 8 - 3?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "question": "How many ears does a rabbit have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "question": "A hand has 5 fingers. How many fingers on 3 hands?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "question": "What number is between 6 and 8?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "question": "Count the dots: • • • • •",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "question": "A triangle has how many corners?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "question": "What is 6 + 4?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "question": "Nico has 9 marbles. He loses 4. How many left?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "9",
+        "13"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 25,
+      "question": "Which is smallest: 15, 51, 11?",
+      "options": [
+        "15",
+        "51",
+        "11",
+        "All same",
+        "Cannot tell"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "question": "Aisha has 10 candies. She eats 3 and gives 2 away. How many left?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 27,
+      "question": "A snail climbs 4 steps up, slides 2 down. Which step is it on?",
+      "options": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 6"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 28,
+      "question": "Monday is day 1. What is day 5?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 29,
+      "question": "Omar gives 4 apples away and has 6 left. How many did he start with?",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 30,
+      "question": "A frog jumps 3 pads forward, 1 back. Starting at 1, where is it?",
+      "options": [
+        "Pad 1",
+        "Pad 2",
+        "Pad 3",
+        "Pad 4",
+        "Pad 5"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 31,
+      "question": "How many days in 2 weeks?",
+      "options": [
+        "7",
+        "10",
+        "12",
+        "14",
+        "21"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "question": "A rabbit eats 2 carrots daily. How many in 5 days?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "question": "What is 15 - 8?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "23"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 34,
+      "question": "4 birds on tree, 3 come, 2 fly away. How many now?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 35,
+      "question": "One rope is 8 cm, another 5 cm. How much longer is the first?",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "5 cm",
+        "13 cm"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 36,
+      "question": "12 cookies on 3 plates equally. How many per plate?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "question": "Pattern: 2, 4, 6, ?, 10. What's missing?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "9",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 38,
+      "question": "A clock shows 3:00. What time in 2 hours?",
+      "options": [
+        "4:00",
+        "5:00",
+        "6:00",
+        "1:00",
+        "2:00"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "question": "Yuki is 8. His dad is 30. How much older is dad?",
+      "options": [
+        "22",
+        "24",
+        "28",
+        "32",
+        "38"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 40,
+      "question": "A pencil costs 5 cents. How much for 4 pencils?",
+      "options": [
+        "9 cents",
+        "15 cents",
+        "20 cents",
+        "25 cents",
+        "40 cents"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 41,
+      "question": "Theo puts 15 marbles equally in 3 boxes. How many per box?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 42,
+      "question": "Ivy finished before Theo but after Jade. Who won?",
+      "options": [
+        "Ivy",
+        "Theo",
+        "Jade",
+        "Tie",
+        "Cannot tell"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "question": "A train has 5 carriages with 4 wheels each. Total wheels?",
+      "options": [
+        "9",
+        "15",
+        "16",
+        "20",
+        "25"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 44,
+      "question": "Nadia gives equal stickers to 4 friends from 20. How many each?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 45,
+      "question": "Today is Tuesday. What day was 3 days ago?",
+      "options": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Wednesday"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 46,
+      "question": "A toy costs $8. Yuki has $5. Mom gives some more. How much from mom?",
+      "options": [
+        "$2",
+        "$3",
+        "$4",
+        "$5",
+        "$8"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "question": "3 red, 4 blue, 2 green balls. Total?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "question": "A spider has 8 legs. 3 spiders have how many legs?",
+      "options": [
+        "11",
+        "16",
+        "21",
+        "24",
+        "32"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 49,
+      "question": "What's the sum of 1+2+3+4?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "question": "A book has 20 pages. I read 8. How many left?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "28"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 51,
+      "question": "If you count by 2s starting from 2, what is the 5th number?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 52,
+      "question": "How many legs do 4 chairs have altogether?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 53,
+      "question": "What coin equals 5 pennies?",
+      "options": [
+        "Penny",
+        "Nickel",
+        "Dime",
+        "Quarter",
+        "Dollar"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 54,
+      "question": "A square has sides of 3 cm. What is the perimeter?",
+      "options": [
+        "6 cm",
+        "9 cm",
+        "12 cm",
+        "15 cm",
+        "18 cm"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 55,
+      "question": "I am thinking of a number. If I add 5, I get 12. What is my number?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "17"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 56,
+      "question": "How many sides does a stop sign have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 57,
+      "question": "What is half of 18?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 58,
+      "question": "3 + 3 + 3 + 3 = ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 59,
+      "question": "A baker made 24 cookies. He put 6 on each plate. How many plates?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "18"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 60,
+      "question": "What is the value of 3 dimes?",
+      "options": [
+        "3 cents",
+        "13 cents",
+        "30 cents",
+        "33 cents",
+        "300 cents"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 61,
+      "question": "How many numbers using only digits 1, 2, or 3 are bigger than 10 and smaller than 32? (Digits can repeat)",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 62,
+      "question": "The rabbit family eats either 10 carrots OR 2 cabbages each day. Last week they ate 6 cabbages. How many carrots did they eat?",
+      "options": [
+        "20",
+        "30",
+        "34",
+        "40",
+        "50"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 63,
+      "question": "Each digit 2, 3, 4, 5 is placed in a box to make two 2-digit numbers that are added. What is the biggest possible sum?",
+      "options": [
+        "68",
+        "77",
+        "86",
+        "95",
+        "97"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 64,
+      "question": "At a party there are 9 tables with 4 seats each. After everyone sits down, 7 seats are empty. If Greg is one of the people sitting, how many guests came?",
+      "options": [
+        "25",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 65,
+      "question": "In 36 years, Mark's grandmother will be 100 years old. How old is she now?",
+      "options": [
+        "36",
+        "64",
+        "66",
+        "74",
+        "100"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 66,
+      "question": "Marko has 9 candies and Tomo has 17 candies. How many candies should Tomo give Marko so they have the same amount?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 67,
+      "question": "A captain was the 8th pirate to climb a rope. There were just as many pirates before him as after him. How many pirates climbed the rope?",
+      "options": [
+        "7",
+        "8",
+        "12",
+        "15",
+        "16"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 68,
+      "question": "A clothesline uses shared pins: 3 towels need 4 pins. How many pins are needed for 9 towels in one row?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "16",
+        "18"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 69,
+      "question": "A zoo has 19 apes and monkeys. There are 4 chimpanzees and 3 baboons. The rest are gorillas split equally into 3 cages. How many gorillas are in each cage?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "1-2",
+      "source": "Math Quest Portal",
+      "tags": []
+    }
+  ]
+}

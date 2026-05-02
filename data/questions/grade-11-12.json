@@ -1,0 +1,965 @@
+{
+  "gradeBand": "11-12",
+  "questions": [
+    {
+      "id": 1,
+      "question": "d/dx[x³ - 2x² + 5x] = ?",
+      "options": [
+        "3x² - 4x + 5",
+        "3x² - 2x + 5",
+        "x² - 4x + 5",
+        "3x³ - 4x² + 5x",
+        "3x - 4 + 5"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "question": "lim(x→2) (x² - 4)/(x - 2) = ?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "Undefined",
+        "∞"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "question": "∫ 4x³ dx = ?",
+      "options": [
+        "x⁴ + C",
+        "4x⁴ + C",
+        "12x² + C",
+        "x³ + C",
+        "4x⁴/4 + C"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "question": "e⁰ = ?",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "∞",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "question": "z = 3 + 4i. |z| = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7",
+        "25"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "question": "GP: 2, 6, 18, 54, ... 5th term?",
+      "options": [
+        "108",
+        "126",
+        "162",
+        "216",
+        "324"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "question": "ln(e⁵) = ?",
+      "options": [
+        "1",
+        "e",
+        "5",
+        "e⁵",
+        "5e"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "question": "d/dx[sin x] = ?",
+      "options": [
+        "-sin x",
+        "cos x",
+        "-cos x",
+        "tan x",
+        "sec x"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "question": "3×3 matrix A, det(A) = 4. det(2A) = ?",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "32",
+        "64"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "question": "i² + i⁴ = ? (i = √-1)",
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "question": "d/dx[eˣ] = ?",
+      "options": [
+        "xeˣ⁻¹",
+        "eˣ",
+        "e",
+        "xeˣ",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "question": "lim(x→∞) 1/x = ?",
+      "options": [
+        "-∞",
+        "0",
+        "1",
+        "∞",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "question": "∫ cos x dx = ?",
+      "options": [
+        "-sin x + C",
+        "sin x + C",
+        "-cos x + C",
+        "tan x + C",
+        "sec x + C"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "question": "Inverse of f(x) = 2x + 3?",
+      "options": [
+        "(x-3)/2",
+        "(x+3)/2",
+        "2x - 3",
+        "-2x - 3",
+        "3 - 2x"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "question": "tan 45° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "√2",
+        "√3"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "question": "d/dx[ln x] = ?",
+      "options": [
+        "1/x",
+        "x",
+        "ln x",
+        "e^x",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "question": "∫ 1 dx = ?",
+      "options": [
+        "0",
+        "1",
+        "x",
+        "x + C",
+        "C"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "question": "sin 90° = ?",
+      "options": [
+        "0",
+        "1/2",
+        "√2/2",
+        "√3/2",
+        "1"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "question": "d/dx[x²] = ?",
+      "options": [
+        "x",
+        "2x",
+        "x²",
+        "2",
+        "2x²"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "question": "lim(x→0) sin x / x = ?",
+      "options": [
+        "0",
+        "1",
+        "∞",
+        "-1",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "question": "d/dx[ln(x²)] = ?",
+      "options": [
+        "1/x²",
+        "2/x",
+        "2x",
+        "1/2x",
+        "x/2"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "question": "Sum: 1/2 + 1/4 + 1/8 + ... (infinite)?",
+      "options": [
+        "1/2",
+        "3/4",
+        "1",
+        "3/2",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "question": "∫₀² 3x² dx = ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "question": "∫ eˣ dx = ?",
+      "options": [
+        "xeˣ + C",
+        "eˣ + C",
+        "eˣ/x + C",
+        "eˣ⁺¹ + C",
+        "ln(eˣ) + C"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 25,
+      "question": "u = (1, 2), v = (4, -2). Relationship?",
+      "options": [
+        "Parallel",
+        "Perpendicular",
+        "Neither",
+        "Equal",
+        "Opposite"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "question": "Arrangements of 'MATH'?",
+      "options": [
+        "4",
+        "12",
+        "16",
+        "24",
+        "256"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 27,
+      "question": "Tangent to y = x² at x = 3?",
+      "options": [
+        "y = 6x - 9",
+        "y = 6x + 9",
+        "y = 3x - 9",
+        "y = 6x - 3",
+        "y = 9x - 6"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 28,
+      "question": "f(x) = x³. f''(x) = ?",
+      "options": [
+        "3x²",
+        "6x",
+        "6",
+        "x²",
+        "3x"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 29,
+      "question": "∫ 1/x dx = ?",
+      "options": [
+        "x + C",
+        "ln|x| + C",
+        "-1/x² + C",
+        "1/x² + C",
+        "x² + C"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 30,
+      "question": "Angle between (1,0) and (1,1)?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 31,
+      "question": "d/dx[x⁴ - 3x² + 2x] = ?",
+      "options": [
+        "4x³ - 6x + 2",
+        "4x³ - 3x + 2",
+        "x³ - 6x + 2",
+        "4x⁴ - 6x² + 2",
+        "3x³ - 6x"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "question": "∑(i=1 to 5) i = ?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "question": "d/dx[x·eˣ] = ?",
+      "options": [
+        "eˣ",
+        "xeˣ",
+        "eˣ + xeˣ",
+        "xeˣ - eˣ",
+        "2xeˣ"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 34,
+      "question": "If f(x) = x² + 1, f'(2) = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 35,
+      "question": "∫ 2x dx = ?",
+      "options": [
+        "2",
+        "x",
+        "x²",
+        "x² + C",
+        "2x² + C"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 36,
+      "question": "lim(x→0) (sin 3x)/(2x) = ?",
+      "options": [
+        "0",
+        "2/3",
+        "1",
+        "3/2",
+        "∞"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "question": "Area between y = x² and y = x?",
+      "options": [
+        "1/3",
+        "1/4",
+        "1/6",
+        "1/2",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 38,
+      "question": "P(A) = 0.3, P(B) = 0.4, independent. P(A ∩ B) = ?",
+      "options": [
+        "0.10",
+        "0.12",
+        "0.35",
+        "0.70",
+        "1.00"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "question": "∫₀^π sin x dx = ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "π",
+        "-1"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 40,
+      "question": "Taylor series of eˣ at x=0 starts:",
+      "options": [
+        "1 + x + x²/2 + ...",
+        "x + x²/2 + ...",
+        "1 + x + x² + ...",
+        "x + x² + x³ + ...",
+        "1 + 2x + 3x² + ..."
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 41,
+      "question": "f(x) = ln(sin x). f'(x) = ?",
+      "options": [
+        "cos x / sin x",
+        "1/sin x",
+        "-tan x",
+        "cot x",
+        "sec x"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 42,
+      "question": "Volume: y = x² rotated about x-axis, 0 to 2?",
+      "options": [
+        "32π/5",
+        "16π/5",
+        "8π",
+        "4π",
+        "2π"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "question": "Coefficient of x³ in (1+x)⁵?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 44,
+      "question": "∫ sec²x dx = ?",
+      "options": [
+        "tan x + C",
+        "sec x + C",
+        "-cot x + C",
+        "csc x + C",
+        "sin x + C"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 45,
+      "question": "d/dx[arctan x] = ?",
+      "options": [
+        "1/(1+x²)",
+        "1/(1-x²)",
+        "1/√(1-x²)",
+        "-1/(1+x²)",
+        "x/(1+x²)"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 46,
+      "question": "Evaluate: lim(x→1) (x³-1)/(x-1)",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "undefined"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "question": "What is ∫₀¹ x² dx?",
+      "options": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "2/3",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "question": "If z = 2 - 3i, what is z̄ (conjugate)?",
+      "options": [
+        "2 + 3i",
+        "-2 + 3i",
+        "-2 - 3i",
+        "3 - 2i",
+        "3 + 2i"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 49,
+      "question": "What is the period of y = 3cos(2x + π)?",
+      "options": [
+        "π/2",
+        "π",
+        "2π",
+        "3π",
+        "4π"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "question": "How many ways to choose 3 items from 10?",
+      "options": [
+        "30",
+        "72",
+        "120",
+        "720",
+        "1000"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 51,
+      "question": "If f(x) = e²ˣ, what is f'(x)?",
+      "options": [
+        "e²ˣ",
+        "2e²ˣ",
+        "2eˣ",
+        "e²ˣ/2",
+        "2xe²ˣ"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 52,
+      "question": "Sum of infinite series: 1 + 1/3 + 1/9 + 1/27 + ...",
+      "options": [
+        "1",
+        "4/3",
+        "3/2",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 53,
+      "question": "What is the magnitude of vector (3, -4, 0)?",
+      "options": [
+        "1",
+        "5",
+        "7",
+        "12",
+        "25"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 54,
+      "question": "Solve: e²ˣ = 7",
+      "options": [
+        "x = ln7/2",
+        "x = 2ln7",
+        "x = ln(7/2)",
+        "x = 7/e²",
+        "x = ln7 - 2"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 55,
+      "question": "What is d/dx[x·ln(x)]?",
+      "options": [
+        "1/x",
+        "ln(x)",
+        "1 + ln(x)",
+        "x + ln(x)",
+        "1/x + ln(x)"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 56,
+      "question": "For how many positive integers n is n² + n prime?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Finitely many more than 2",
+        "Infinitely many"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 57,
+      "question": "Which number could be the number of edges of a prism?",
+      "options": [
+        "100",
+        "200",
+        "2008",
+        "2009",
+        "2010"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 58,
+      "question": "For any positive integer, the difference between the integer and the sum of its digits is always divisible by what?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "11",
+        "9"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 59,
+      "question": "Among n-digit numbers with no zeroes, the count with no 9s equals the count with exactly one 9. What is n?",
+      "options": [
+        "8",
+        "9",
+        "12",
+        "15",
+        "2011"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 60,
+      "question": "In a number pyramid, the top is the product of the two entries below it, repeated upward. If the three bottom entries are natural numbers greater than 1, which number cannot be the top?",
+      "options": [
+        "56",
+        "84",
+        "90",
+        "105",
+        "220"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "11-12",
+      "source": "Math Quest Portal",
+      "tags": []
+    }
+  ]
+}

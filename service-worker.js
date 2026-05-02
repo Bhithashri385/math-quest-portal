@@ -1,14 +1,20 @@
-const CACHE_NAME = 'math-quest-v1';
+const CACHE_NAME = 'math-quest-v3';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/auth.js',
-  '/questions.js',
-  '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png'
+  './',
+  'index.html',
+  'styles.css',
+  'app.js',
+  'auth.js',
+  'questions.js',
+  'data/questions/grade-1-2.json',
+  'data/questions/grade-3-4.json',
+  'data/questions/grade-5-6.json',
+  'data/questions/grade-7-8.json',
+  'data/questions/grade-9-10.json',
+  'data/questions/grade-11-12.json',
+  'manifest.json',
+  'icons/icon-192.png',
+  'icons/icon-512.png'
 ];
 
 // Install event - cache assets
@@ -69,7 +75,7 @@ self.addEventListener('fetch', (event) => {
           .catch(() => {
             // Offline fallback for navigation requests
             if (event.request.mode === 'navigate') {
-              return caches.match('/index.html');
+              return caches.match('index.html');
             }
           });
       })
