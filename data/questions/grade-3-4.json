@@ -1,0 +1,3461 @@
+{
+  "gradeBand": "3-4",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A clock shows 3:45. What time in 30 minutes?",
+      "options": [
+        "3:75",
+        "4:00",
+        "4:15",
+        "4:30",
+        "4:45"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "question": "Rectangle: 8m long, 5m wide. Perimeter?",
+      "options": [
+        "13 m",
+        "20 m",
+        "26 m",
+        "40 m",
+        "45 m"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "question": "36 stickers among 4 friends equally. Each gets?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "question": "Book: 248 pages, read 135. Pages left?",
+      "options": [
+        "103",
+        "113",
+        "123",
+        "133",
+        "383"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "question": "Kangaroo jumps 7 times, 3m each. Distance?",
+      "options": [
+        "10 m",
+        "14 m",
+        "18 m",
+        "21 m",
+        "24 m"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "question": "Triangle sides: 5, 7, 9 cm. Perimeter?",
+      "options": [
+        "12 cm",
+        "19 cm",
+        "21 cm",
+        "35 cm",
+        "45 cm"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "question": "What is 144 ÷ 12?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "question": "Apples in bags of 6. Bags needed for 42?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "question": "Largest 2-digit even number?",
+      "options": [
+        "88",
+        "96",
+        "98",
+        "99",
+        "100"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "question": "Ravi is 9. Dad is 4× older. Dad's age?",
+      "options": [
+        "13",
+        "27",
+        "32",
+        "36",
+        "45"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "question": "What is 1000 - 456?",
+      "options": [
+        "444",
+        "454",
+        "544",
+        "554",
+        "644"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "question": "How many sides does an octagon have?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "question": "A dozen eggs is 12. How many in 3 dozen?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "42",
+        "48"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "question": "Round 3847 to nearest hundred:",
+      "options": [
+        "3800",
+        "3850",
+        "3900",
+        "4000",
+        "3840"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "question": "How many hours in 2 days?",
+      "options": [
+        "24",
+        "36",
+        "48",
+        "60",
+        "72"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "question": "28 students: 4 more girls than boys. Girls?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "question": "Smallest 3-digit with 5, 0, 3 once?",
+      "options": [
+        "035",
+        "053",
+        "305",
+        "350",
+        "503"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "question": "Train: 9:45 AM to 11:20 AM. Journey time?",
+      "options": [
+        "1h 15m",
+        "1h 25m",
+        "1h 35m",
+        "1h 45m",
+        "2h 35m"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "question": "Pattern: 2, 5, 11, 23, ... Next?",
+      "options": [
+        "35",
+        "41",
+        "46",
+        "47",
+        "48"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 25,
+      "question": "Square perimeter 24 cm. Area?",
+      "options": [
+        "16 cm²",
+        "24 cm²",
+        "36 cm²",
+        "48 cm²",
+        "144 cm²"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "question": "Think of number, ×3, +7 = 25. Number?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 27,
+      "question": "What fraction of 60 is 15?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/5",
+        "1/6"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 28,
+      "question": "Odd numbers between 10 and 30?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 29,
+      "question": "Pizza: 8 slices, eat 3. Fraction left?",
+      "options": [
+        "3/8",
+        "4/8",
+        "5/8",
+        "6/8",
+        "8/8"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 30,
+      "question": "Product is 48, one number is 6. Other?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "42"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 31,
+      "question": "Bus holds 45. Buses for 200 people?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "question": "What is 3² + 4²?",
+      "options": [
+        "14",
+        "20",
+        "25",
+        "49",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "question": "Movie: 2:40 PM + 1h 50m. End time?",
+      "options": [
+        "3:90 PM",
+        "4:00 PM",
+        "4:20 PM",
+        "4:30 PM",
+        "4:40 PM"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 34,
+      "question": "Average of 10, 20, 30?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30",
+        "60"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 35,
+      "question": "How many faces on a cube?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 36,
+      "question": "5 children in line. Milo not first/last. Rosa between Milo and Jade. Ethan at end. Olive next to Ethan. Who's middle?",
+      "options": [
+        "Milo",
+        "Rosa",
+        "Jade",
+        "Ethan",
+        "Olive"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "question": "Chickens + rabbits = 20 heads, 56 legs. Rabbits?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 38,
+      "question": "3 consecutive numbers sum to 48. Largest?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "question": "Magic square 1-9, rows/cols/diags = 15. Center?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 40,
+      "question": "Game: win=5pts, draw=2pts. 10 games, 32pts, 2 draws. Wins?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 41,
+      "question": "Number ÷ 7 = quotient 8, remainder 3. Number?",
+      "options": [
+        "53",
+        "56",
+        "59",
+        "61",
+        "67"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 42,
+      "question": "Rectangles in 2×3 grid?",
+      "options": [
+        "6",
+        "12",
+        "15",
+        "18",
+        "21"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "question": "Average of 5 numbers is 20. Remove one, average is 15. Removed?",
+      "options": [
+        "20",
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 44,
+      "question": "Two numbers: sum 50, difference 10. Larger?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 45,
+      "question": "How many 2-digit numbers have digits summing to 10?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 46,
+      "question": "What is the least common multiple of 4 and 6?",
+      "options": [
+        "2",
+        "10",
+        "12",
+        "24",
+        "48"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "question": "A rectangle is 12 cm long and 8 cm wide. What is its area?",
+      "options": [
+        "20 cm²",
+        "40 cm²",
+        "80 cm²",
+        "96 cm²",
+        "120 cm²"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "question": "What is the sum of the first 5 odd numbers?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 49,
+      "question": "If n × 7 = 91, what is n?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "question": "How many prime numbers are less than 15?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 51,
+      "question": "A car travels 55 miles per hour. How far in 3 hours?",
+      "options": [
+        "155 mi",
+        "158 mi",
+        "165 mi",
+        "175 mi",
+        "185 mi"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 52,
+      "question": "What is 3/4 of 100?",
+      "options": [
+        "25",
+        "50",
+        "75",
+        "80",
+        "90"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 53,
+      "question": "The product of two numbers is 144. One is 12. The other?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 54,
+      "question": "What is the perimeter of a regular pentagon with side 7 cm?",
+      "options": [
+        "28 cm",
+        "30 cm",
+        "35 cm",
+        "42 cm",
+        "49 cm"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 55,
+      "question": "Find the missing number: 2, 6, 18, 54, ?",
+      "options": [
+        "108",
+        "126",
+        "162",
+        "180",
+        "216"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 56,
+      "question": "2 × 9 + 200 + 9 = ?",
+      "options": [
+        "292",
+        "209",
+        "290",
+        "272",
+        "227"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 57,
+      "question": "Four sticks have 8 ends. How many ends do 7 sticks have?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 58,
+      "question": "Mother bought 16 mandarins. Finn ate half of them, Lily ate two, and Mira ate the rest. How many mandarins did Mira eat?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 59,
+      "question": "Nadia rolled a die four times and scored a total of 23 points. How often did she roll a six?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 60,
+      "question": "A film lasts 90 minutes and begins at 17:10. During the film there are two advert breaks, one lasting 8 minutes and the other 5 minutes. At what time will the film end?",
+      "options": [
+        "18:13",
+        "18:27",
+        "18:47",
+        "18:53",
+        "19:13"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 61,
+      "question": "In a dance group there are 25 boys and 19 girls. Every week 2 more boys and 3 more girls join. After how many weeks will there be the same number of boys as girls?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 62,
+      "question": "Omar shared a bar of chocolate. First he broke off a row with 5 pieces for his brother. Then he broke off a column with 7 pieces for his sister. How many pieces were there in the entire bar?",
+      "options": [
+        "28",
+        "32",
+        "35",
+        "40",
+        "54"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 63,
+      "question": "A farmer has 30 cows, some chickens and no other animals. The total number of chicken legs equals the total number of cow legs. How many animals does the farmer have?",
+      "options": [
+        "60",
+        "90",
+        "120",
+        "180",
+        "240"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 64,
+      "question": "The length of a rectangle is 8 cm. The width is half as long. How long are the sides of a square that has the same perimeter as the rectangle?",
+      "options": [
+        "4 cm",
+        "6 cm",
+        "8 cm",
+        "12 cm",
+        "24 cm"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 65,
+      "question": "Three squirrels Anni, Asia and Elli collected 7 nuts total. They all collected different amounts, and each collected at least one. Anni collected the least and Asia the most. How many nuts did Elli collect?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Not possible to answer"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 66,
+      "question": "A white and a black pig weigh together 320 kg. The black pig weighs 32 kg more than the white one. How much does the white pig weigh?",
+      "options": [
+        "128 kg",
+        "144 kg",
+        "160 kg",
+        "176 kg",
+        "192 kg"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 67,
+      "question": "Priya and Omar live on the same street. On one side of Priya's house there are 27 houses, and on the other side 13 houses. Omar lives in the house right in the middle of the street. How many houses are between Priya's and Omar's houses?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "14",
+        "21"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 68,
+      "question": "A secret agent wants to crack a 6-digit code. The sum of digits in even positions equals the sum of digits in odd positions. Which could be the code? (Format: 12_9_8 means positions 3 and 5 are unknown)",
+      "options": [
+        "81__61",
+        "7_727_",
+        "4_4141",
+        "12_9_8",
+        "181_2_"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 69,
+      "question": "Tara collects pictures of sports people. Each year she collects as many as in the previous two years combined. In 2008 she had 60 photos and in 2009 she has 96. How many did she have in 2006?",
+      "options": [
+        "20",
+        "24",
+        "36",
+        "40",
+        "48"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 70,
+      "question": "In a vase there is one red, blue, yellow and white flower. Zoe the bee visits each flower exactly once. She begins with the red flower and never flies directly from yellow to white. In how many different ways can she visit each flower?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 71,
+      "question": "In a haunted house, a ghost disappears at 6:15. A strange clock that showed correct time before starts counting backwards. When the ghost reappears at 19:30 real time, what time does the strange clock show?",
+      "options": [
+        "17:00",
+        "17:45",
+        "18:30",
+        "19:00",
+        "19:15"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 72,
+      "question": "A caterpillar climbs 5 cm up a plant during the day, but slides down 2 cm each night. After 4 complete days and nights, how high is the caterpillar?",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 73,
+      "question": "Luna has 3 boxes. Each box contains 4 bags, and each bag contains 5 marbles. How many marbles does Luna have in total?",
+      "options": [
+        "12",
+        "20",
+        "35",
+        "60",
+        "80"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 74,
+      "question": "A magic frog doubles every minute. At 10:00 there is 1 frog. At what time will there be 8 frogs?",
+      "options": [
+        "10:02",
+        "10:03",
+        "10:04",
+        "10:08",
+        "10:16"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 75,
+      "question": "Kai is 8 years old. His grandmother is 7 times as old as Kai. How old will grandmother be when Kai is 12?",
+      "options": [
+        "52",
+        "56",
+        "60",
+        "64",
+        "84"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 76,
+      "question": "A baker makes 24 cookies and puts them equally into 6 bags. How many cookies are in each bag?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 77,
+      "question": "In a row of 15 houses, Aisha lives in the middle house. What is the number of her house?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 78,
+      "question": "A train has 6 carriages. Each carriage has 8 windows on each side. How many windows does the whole train have?",
+      "options": [
+        "48",
+        "56",
+        "72",
+        "96",
+        "108"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 79,
+      "question": "Milo, Theo, and Freya share some stickers. Milo has twice as many as Theo, and Freya has 5 more than Theo. Together they have 45 stickers. How many does Theo have?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 80,
+      "question": "A clock loses 5 minutes every hour. If it shows the correct time at 8:00 AM, what time will it show when the real time is 12:00 noon?",
+      "options": [
+        "11:00",
+        "11:20",
+        "11:40",
+        "11:45",
+        "11:50"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 81,
+      "question": "In a garden, there are twice as many roses as tulips, and 12 more daisies than roses. If there are 8 tulips, how many flowers are there in total?",
+      "options": [
+        "36",
+        "44",
+        "48",
+        "52",
+        "60"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 82,
+      "question": "A snail travels around a square garden with sides of 12 meters. It travels 3 meters per minute. How many minutes does it take to go all the way around?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18",
+        "48"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 83,
+      "question": "Five friends sit in a row. Ivy is not at either end. Rosa is to the right of Ivy. Jade is at the left end. Mira is between Jade and Ivy. Who is at the right end?",
+      "options": [
+        "Ivy",
+        "Rosa",
+        "Jade",
+        "Mira",
+        "Olive"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 84,
+      "question": "A staircase has 20 steps. Cruz climbs 2 steps, then goes back 1 step, and repeats this pattern. How many moves does he need to reach the top step?",
+      "options": [
+        "19",
+        "20",
+        "37",
+        "38",
+        "40"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 85,
+      "question": "Iris counts from 1 to 100. How many times does she say a number containing the digit 7?",
+      "options": [
+        "10",
+        "11",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 86,
+      "question": "A library has 4 shelves. The first shelf has 15 books, and each next shelf has 8 more books than the previous one. How many books are there in total?",
+      "options": [
+        "84",
+        "92",
+        "100",
+        "108",
+        "120"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 87,
+      "question": "In a class, each child has either a cat or a dog or both. 15 children have a cat, 12 have a dog, and 5 have both. How many children are in the class?",
+      "options": [
+        "17",
+        "20",
+        "22",
+        "27",
+        "32"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 88,
+      "question": "A dragon has 3 heads. When one head is cut off, 2 new heads grow. If a knight cuts off 5 heads, how many heads will the dragon have?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 89,
+      "question": "Priya thinks of a number. She doubles it, adds 10, divides by 2, and subtracts 3. The result is 12. What number did Priya think of?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 90,
+      "question": "At a party, everyone shakes hands with everyone else exactly once. There are 28 handshakes in total. How many people are at the party?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 91,
+      "question": "A frog jumps between lily pads numbered 1 to 10 in a row. Each jump is exactly 3 pads forward or 2 pads backward. Starting at pad 1, what is the minimum number of jumps to reach pad 10?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 92,
+      "question": "In a village, every house has a red or blue door. Houses with red doors have 3 windows, and houses with blue doors have 5 windows. There are 20 houses and 76 windows in total. How many houses have red doors?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 93,
+      "question": "A code uses only the digits 1, 2, and 3. Each digit can be used any number of times. How many different 3-digit codes are possible?",
+      "options": [
+        "6",
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 94,
+      "question": "Axel writes all numbers from 1 to 50. How many times does he write the digit 3?",
+      "options": [
+        "5",
+        "10",
+        "14",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 95,
+      "question": "Simona writes the numbers 2, 0, 2 and 5 in the boxes: □ + □ - □ + □. In what order should she write them to get the biggest result?",
+      "options": [
+        "0, 2, 2, 5",
+        "0, 5, 2, 2",
+        "2, 5, 2, 0",
+        "5, 0, 2, 2",
+        "5, 2, 0, 2"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 96,
+      "question": "On a die, opposite sides always add up to 7. If you can see 1, 2, and 3 on a die, what is the sum of the three hidden faces?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 97,
+      "question": "Zara and Axel start at point A on a circle. Zara walks clockwise, Axel walks counter-clockwise. They meet at B, then C, then D, then back at A. These points divide the circle into 4 equal parts. How many times has Axel gone around the circle?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 98,
+      "question": "Hans feeds six sheep a total of 210g of food. Five large sheep each get the same amount, and the small sheep gets twice as much as each large sheep. How much food does the small sheep get?",
+      "options": [
+        "50g",
+        "55g",
+        "60g",
+        "65g",
+        "70g"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 99,
+      "question": "Priya has 3 cookies, Chloe has 5 cookies, and Felix has 7 cookies. They get 15 more cookies to share so each child ends up with the same number. How many cookies does Priya get added to her plate?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 100,
+      "question": "Jana has toys weighing 22g, 23g, 25g, 34g, and 36g. She wants to divide them into two boxes of equal weight. Which two toys must NOT go in the same box?",
+      "options": [
+        "22g and 23g",
+        "22g and 25g",
+        "23g and 25g",
+        "34g and 36g",
+        "22g and 34g"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 101,
+      "question": "On a calendar, two shaded boxes in the same column add up to 29. If these boxes are on the same weekday, what day is the 1st of the month?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Sunday"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 102,
+      "question": "In a number wall, each brick shows the sum of the two bricks below it. The bottom row has 1, 2, 3, 4 from left to right. What is the number at the top of the wall?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 103,
+      "question": "On a balance scale, 2 apples weigh the same as 3 bananas. If 1 apple weighs 15g, what does 1 banana weigh?",
+      "options": [
+        "5g",
+        "8g",
+        "10g",
+        "12g",
+        "15g"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 104,
+      "question": "Cruz writes the numbers 1, 3, 5, 7 in boxes: □ × □ - □ × □. What order gives the biggest result?",
+      "options": [
+        "1, 7, 3, 5",
+        "7, 5, 1, 3",
+        "7, 5, 3, 1",
+        "5, 7, 1, 3",
+        "3, 7, 1, 5"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 105,
+      "question": "A robot moves on a grid: →3, ↑2, ←1, ↑1. How far right and how far up is the robot from the start?",
+      "options": [
+        "2 right, 3 up",
+        "3 right, 2 up",
+        "2 right, 2 up",
+        "4 right, 3 up",
+        "1 right, 3 up"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 106,
+      "question": "Each shell is worth 5 points and each star is worth 3 points. Which combination gives exactly 19 points?",
+      "options": [
+        "2 shells, 3 stars",
+        "3 shells, 2 stars",
+        "1 shell, 5 stars",
+        "4 shells, 0 stars",
+        "2 shells, 4 stars"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 107,
+      "question": "On a special die, opposite faces multiply to give 6. If you see faces 1, 2, and 6, what is the sum of the hidden faces?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 108,
+      "question": "A train has 5 carriages numbered 1 to 5. Carriage 3 is in the middle. Carriage 1 is at the front. What carriage is directly behind carriage 2?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 109,
+      "question": "Mia folds a paper strip in half 3 times. How many layers does the folded paper have?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 110,
+      "question": "A clock shows 2:45. The minute hand has moved 90 degrees since the last hour. What time was it at the last hour?",
+      "options": [
+        "1:00",
+        "2:00",
+        "2:30",
+        "3:00",
+        "12:00"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 111,
+      "question": "Four children collect stamps. Vera has 12, Theo has 8, Lena has 16, and Hugo has 4. They share 20 more stamps so everyone has equal amounts. How many stamps does Theo receive?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "11",
+        "13"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 112,
+      "question": "In a pet shop, 3 cats eat the same amount as 5 hamsters. Each cat eats 10g per day. How much does each hamster eat?",
+      "options": [
+        "2g",
+        "4g",
+        "5g",
+        "6g",
+        "8g"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 113,
+      "question": "Two runners start at the same point on a track. Runner A completes 3 laps while Runner B completes 2 laps. They started together and finished at the same time. If B's speed is 8 m/s, what is A's speed?",
+      "options": [
+        "10 m/s",
+        "11 m/s",
+        "12 m/s",
+        "14 m/s",
+        "16 m/s"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 114,
+      "question": "A farmer has chickens and rabbits. He counts 20 heads and 64 legs. How many rabbits does he have?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 115,
+      "question": "In a number wall, each brick shows the sum of two bricks below. The bottom row is 2, 5, 3. What number is at the top?",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "20",
+        "22"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 116,
+      "question": "A calendar shows that the 13th is a Friday. What day of the week is the 1st of that month?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Sunday"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 117,
+      "question": "Lina has coins worth 50¢, 20¢, and 10¢. She uses exactly 3 coins to pay 80¢. Which coins does she use?",
+      "options": [
+        "50¢, 20¢, 10¢",
+        "50¢, 10¢, 10¢",
+        "20¢, 20¢, 20¢",
+        "50¢, 20¢, 20¢",
+        "20¢, 20¢, 10¢"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 118,
+      "question": "A rectangular garden is 3 times as long as it is wide. The perimeter is 48 meters. What is the width?",
+      "options": [
+        "4 m",
+        "5 m",
+        "6 m",
+        "8 m",
+        "12 m"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 119,
+      "question": "Six children sit in a circle. Each child has some candies. They pass half their candies to the right. After one pass, everyone has 8 candies. How many candies were there in total at the start?",
+      "options": [
+        "36",
+        "42",
+        "48",
+        "54",
+        "60"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 120,
+      "question": "A wizard's potion doubles every hour. At noon, the cauldron is full. At what time was the cauldron 1/8 full?",
+      "options": [
+        "9:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "8:00 AM",
+        "7:00 AM"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 121,
+      "question": "Kai has weights of 1g, 3g, 9g, and 27g. Using a balance scale (weights can go on either side), what is the lightest weight he CANNOT measure?",
+      "options": [
+        "2g",
+        "5g",
+        "14g",
+        "None - he can measure any weight up to 40g",
+        "21g"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 122,
+      "question": "In a tournament, every team plays every other team once. There are 28 games in total. How many teams are playing?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 123,
+      "question": "A snail climbs a 10-meter well. Each day it climbs 3m, but each night it slides back 2m. On which day does it reach the top?",
+      "options": [
+        "7th",
+        "8th",
+        "9th",
+        "10th",
+        "11th"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 124,
+      "question": "Three boxes contain apples. Box A has twice as many as Box B. Box C has 4 more than Box A. Together they have 44 apples. How many are in Box C?",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 125,
+      "question": "A secret code replaces each letter with the next letter (A→B, B→C, ... Z→A). If 'DOH' becomes 'EPJ' after one step, what was the original word before 'DOH'?",
+      "options": [
+        "CNG",
+        "EPI",
+        "CNF",
+        "DMG",
+        "COG"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 126,
+      "question": "Five friends weigh 30kg, 32kg, 35kg, 38kg, and 40kg. They need to use an elevator that holds max 70kg. At least how many trips are needed?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 127,
+      "question": "Arlo drew a board with 9 squares and wrote numbers starting from 1, adding 3 each time (1, 4, 7, 10, ...). Which number could be in one of the squares?",
+      "options": [
+        "14",
+        "17",
+        "20",
+        "22",
+        "24"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 128,
+      "question": "Whenever a kangaroo hops up 7 steps, a rabbit hops down 3 steps. They start at step 100. When the kangaroo reaches step 156, what step is the rabbit on?",
+      "options": [
+        "73",
+        "76",
+        "79",
+        "82",
+        "85"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 129,
+      "question": "Vera, Lena and Rosa have 100 reais together. Vera has twice as much as each friend. After each pays for a movie ticket, Vera has 3 times what both friends have together. How much was the ticket?",
+      "options": [
+        "R$ 8",
+        "R$ 10",
+        "R$ 12",
+        "R$ 15",
+        "R$ 20"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 130,
+      "question": "Five friends discuss what day it is. Noah: 'Yesterday was Wednesday.' Paulo: 'Tomorrow is Friday.' Diego: 'Day before yesterday was Tuesday.' Ethan: 'Day after tomorrow is Saturday.' Arlo: 'Today is Monday.' One is wrong. Who?",
+      "options": [
+        "Noah",
+        "Paulo",
+        "Diego",
+        "Ethan",
+        "Arlo"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 131,
+      "question": "Numbers 1-8 are covered by triangles, squares, and a circle. Triangle sum = Square sum. Circle = 1/4 of triangle sum. What is the sum of numbers under triangles and circle?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 132,
+      "question": "Ines paints a parrot's head, tail, and wing using red, blue, or green. Head and tail may match, but wing must differ from both. How many unique paintings are possible?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 133,
+      "question": "Marco and Bruno ate ice cream every vacation day. Each ice cream had 2 or 3 scoops. Marco had 23 scoops total, Bruno had 19. What's the minimum number of vacation days?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 134,
+      "question": "A hotel has floors 1-30, each with rooms 1-20. Room codes join floor and room numbers (e.g., floor 11 room 1 = '111'). Code '111' is confusing (could be floor 1 room 11 or floor 11 room 1). How many confusing codes exist?",
+      "options": [
+        "2",
+        "5",
+        "9",
+        "12",
+        "18"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 135,
+      "question": "In a nursery group there are 14 girls and 12 boys. Half of the group go for a walk. What is the minimum number of girls that must be in that group?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 136,
+      "question": "In an enclosure, the sum of all kangaroos' ages is 36 years. In two years, all kangaroos together will be 60 years old. How many kangaroos are in the enclosure?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 0,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 137,
+      "question": "A die has the six smallest odd numbers (1, 3, 5, 7, 9, 11) on its faces. Rico rolls it three times and adds the results. Which sum is impossible to make?",
+      "options": [
+        "3",
+        "19",
+        "21",
+        "29",
+        "35"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 138,
+      "question": "In a witch's garden there are 30 animals: dogs, cats, and mice. She changes 6 dogs into cats, then 5 cats into mice. Now there are equal numbers of each. How many cats were there originally?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 139,
+      "question": "Robert makes 5 statements: A) My son Basil has 3 sisters. B) My daughter Ann has 2 brothers. C) Ann has 2 sisters. D) Basil has 2 brothers. E) I have 5 children. One is wrong. Which?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 140,
+      "question": "Emil takes selfies with his 8 cousins. Each cousin appears in 2 or 3 photos. Each photo has exactly 5 cousins. How many selfies does Emil take?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 141,
+      "question": "Linus builds a 4×4×4 cube using 32 white and 32 black small cubes. He arranges them so the surface has as much white as possible. What fraction of the surface is white?",
+      "options": [
+        "3/4",
+        "2/3",
+        "1/2",
+        "3/8",
+        "1/4"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 142,
+      "question": "Susanne is 6 years old. Her sister Lisa is 2 years younger. Brother Max is 2 years older than Susanne. How old are the 3 siblings altogether?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 143,
+      "question": "Leonie has stamps for digits 0-9. She stamps the date 15.03.2018. How many different stamps does she use?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 144,
+      "question": "Diana throws 3 darts at a target with two scoring zones. First throw: 12 points. Second throw: 15 points. If the zones are worth 3 and 6 points, and her third throw has 3 darts in the 6-point zone, how many points?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 145,
+      "question": "Felix the rabbit has 20 carrots and eats 2 each day. He ate the 12th carrot on a Wednesday. On which day did he start eating?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 146,
+      "question": "On 8 flowers, butterflies and dragonflies sit (at most 1 per flower). More than half the flowers are occupied. Butterflies = 2 × dragonflies. How many butterflies?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 147,
+      "question": "To slay a dragon, Mathias cuts off heads. When 3 heads are cut, 1 grows back. After cutting 13 heads total, the dragon dies. How many heads did it have initially?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 148,
+      "question": "A belt has 5 holes, each 2 cm apart. How much longer is the belt when using the 1st hole instead of the 5th?",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "10 cm",
+        "16 cm",
+        "20 cm"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 149,
+      "question": "Four apples and one pear weigh as much as three pears. What is correct?",
+      "options": [
+        "1 pear = 1 apple",
+        "3 apples = 1 pear",
+        "3 pears = 1 apple",
+        "2 pears = 1 apple",
+        "2 apples = 1 pear"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 150,
+      "question": "Balloons are sold in packages of 5, 10, or 25. Marius buys exactly 70 balloons. What is the minimum number of packages?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 151,
+      "question": "13 children registered for a competition, then 19 more joined. Six equally big teams are needed. How many more children are needed?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 152,
+      "question": "David has a stove with 2 hobs to prepare 5 dishes (40, 15, 35, 10, 45 min). He can only remove fully cooked dishes. Minimum time needed?",
+      "options": [
+        "60 min",
+        "70 min",
+        "75 min",
+        "80 min",
+        "85 min"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 153,
+      "question": "Four brothers ate 11 biscuits total. Everyone ate at least 1, all different amounts. Three brothers ate 9, one of them ate exactly 3. How many did the one who ate most have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 154,
+      "question": "In a 4×4 table with numbers [1,2,1,3; 4,1,1,2; 1,7,3,2; 2,1,3,1], find the 2×2 square with the greatest sum. What is this sum?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 155,
+      "question": "Susi wants to visit exactly 2 of 4 zoo animals (giraffe, elephant, lion, turtle) but won't start with the lion. How many different visit orders are possible?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "9",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 156,
+      "question": "Kate has flowers with 6, 7, 8, and 11 petals. She tears 1 petal from each of 3 different flowers, repeating until impossible. Minimum petals left?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 157,
+      "question": "If you multiply the digits of 35, you get 15 (3×5=15). What is the sum of the digits of 35?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 4,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 158,
+      "question": "Luis has 7 apples and 2 bananas. He gives 2 apples to Jacob, who gives him bananas in return. Now Luis has equal apples and bananas. How many bananas did he get?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 159,
+      "question": "10 runners start a race. At finish, there are 3 more runners behind Thomas than in front of him. In which position did Thomas finish?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 160,
+      "question": "Joseph has a car, teddy, ball, and ship. He arranges them so ship is next to car, and teddy is also next to car. How many different arrangements are possible?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 161,
+      "question": "Numbers 1,2,3,4,9 are placed in a cross pattern. The sum of 3 horizontal numbers equals the sum of 3 vertical numbers. What number is in the middle?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 162,
+      "question": "On a 3×3 grid of dots (9 dots), you can draw squares by joining 4 dots. How many different sizes of squares can you draw?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 163,
+      "question": "Thomas cuts a pig and shark drawing into 3 pieces each (head, middle, tail). He takes 1 head, 1 middle, 1 tail to make new animals. How many different animals can he make?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 164,
+      "question": "Anna baked 24, Berta 25, Charlie 26, David 27, Elisa 28 biscuits by weekend's end. One child has 2×, one 3×, one 4×, one 5×, one 6× their Saturday amount. Who baked most on Saturday?",
+      "options": [
+        "Anna",
+        "Berta",
+        "Charlie",
+        "David",
+        "Elisa"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 165,
+      "question": "Anna has 4 discs of different sizes. She builds a tower using 3 discs, where smaller must be on top of bigger. How many different towers can she build?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 166,
+      "question": "Weights of 1,2,3,4,5,6 kg are placed on two scale pans (5 weights) to balance. Which weight is left aside?",
+      "options": [
+        "1 kg",
+        "2 kg",
+        "3 kg",
+        "4 kg",
+        "5 kg"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 167,
+      "question": "North of Street A: 7 houses. East of Street B: 8 houses. South of Street A: 5 houses. How many houses West of Street B?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 168,
+      "question": "8 cars in a ferry queue have 19 people total. Each car has 2 or 3 people. How many cars have exactly 2 people?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 169,
+      "question": "6 beavers and 2 kangaroos stand in a row (8 positions). In every 3 consecutive animals, exactly 1 is a kangaroo. On which position does a kangaroo stand?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 170,
+      "question": "An underground train has stations A-B-C-D-E-F. It goes back and forth, stopping at each. Starting at B toward C, what is the 46th stop?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 171,
+      "question": "Three boys enter a room one after another. Hermann is not first, Felix is not second, Clemens is not third. How many different orders are possible?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 172,
+      "question": "Adam has 9 marbles, Brenda has 9. Together they have 8 white and 10 black. Brenda has twice as many black as white. How many black marbles does Adam have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 173,
+      "question": "Each shell is worth 6 points and each marble is worth 1 point. Nora has 4 shells and 3 marbles. What is their total value?",
+      "options": [
+        "21",
+        "24",
+        "25",
+        "27",
+        "30"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 174,
+      "question": "On a normal die, opposite faces add to 7. If the visible faces are 2, 4, and 6, what is the sum of the hidden faces?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 175,
+      "question": "Six sheep share 245 g of food. Five large sheep each get the same amount, and the small sheep gets twice as much as one large sheep. How much does the small sheep get?",
+      "options": [
+        "60 g",
+        "65 g",
+        "70 g",
+        "75 g",
+        "80 g"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 176,
+      "question": "Jana has toys weighing 18 g, 22 g, 25 g, 31 g, and 34 g. She divides them into two boxes of equal total weight. Which two toys can make one box by themselves?",
+      "options": [
+        "18 g and 34 g",
+        "22 g and 31 g",
+        "25 g and 34 g",
+        "31 g and 34 g",
+        "18 g and 25 g"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 177,
+      "question": "A 4 by 7 board has 28 white squares. Ira paints 2 whole rows and 1 whole column. How many white squares remain?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "17"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 178,
+      "question": "Lizzy spends 7 identical coins on three fruits. The three prices are different positive whole numbers of coins. What is the largest possible price of the most expensive fruit?",
+      "options": [
+        "2 coins",
+        "3 coins",
+        "4 coins",
+        "5 coins",
+        "6 coins"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 179,
+      "question": "A parent brings 9 fish home every day for two children. One child gets 5 fish and the other gets 4 fish each day. After several days, one child has received 26 fish. How many fish has the other child received?",
+      "options": [
+        "19",
+        "22",
+        "25",
+        "28",
+        "31"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 180,
+      "question": "60 children stand in a row. Their vests alternate yellow, green, yellow, green, and their backpacks repeat red, brown, purple. How many children have a yellow vest and a purple backpack?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 181,
+      "question": "For each birthday, Maria gets as many teddy bears as her age. How many teddy bears has she received in total just after her 6th birthday?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 182,
+      "question": "Robert sits in a classroom with 2 children to his left and 3 to his right. There are 2 rows in front of him and 1 row behind him. How many children are in the class?",
+      "options": [
+        "8",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 183,
+      "question": "Three football teams each play the other teams once. A win gives 3 points and a draw gives 1 point. Which final score is impossible for one team?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 184,
+      "question": "Laura eats 2 more plums than Sophie. Bettina eats 3 fewer than Laura. Clara eats 1 more than Bettina and 3 fewer than Alice. Which two girls eat the same number of plums?",
+      "options": [
+        "Alice and Bettina",
+        "Alice and Laura",
+        "Alice and Sophie",
+        "Clara and Laura",
+        "Clara and Sophie"
+      ],
+      "correctAnswer": 4,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 185,
+      "question": "A gold rocket and a silver rocket make 20 stars in total. The gold rocket makes 6 more stars than the silver rocket. How many stars does the gold rocket make?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctAnswer": 3,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 186,
+      "question": "An ice cream shop drawer has some money in it. After 6 ice creams are sold, it has 70 euros. After 16 ice creams are sold, it has 120 euros. How much money was in the drawer at the start?",
+      "options": [
+        "20 euros",
+        "30 euros",
+        "40 euros",
+        "50 euros",
+        "60 euros"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 187,
+      "question": "A koala eats from 3 branches with 20 leaves each. It eats some leaves from the first branch, then exactly as many from the second as remain on the first, then 2 from the third. How many leaves remain in all?",
+      "options": [
+        "20",
+        "22",
+        "28",
+        "32",
+        "38"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 188,
+      "question": "Mia hits balloons worth 3, 9, 13, 14, and 18 points and scores exactly 30. Which balloon must she have hit?",
+      "options": [
+        "3",
+        "9",
+        "13",
+        "14",
+        "18"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 189,
+      "question": "A box has fewer than 50 cookies. They can be shared equally by 2, 3, or 4 children. To share them equally by 7 children, 6 more cookies are needed. How many cookies are in the box?",
+      "options": [
+        "12",
+        "24",
+        "30",
+        "36",
+        "48"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 190,
+      "question": "A kangaroo starts on step 0 and jumps up 7 steps each time. A rabbit starts on step 100 and jumps down 3 steps each time. When the kangaroo reaches step 56, which step is the rabbit on?",
+      "options": [
+        "73",
+        "76",
+        "79",
+        "82",
+        "85"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 191,
+      "question": "A parrot's head, tail, and wing are painted red, blue, or green. The head and tail may match, but the wing must be different from both. How many different parrots can be painted?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 192,
+      "question": "Two friends eat one ice cream every vacation day. Each ice cream has 2 or 3 scoops. One friend eats 23 scoops total and the other eats 19. What is the minimum number of vacation days?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 193,
+      "question": "Linda pins photos in a row. Three photos need 8 pins, and each extra photo needs 2 more pins. How many pins are needed for 7 photos?",
+      "options": [
+        "14",
+        "16",
+        "18",
+        "22",
+        "26"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 194,
+      "question": "A cake is halved, then one piece is halved, then one of those pieces is halved, and then one of the smallest pieces is halved again. If one smallest piece weighs 100 g, how much did the whole cake weigh?",
+      "options": [
+        "600 g",
+        "800 g",
+        "1200 g",
+        "1600 g",
+        "2000 g"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 195,
+      "question": "A full glass of water weighs 400 g. The empty glass weighs 100 g. How much does the glass weigh when it is half full?",
+      "options": [
+        "150 g",
+        "200 g",
+        "225 g",
+        "250 g",
+        "300 g"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 196,
+      "question": "A square picture with side length 7 cm needs 32 small squares to make a one-square-wide frame. How many small squares are needed to frame a 10 cm by 10 cm picture?",
+      "options": [
+        "36",
+        "40",
+        "44",
+        "48",
+        "52"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 197,
+      "question": "The pages of a book are numbered 1, 2, 3, and so on. The digit 5 appears exactly 16 times. What is the largest possible number of pages?",
+      "options": [
+        "56",
+        "64",
+        "72",
+        "80",
+        "88"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 198,
+      "question": "A farm has 15 animals: cows, cats, and kangaroos. Exactly 10 animals are not cows, and exactly 8 animals are not cats. How many kangaroos are on the farm?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "10",
+        "18"
+      ],
+      "correctAnswer": 1,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 199,
+      "question": "Susanne is 7 years old. Her sister is 3 years younger, and her brother is 2 years older than Susanne. How old are the three children altogether?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 200,
+      "question": "Leonie has digit stamps from 0 to 9. She stamps the date 21.03.2024. How many different digit stamps does she use?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 201,
+      "question": "On 10 flowers, at most one insect sits on each flower. More than half but fewer than 8 flowers are occupied. The number of butterflies is twice the number of dragonflies. How many butterflies are there?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 202,
+      "question": "A belt has 6 holes in a row, each 2 cm from the next. How much longer is the belt when closed at the first hole instead of the sixth?",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "16 cm"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 203,
+      "question": "Balloons are sold in packs of 5, 10, or 25. What is the fewest packs needed to buy exactly 85 balloons?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 204,
+      "question": "14 children registered for a contest, then 20 more joined. Six equal teams are needed. How many more children are needed?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 205,
+      "question": "David cooks 5 dishes on 2 burners. The dishes take 30, 20, 45, 15, and 35 minutes. A dish can only be removed when fully cooked. What is the shortest possible cooking time?",
+      "options": [
+        "65 min",
+        "70 min",
+        "75 min",
+        "80 min",
+        "85 min"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 206,
+      "question": "There are 10 cars in a ferry queue with 24 people altogether. Each car has either 2 or 3 people. How many cars have exactly 2 people?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 207,
+      "question": "Adam and Brenda each have 12 marbles. Together they have 10 white and 14 black marbles. Brenda has twice as many black marbles as white marbles. How many black marbles does Adam have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 208,
+      "question": "A train line has stations A-B-C-D-E-F and then returns back along the same stations. Starting at B toward C, what is the 32nd stop after it leaves B?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 209,
+      "question": "A red kangaroo and a gray kangaroo weigh 139 kg together. The red kangaroo weighs 35 kg less than the gray kangaroo. How much does the gray kangaroo weigh?",
+      "options": [
+        "52 kg",
+        "53 kg",
+        "87 kg",
+        "96 kg",
+        "104 kg"
+      ],
+      "correctAnswer": 2,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 210,
+      "question": "A bee visits four flowers: red, blue, yellow, and white. She starts on red, visits each flower once, and never flies directly from yellow to white. How many orders are possible?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 211,
+      "question": "Clara lives 12 floors above Matthew. When Matthew climbs halfway from his apartment to Clara's, he is on the 8th floor. On what floor does Clara live?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 212,
+      "question": "Three students guessed the number of library books: 2010, 1998, and 2015. Their errors were 12, 7, and 5 in some order. How many books were there?",
+      "options": [
+        "2003",
+        "2005",
+        "2008",
+        "2020",
+        "2022"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 213,
+      "question": "Michael paints one letter of KANGAROO each day. He paints K on Wednesday. What day does he paint the last O?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correctAnswer": 2,
+      "points": 3,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 214,
+      "question": "Four friends ended sitting left to right as Masha, Sasha, Dasha, Pasha. Just before that, Dasha and Pasha swapped; before that, Masha and Dasha swapped. What was the original order?",
+      "options": [
+        "Masha, Sasha, Dasha, Pasha",
+        "Masha, Dasha, Pasha, Sasha",
+        "Dasha, Sasha, Pasha, Masha",
+        "Sasha, Masha, Dasha, Pasha",
+        "Pasha, Masha, Sasha, Dasha"
+      ],
+      "correctAnswer": 2,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 215,
+      "question": "Gregory makes two 3-digit numbers using the digits 1, 2, 3, 4, 5, and 6 exactly once. What is the greatest possible sum?",
+      "options": [
+        "975",
+        "999",
+        "1083",
+        "1173",
+        "1221"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 216,
+      "question": "Pinocchio's nose is 9 cm long. Each lie adds 6 cm and each truth subtracts 2 cm. After 3 lies and 2 truths, how long is it?",
+      "options": [
+        "14 cm",
+        "15 cm",
+        "19 cm",
+        "23 cm",
+        "31 cm"
+      ],
+      "correctAnswer": 3,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 217,
+      "question": "A triangle is reduced by joining side midpoints, then the smaller triangle is reduced the same way. How many of the smallest triangles fit in the original triangle?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "16",
+        "32"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 218,
+      "question": "A bowl of candy is halved by Sally, then the remainder is halved by Tom, then the remainder is halved by Clara. If 6 candies remain, how many were there at first?",
+      "options": [
+        "12",
+        "18",
+        "20",
+        "24",
+        "48"
+      ],
+      "correctAnswer": 4,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 219,
+      "question": "A barrel can be filled by 6 small, 3 medium, and 1 large pitcher, or by 2 small, 1 medium, and 3 large pitchers. How many large pitchers alone fill the barrel?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 220,
+      "question": "The digit sum of 2016 is 9. What is the next year after 2016 whose digits also add to 9?",
+      "options": [
+        "2007",
+        "2025",
+        "2034",
+        "2108",
+        "2134"
+      ],
+      "correctAnswer": 1,
+      "points": 4,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    },
+    {
+      "id": 221,
+      "question": "Each magic tree has either 6 pears and 3 apples, or 8 pears and 4 apples. If there are 25 apples in all, how many pears are there?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "56"
+      ],
+      "correctAnswer": 3,
+      "points": 5,
+      "gradeBand": "3-4",
+      "source": "Math Quest Portal",
+      "tags": []
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js privacy.html www/ && cp -r icons www/",
+    "build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js privacy.html www/ && cp -r icons data www/",
+    "validate:questions": "node scripts/validate-questions.js",
     "icons": "node scripts/generate-icons.js",
     "ios:sync": "npm run build && npx cap sync ios",
     "ios:open": "npx cap open ios",
