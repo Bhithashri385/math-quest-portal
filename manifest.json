@@ -1,6 +1,6 @@
 {
-  "name": "Math Quest Portal",
-  "short_name": "Math Quest",
+  "name": "Think Math AI",
+  "short_name": "Think Math AI",
   "description": "Practice math exams for grades 1-8 with competition-style questions",
   "start_url": "/",
   "display": "standalone",

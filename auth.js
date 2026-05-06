@@ -1,5 +1,5 @@
 /**
- * Math Quest Portal - Authentication & User Management
+ * Think Math AI - Authentication & User Management
  * Uses localStorage for persistence
  */
 

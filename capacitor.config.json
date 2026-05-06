@@ -1,6 +1,6 @@
 {
   "appId": "com.mathquest.portal",
-  "appName": "Math Quest",
+  "appName": "Think Math AI",
   "webDir": "www",
   "server": {
     "androidScheme": "https"

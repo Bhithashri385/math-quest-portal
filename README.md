@@ -1,8 +1,8 @@
-# Math Quest Portal 🧮
+# Think Math AI Portal 🧮
 
 A beautiful, modern math practice portal featuring questions inspired by international math competitions.
 
-![Math Quest Portal](https://img.shields.io/badge/version-1.0.0-blue)
+![Think Math AI Portal](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Features
@@ -92,3 +92,8 @@ MIT License - feel free to use and modify!
 
 Made with ❤️ for math enthusiasts
 
+
+### App description
+
+Think Math AI is a kid-friendly educational app designed to help children
+practice math skills through interactive quests and challenges.

@@ -1,31 +1,37 @@
 {
   "name": "math-quest-portal",
   "version": "1.0.0",
-  "description": "Practice math exams for grades 1-8 with competition-style questions",
-  "main": "index.html",
+  "description": "MathMentor AI (Grades 3–5) web MVP",
+  "private": true,
   "scripts": {
-    "start": "npx serve .",
-    "build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js privacy.html www/ && cp -r icons data www/",
-    "validate:questions": "node scripts/validate-questions.js",
-    "icons": "node scripts/generate-icons.js",
-    "ios:sync": "npm run build && npx cap sync ios",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "legacy:serve": "npx serve .",
+    "legacy:build": "mkdir -p www && cp index.html app.js auth.js questions.js styles.css manifest.json service-worker.js www/ && cp -r icons www/",
+    "ios:sync": "npm run legacy:build && npx cap sync ios",
     "ios:open": "npx cap open ios",
     "ios": "npm run ios:sync && npm run ios:open"
   },
-  "keywords": [
-    "math",
-    "education",
-    "practice",
-    "exams",
-    "kids"
-  ],
+  "keywords": ["math", "education", "practice", "exams", "kids"],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.1",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tesseract.js": "^6.0.1"
+  },
   "devDependencies": {
     "@capacitor/cli": "^6.0.0",
     "@capacitor/core": "^6.0.0",
     "@capacitor/ios": "^6.0.0",
-    "canvas": "^3.2.1",
-    "serve": "^14.2.0"
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "serve": "^14.2.0",
+    "typescript": "^5.8.3"
   }
 }

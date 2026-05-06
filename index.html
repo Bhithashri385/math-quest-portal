@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
-    <title>Math Quest Portal | Practice Math Exams</title>
+    <title>Think Math AI | Practice Math Exams</title>
     
     <!-- PWA Meta Tags -->
     <link rel="manifest" href="manifest.json">
@@ -13,7 +13,7 @@
     <!-- iOS/Apple Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Math Quest">
+    <meta name="apple-mobile-web-app-title" content="Think Math AI">
     <meta name="mobile-web-app-capable" content="yes">
     
     <!-- iOS Icons -->
@@ -98,7 +98,7 @@
             <header class="main-header">
                 <div class="logo" onclick="goHome()" style="cursor: pointer;">
                     <span class="logo-icon">◈</span>
-                    <span class="logo-text">Math Quest</span>
+                    <span class="logo-text">Think Math AI</span>
                 </div>
                 <nav class="nav-links">
                     <a href="#" class="nav-link active" onclick="goHome()">Practice</a>
@@ -201,7 +201,7 @@
                 </div>
             </main>
             <footer class="main-footer">
-                <p>Practice math problems for all grade levels • <a href="privacy.html" style="color: var(--accent-primary); text-decoration: none;">Privacy Policy</a></p>
+                <p>Practice math problems for all grade levels</p>
             </footer>
         </section>
 
@@ -372,7 +372,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js')
+                navigator.serviceWorker.register('/service-worker.js')
                     .then(registration => {
                         console.log('ServiceWorker registered:', registration.scope);
                     })

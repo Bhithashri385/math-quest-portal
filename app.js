@@ -1,5 +1,5 @@
 /**
- * Math Quest Portal - Main Application Logic
+ * Think Math AI - Main Application Logic
  * Handles exam flow, answer checking, and results display
  */
 
@@ -15,25 +15,13 @@ let currentExam = {
 
 // Timer
 let timerInterval = null;
-let questionsLoaded = false;
 
 // Initialize the app
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     // Add SVG gradient for score circle
     addSVGGradient();
-
-    try {
-        await loadQuestionBank();
-        questionsLoaded = true;
-        // Update question counts on dashboard
-        updateQuestionCounts();
-    } catch (error) {
-        console.error('Failed to load questions:', error);
-        const totalTag = document.getElementById('total-questions-tag');
-        if (totalTag) {
-            totalTag.textContent = 'Unable to load questions';
-        }
-    }
+    // Update question counts on dashboard
+    updateQuestionCounts();
 });
 
 // Update question counts dynamically
@@ -109,11 +97,6 @@ function goHome() {
 
 // Start Exam
 function startExam(grade) {
-    if (!questionsLoaded) {
-        alert('Questions are still loading. Please try again in a moment.');
-        return;
-    }
-
     currentExam.grade = grade;
     currentExam.questions = [...getQuestionsForGrade(grade)];
     currentExam.currentQuestionIndex = 0;
@@ -451,3 +434,4 @@ function retryExam() {
         startExam(currentExam.grade);
     }
 }
+
