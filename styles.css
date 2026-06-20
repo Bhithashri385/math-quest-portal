@@ -1172,6 +1172,14 @@ body {
     color: var(--text-muted);
 }
 
+.dropdown-role {
+    display: block;
+    color: var(--accent-secondary);
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
 .dropdown-item {
     display: block;
     padding: 0.75rem 1rem;
@@ -1260,6 +1268,95 @@ body {
     color: var(--bg-primary);
 }
 
+.role-picker {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.role-picker label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    min-height: 42px;
+    padding: 0.6rem 0.5rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.role-picker label:has(input:checked) {
+    border-color: var(--border-accent);
+    color: var(--text-primary);
+    background: var(--accent-glow);
+}
+
+.role-picker input {
+    accent-color: var(--accent-primary);
+}
+
+.google-login-btn {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    background: #fff;
+    color: #1f2937;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    transition: all 0.2s ease;
+}
+
+.google-login-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-lg);
+}
+
+.google-mark {
+    display: inline-flex;
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #4285f4;
+    font-weight: 800;
+}
+
+.auth-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    margin: 1rem 0;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border-subtle);
+}
+
+.form-help {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    margin: -0.35rem 0 1rem;
+}
+
 .form-group {
     margin-bottom: 1rem;
 }
@@ -1316,6 +1413,137 @@ body {
 .auth-submit-btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-glow);
+}
+
+.whatsapp-submit-btn {
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+}
+
+.role-welcome {
+    padding: 0.85rem 1rem;
+    margin-top: 1rem;
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-md);
+    background: rgba(245, 158, 11, 0.08);
+    color: var(--text-secondary);
+    max-width: 640px;
+}
+
+.role-welcome strong {
+    color: var(--accent-secondary);
+}
+
+.support-chat {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 900;
+}
+
+.support-chat-toggle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid var(--border-accent);
+    background: var(--gradient-accent);
+    color: var(--bg-primary);
+    font-size: 1.4rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: var(--shadow-glow);
+}
+
+.support-chat-panel {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    width: min(360px, calc(100vw - 2rem));
+    height: 460px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.support-chat-header {
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-subtle);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.support-chat-header span {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+}
+
+.support-chat-header button {
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.support-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.support-message {
+    max-width: 86%;
+    padding: 0.75rem 0.85rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+}
+
+.support-message.bot {
+    align-self: flex-start;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.support-message.user {
+    align-self: flex-end;
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
+.support-chat-form {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.85rem;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.support-chat-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.75rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.support-chat-form button {
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: 0 0.85rem;
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    font-weight: 700;
+    cursor: pointer;
 }
 
 /* ============================================
@@ -1634,4 +1862,3 @@ body {
 }
 
 /* SVG Gradient Definition (added via JS) */
-

@@ -11,6 +11,9 @@ A beautiful, modern math practice portal featuring questions inspired by interna
 - ⏱️ **Timed Exams**: Track your progress with a built-in timer
 - ✅ **Instant Results**: See your score immediately after completing the exam
 - 📊 **Detailed Review**: Review all answers with correct solutions
+- 🔐 **Role-Based Login**: Separate Admin, Teacher, and Parent account contexts
+- 🟢 **Google & WhatsApp Signup**: Google login hooks plus WhatsApp-number signup for future verification
+- 💬 **Customer Service Chat**: In-app support assistant with a message queue ready for WhatsApp handoff
 - 🎨 **Modern UI**: Beautiful dark theme with smooth animations
 - 📱 **Responsive Design**: Works on desktop, tablet, and mobile devices
 
@@ -22,6 +25,24 @@ A beautiful, modern math practice portal featuring questions inspired by interna
 2. Select your grade level
 3. Answer the questions
 4. Submit and review your results!
+
+### Authentication Setup
+
+The app supports three role contexts:
+
+- **Admin**: school management and support setup
+- **Teacher**: classroom practice and student progress workflows
+- **Parent**: home practice and child progress workflows
+
+Local username/password accounts are stored in browser `localStorage`. Google login is wired through Google Identity Services. For production, set the client ID in `index.html`:
+
+```html
+<meta name="google-signin-client_id" content="YOUR_GOOGLE_CLIENT_ID">
+```
+
+During local preview without a configured client ID, the Google button uses a browser prompt fallback so the UI can be tested without backend infrastructure.
+
+WhatsApp signup captures display name, role, and phone number in local storage today. The support chat stores messages locally and can hand the same payload to a WhatsApp Business/API integration in a later backend phase.
 
 ### Using a Local Server (Recommended)
 
@@ -42,6 +63,7 @@ math-practice-portal/
 ├── index.html      # Main HTML file
 ├── styles.css      # Styles and animations
 ├── app.js          # Application logic
+├── auth.js         # Auth, role login, WhatsApp signup, support chat
 ├── questions.js    # Question bank for all grades
 └── README.md       # This file
 ```
@@ -91,4 +113,3 @@ MIT License - feel free to use and modify!
 ---
 
 Made with ❤️ for math enthusiasts
-

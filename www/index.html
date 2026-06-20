@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
     <title>Math Quest Portal | Practice Math Exams</title>
+    <meta name="google-signin-client_id" content="">
     
     <!-- PWA Meta Tags -->
     <link rel="manifest" href="manifest.json">
@@ -45,10 +46,21 @@
                 <div class="auth-tabs">
                     <button class="auth-tab active" id="login-tab" onclick="switchAuthMode('login')">Login</button>
                     <button class="auth-tab" id="signup-tab" onclick="switchAuthMode('signup')">Sign Up</button>
+                    <button class="auth-tab" id="whatsapp-tab" onclick="switchAuthMode('whatsapp')">WhatsApp</button>
                 </div>
                 
                 <!-- Login Form -->
                 <form id="login-form" onsubmit="handleLogin(event)">
+                    <div class="role-picker" aria-label="Choose login role">
+                        <label><input type="radio" name="login-role" value="admin"> Admin</label>
+                        <label><input type="radio" name="login-role" value="teacher"> Teacher</label>
+                        <label><input type="radio" name="login-role" value="parent" checked> Parent</label>
+                    </div>
+                    <button type="button" class="google-login-btn" onclick="handleGoogleLogin()">
+                        <span class="google-mark">G</span>
+                        Continue with Google
+                    </button>
+                    <div class="auth-divider"><span>or use a password</span></div>
                     <div class="form-group">
                         <label for="login-username">Username</label>
                         <input type="text" id="login-username" placeholder="Enter username" required>
@@ -63,6 +75,11 @@
                 
                 <!-- Signup Form -->
                 <form id="signup-form" style="display: none;" onsubmit="handleSignup(event)">
+                    <div class="role-picker" aria-label="Choose signup role">
+                        <label><input type="radio" name="signup-role" value="admin"> Admin</label>
+                        <label><input type="radio" name="signup-role" value="teacher"> Teacher</label>
+                        <label><input type="radio" name="signup-role" value="parent" checked> Parent</label>
+                    </div>
                     <div class="form-group">
                         <label for="signup-displayname">Display Name</label>
                         <input type="text" id="signup-displayname" placeholder="Your name">
@@ -77,6 +94,26 @@
                     </div>
                     <div class="form-error" id="signup-error"></div>
                     <button type="submit" class="auth-submit-btn">Create Account</button>
+                </form>
+
+                <!-- WhatsApp Signup Form -->
+                <form id="whatsapp-signup-form" style="display: none;" onsubmit="handleWhatsappSignup(event)">
+                    <div class="role-picker" aria-label="Choose WhatsApp signup role">
+                        <label><input type="radio" name="whatsapp-role" value="admin"> Admin</label>
+                        <label><input type="radio" name="whatsapp-role" value="teacher"> Teacher</label>
+                        <label><input type="radio" name="whatsapp-role" value="parent" checked> Parent</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp-displayname">Display Name</label>
+                        <input type="text" id="whatsapp-displayname" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp-phone">WhatsApp Number</label>
+                        <input type="tel" id="whatsapp-phone" placeholder="+1 555 123 4567" required>
+                    </div>
+                    <p class="form-help">We will use this number for future WhatsApp support and account verification.</p>
+                    <div class="form-error" id="whatsapp-error"></div>
+                    <button type="submit" class="auth-submit-btn whatsapp-submit-btn">Sign Up with WhatsApp</button>
                 </form>
             </div>
         </div>
@@ -117,6 +154,7 @@
                         <div class="dropdown-menu" id="dropdown-menu">
                             <div class="dropdown-header">
                                 <span class="dropdown-name" id="dropdown-name">User</span>
+                                <span class="dropdown-role" id="dropdown-role">Parent login</span>
                                 <span class="dropdown-stats" id="dropdown-stats">0 exams</span>
                             </div>
                             <a href="#" class="dropdown-item" onclick="showHistoryPage(); toggleUserMenu();">📊 My History</a>
@@ -139,6 +177,7 @@
                         <span class="badge-icon">📚</span>
                         Questions inspired by international math competitions
                     </div>
+                    <div class="role-welcome" id="role-welcome" style="display: none;"></div>
                     <div class="feature-tags">
                         <span class="feature-tag">🔀 Randomized Each Time</span>
                         <span class="feature-tag">📅 All Grade Levels</span>
@@ -364,7 +403,27 @@
             </main>
         </section>
     </div>
+    <div class="support-chat" id="support-chat">
+        <button class="support-chat-toggle" id="support-chat-toggle" onclick="toggleSupportChat()" aria-label="Open customer service chat">
+            <span>?</span>
+        </button>
+        <section class="support-chat-panel" id="support-chat-panel" aria-label="Customer service chat" style="display: none;">
+            <header class="support-chat-header">
+                <div>
+                    <strong>Math Quest Support</strong>
+                    <span>WhatsApp handoff ready</span>
+                </div>
+                <button onclick="toggleSupportChat()" aria-label="Close chat">×</button>
+            </header>
+            <div class="support-chat-messages" id="support-chat-messages"></div>
+            <form class="support-chat-form" onsubmit="handleSupportMessage(event)">
+                <input id="support-chat-input" type="text" placeholder="Ask about login, classes, or billing" autocomplete="off">
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
     <script src="questions.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="auth.js"></script>
     <script src="app.js"></script>
     

@@ -3,6 +3,76 @@
  * Uses localStorage for persistence
  */
 
+const USER_ROLES = {
+    admin: {
+        label: 'Admin',
+        homeTitle: 'School Admin',
+        welcome: 'Manage students, teachers, parent access, and support requests.'
+    },
+    teacher: {
+        label: 'Teacher',
+        homeTitle: 'Teacher',
+        welcome: 'Create practice routines, review progress, and help students improve.'
+    },
+    parent: {
+        label: 'Parent',
+        homeTitle: 'Parent',
+        welcome: 'Track practice, review results, and support learning at home.'
+    }
+};
+
+const DEFAULT_ROLE = 'parent';
+
+function normalizeRole(role) {
+    return USER_ROLES[role] ? role : DEFAULT_ROLE;
+}
+
+function roleLabel(role) {
+    return USER_ROLES[normalizeRole(role)].label;
+}
+
+function roleFromForm(fieldName) {
+    const selected = document.querySelector(`input[name="${fieldName}"]:checked`);
+    return normalizeRole(selected ? selected.value : DEFAULT_ROLE);
+}
+
+function normalizePhone(rawValue) {
+    return String(rawValue || '').replace(/[^\d+]/g, '').trim();
+}
+
+function isValidPhone(rawValue) {
+    return /^\+?\d{10,15}$/.test(normalizePhone(rawValue));
+}
+
+function googleClientId() {
+    const meta = document.querySelector('meta[name="google-signin-client_id"]');
+    return (meta && meta.content && meta.content.trim())
+        || localStorage.getItem('mathquest_google_client_id')
+        || '';
+}
+
+function decodeJwtPayload(token) {
+    try {
+        const base64 = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+        const json = decodeURIComponent(atob(base64).split('').map(char => {
+            return `%${(`00${char.charCodeAt(0).toString(16)}`).slice(-2)}`;
+        }).join(''));
+        return JSON.parse(json);
+    } catch (error) {
+        console.warn('Unable to decode Google credential payload:', error);
+        return {};
+    }
+}
+
+function escapeHtml(value) {
+    return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
 // User Management
 const UserManager = {
     // Get all users
@@ -21,7 +91,11 @@ const UserManager = {
         const username = localStorage.getItem('mathquest_current_user');
         if (!username) return null;
         const users = this.getUsers();
-        return users[username] || null;
+        const user = users[username] || null;
+        if (user && !user.role) {
+            user.role = DEFAULT_ROLE;
+        }
+        return user;
     },
 
     // Get current username
@@ -29,8 +103,22 @@ const UserManager = {
         return localStorage.getItem('mathquest_current_user');
     },
 
+    createUserRecord({ username, password, displayName, role, provider, email, phone }) {
+        return {
+            username,
+            password: password ? this.hashPassword(password) : null,
+            displayName: displayName || username,
+            email: email || '',
+            phone: phone || '',
+            role: normalizeRole(role),
+            provider: provider || 'password',
+            createdAt: new Date().toISOString(),
+            history: []
+        };
+    },
+
     // Register new user
-    register(username, password, displayName) {
+    register(username, password, displayName, role = DEFAULT_ROLE) {
         const users = this.getUsers();
         
         if (users[username]) {
@@ -45,20 +133,76 @@ const UserManager = {
             return { success: false, error: 'Password must be at least 4 characters' };
         }
 
-        users[username] = {
+        users[username] = this.createUserRecord({
             username,
-            password: this.hashPassword(password),
+            password,
             displayName: displayName || username,
-            createdAt: new Date().toISOString(),
-            history: []
-        };
+            role,
+            provider: 'password'
+        });
 
         this.saveUsers(users);
         return { success: true };
     },
 
+    loginWithGoogle(profile, role = DEFAULT_ROLE) {
+        const users = this.getUsers();
+        const email = String(profile.email || '').trim().toLowerCase();
+        if (!email) {
+            return { success: false, error: 'Google account email is required' };
+        }
+
+        const username = `google:${email}`;
+        if (!users[username]) {
+            users[username] = this.createUserRecord({
+                username,
+                displayName: profile.name || email.split('@')[0],
+                email,
+                role,
+                provider: 'google'
+            });
+        } else {
+            users[username].displayName = profile.name || users[username].displayName || email.split('@')[0];
+            users[username].email = email;
+            users[username].role = normalizeRole(role || users[username].role);
+            users[username].provider = 'google';
+        }
+
+        this.saveUsers(users);
+        localStorage.setItem('mathquest_current_user', username);
+        return { success: true, user: users[username] };
+    },
+
+    signupWithWhatsapp(displayName, phone, role = DEFAULT_ROLE) {
+        const normalizedPhone = normalizePhone(phone);
+        if (!displayName || displayName.length < 2) {
+            return { success: false, error: 'Name must be at least 2 characters' };
+        }
+        if (!isValidPhone(normalizedPhone)) {
+            return { success: false, error: 'Enter a valid WhatsApp phone number with country code' };
+        }
+
+        const users = this.getUsers();
+        const username = `whatsapp:${normalizedPhone}`;
+        if (users[username]) {
+            return { success: false, error: 'A WhatsApp account already exists for this number' };
+        }
+
+        users[username] = this.createUserRecord({
+            username,
+            displayName,
+            phone: normalizedPhone,
+            role,
+            provider: 'whatsapp'
+        });
+
+        this.saveUsers(users);
+        localStorage.setItem('mathquest_current_user', username);
+        return { success: true, user: users[username] };
+    },
+
     // Login user
-    login(username, password) {
+    login(username, password, role = null) {
         const users = this.getUsers();
         const user = users[username];
 
@@ -66,8 +210,14 @@ const UserManager = {
             return { success: false, error: 'User not found' };
         }
 
-        if (user.password !== this.hashPassword(password)) {
+        if (!user.password || user.password !== this.hashPassword(password)) {
             return { success: false, error: 'Incorrect password' };
+        }
+
+        const selectedRole = role ? normalizeRole(role) : null;
+        const userRole = normalizeRole(user.role);
+        if (selectedRole && userRole !== selectedRole) {
+            return { success: false, error: `This account is registered as ${roleLabel(userRole)}` };
         }
 
         localStorage.setItem('mathquest_current_user', username);
@@ -196,43 +346,66 @@ function hideAuthModal() {
 function switchAuthMode(mode) {
     const loginForm = document.getElementById('login-form');
     const signupForm = document.getElementById('signup-form');
+    const whatsappForm = document.getElementById('whatsapp-signup-form');
     const loginTab = document.getElementById('login-tab');
     const signupTab = document.getElementById('signup-tab');
+    const whatsappTab = document.getElementById('whatsapp-tab');
 
     if (mode === 'login') {
         loginForm.style.display = 'block';
         signupForm.style.display = 'none';
+        whatsappForm.style.display = 'none';
         loginTab.classList.add('active');
         signupTab.classList.remove('active');
-    } else {
+        whatsappTab.classList.remove('active');
+    } else if (mode === 'signup') {
         loginForm.style.display = 'none';
         signupForm.style.display = 'block';
+        whatsappForm.style.display = 'none';
         loginTab.classList.remove('active');
         signupTab.classList.add('active');
+        whatsappTab.classList.remove('active');
+    } else {
+        loginForm.style.display = 'none';
+        signupForm.style.display = 'none';
+        whatsappForm.style.display = 'block';
+        loginTab.classList.remove('active');
+        signupTab.classList.remove('active');
+        whatsappTab.classList.add('active');
     }
     clearAuthErrors();
 }
 
 function clearAuthForms() {
-    document.getElementById('login-username').value = '';
-    document.getElementById('login-password').value = '';
-    document.getElementById('signup-username').value = '';
-    document.getElementById('signup-password').value = '';
-    document.getElementById('signup-displayname').value = '';
+    [
+        'login-username',
+        'login-password',
+        'signup-username',
+        'signup-password',
+        'signup-displayname',
+        'whatsapp-displayname',
+        'whatsapp-phone'
+    ].forEach(id => {
+        const field = document.getElementById(id);
+        if (field) field.value = '';
+    });
     clearAuthErrors();
 }
 
 function clearAuthErrors() {
-    document.getElementById('login-error').textContent = '';
-    document.getElementById('signup-error').textContent = '';
+    ['login-error', 'signup-error', 'whatsapp-error'].forEach(id => {
+        const error = document.getElementById(id);
+        if (error) error.textContent = '';
+    });
 }
 
 function handleLogin(event) {
     event.preventDefault();
     const username = document.getElementById('login-username').value.trim();
     const password = document.getElementById('login-password').value;
+    const role = roleFromForm('login-role');
 
-    const result = UserManager.login(username, password);
+    const result = UserManager.login(username, password, role);
     
     if (result.success) {
         hideAuthModal();
@@ -247,16 +420,78 @@ function handleSignup(event) {
     const username = document.getElementById('signup-username').value.trim();
     const password = document.getElementById('signup-password').value;
     const displayName = document.getElementById('signup-displayname').value.trim();
+    const role = roleFromForm('signup-role');
 
-    const result = UserManager.register(username, password, displayName);
+    const result = UserManager.register(username, password, displayName, role);
     
     if (result.success) {
         // Auto login after signup
-        UserManager.login(username, password);
+        UserManager.login(username, password, role);
         hideAuthModal();
         updateAuthUI();
     } else {
         document.getElementById('signup-error').textContent = result.error;
+    }
+}
+
+function handleWhatsappSignup(event) {
+    event.preventDefault();
+    const displayName = document.getElementById('whatsapp-displayname').value.trim();
+    const phone = document.getElementById('whatsapp-phone').value.trim();
+    const role = roleFromForm('whatsapp-role');
+
+    const result = UserManager.signupWithWhatsapp(displayName, phone, role);
+
+    if (result.success) {
+        hideAuthModal();
+        updateAuthUI();
+    } else {
+        document.getElementById('whatsapp-error').textContent = result.error;
+    }
+}
+
+function handleGoogleCredentialResponse(response) {
+    const role = roleFromForm('login-role');
+    const profile = decodeJwtPayload(response.credential || '');
+    const result = UserManager.loginWithGoogle(profile, role);
+    if (result.success) {
+        hideAuthModal();
+        updateAuthUI();
+    } else {
+        document.getElementById('login-error').textContent = result.error;
+    }
+}
+
+function handleGoogleLogin() {
+    const role = roleFromForm('login-role');
+    const clientId = googleClientId();
+
+    if (window.google && window.google.accounts && window.google.accounts.id && clientId) {
+        window.google.accounts.id.initialize({
+            client_id: clientId,
+            callback: handleGoogleCredentialResponse
+        });
+        window.google.accounts.id.prompt(notification => {
+            if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
+                showGoogleFallback(role);
+            }
+        });
+        return;
+    }
+
+    showGoogleFallback(role);
+}
+
+function showGoogleFallback(role) {
+    const email = window.prompt('Enter your Google email to continue in local preview mode:');
+    if (!email) return;
+    const name = window.prompt('Name to show in Math Quest:', email.split('@')[0]) || email.split('@')[0];
+    const result = UserManager.loginWithGoogle({ email, name }, role);
+    if (result.success) {
+        hideAuthModal();
+        updateAuthUI();
+    } else {
+        document.getElementById('login-error').textContent = result.error;
     }
 }
 
@@ -279,6 +514,8 @@ function updateAuthUI() {
     const avatarLetter = document.getElementById('avatar-letter');
     const dropdownName = document.getElementById('dropdown-name');
     const dropdownStats = document.getElementById('dropdown-stats');
+    const dropdownRole = document.getElementById('dropdown-role');
+    const roleWelcome = document.getElementById('role-welcome');
 
     if (user) {
         // Show logged in state
@@ -286,7 +523,13 @@ function updateAuthUI() {
         if (userDropdown) userDropdown.style.display = 'block';
         if (avatarLetter) avatarLetter.textContent = user.displayName.charAt(0).toUpperCase();
         if (dropdownName) dropdownName.textContent = user.displayName;
+        if (dropdownRole) dropdownRole.textContent = `${roleLabel(user.role)} login`;
         if (historyLink) historyLink.style.display = 'inline';
+        if (roleWelcome) {
+            const role = USER_ROLES[normalizeRole(user.role)];
+            roleWelcome.innerHTML = `<strong>${role.homeTitle}:</strong> ${role.welcome}`;
+            roleWelcome.style.display = 'block';
+        }
         
         // Update stats in dropdown
         const stats = UserManager.getStats();
@@ -296,6 +539,7 @@ function updateAuthUI() {
         if (userIconGuest) userIconGuest.style.display = 'flex';
         if (userDropdown) userDropdown.style.display = 'none';
         if (historyLink) historyLink.style.display = 'none';
+        if (roleWelcome) roleWelcome.style.display = 'none';
     }
 }
 
@@ -398,8 +642,90 @@ function renderHistory() {
     }).join('');
 }
 
+const SupportChat = {
+    getMessages() {
+        const messages = localStorage.getItem('mathquest_support_messages');
+        return messages ? JSON.parse(messages) : [
+            {
+                from: 'bot',
+                text: 'Hi! I can help with account access, teacher setup, parent progress, and WhatsApp signup.'
+            }
+        ];
+    },
+
+    saveMessages(messages) {
+        localStorage.setItem('mathquest_support_messages', JSON.stringify(messages.slice(-30)));
+    },
+
+    addMessage(from, text) {
+        const messages = this.getMessages();
+        messages.push({
+            from,
+            text,
+            at: new Date().toISOString()
+        });
+        this.saveMessages(messages);
+        renderSupportMessages();
+    },
+
+    replyTo(message) {
+        const lower = message.toLowerCase();
+        if (lower.includes('whatsapp')) {
+            return 'WhatsApp signup is available now. Open Login, choose WhatsApp, select Admin, Teacher, or Parent, then enter your number.';
+        }
+        if (lower.includes('google')) {
+            return 'Use Continue with Google from the Login tab. Add a Google client ID in the page meta tag before production launch.';
+        }
+        if (lower.includes('teacher')) {
+            return 'Teacher accounts can view history and are ready for classroom tools in the next backend phase.';
+        }
+        if (lower.includes('admin')) {
+            return 'Admin login is available as a role now. Full school management can be connected when backend APIs are added.';
+        }
+        if (lower.includes('parent')) {
+            return 'Parent accounts can save progress locally and are ready for child-linking once the backend is connected.';
+        }
+        return 'Thanks. I saved this support question locally. A WhatsApp handoff can use this same message queue later.';
+    }
+};
+
+function toggleSupportChat() {
+    const panel = document.getElementById('support-chat-panel');
+    if (!panel) return;
+    const isOpen = panel.style.display !== 'none';
+    panel.style.display = isOpen ? 'none' : 'flex';
+    if (!isOpen) {
+        renderSupportMessages();
+        const input = document.getElementById('support-chat-input');
+        if (input) input.focus();
+    }
+}
+
+function renderSupportMessages() {
+    const container = document.getElementById('support-chat-messages');
+    if (!container) return;
+    container.innerHTML = SupportChat.getMessages().map(message => `
+        <div class="support-message ${message.from === 'user' ? 'user' : 'bot'}">
+            ${escapeHtml(message.text)}
+        </div>
+    `).join('');
+    container.scrollTop = container.scrollHeight;
+}
+
+function handleSupportMessage(event) {
+    event.preventDefault();
+    const input = document.getElementById('support-chat-input');
+    const text = input ? input.value.trim() : '';
+    if (!text) return;
+    SupportChat.addMessage('user', text);
+    if (input) input.value = '';
+    window.setTimeout(() => {
+        SupportChat.addMessage('bot', SupportChat.replyTo(text));
+    }, 200);
+}
+
 // Initialize auth on page load
 document.addEventListener('DOMContentLoaded', () => {
     updateAuthUI();
+    renderSupportMessages();
 });
-
