@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Math Quest | Skill Path</title>
+  <meta name="description" content="Topic-by-topic mental math practice with generated questions and mastery challenges.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="skill-path.css">
+</head>
+<body>
+  <div class="app-container">
+    <section id="skill-path-page" class="page active">
+      <div class="skill-path-shell">
+        <div class="skill-path-top">
+          <a class="skill-back" href="index.html">← Grade Practice</a>
+          <strong>Math Quest • Skill Path</strong>
+        </div>
+        <main id="skill-path-root">
+          <div class="skill-hero"><span class="skill-kicker">LOADING</span><h1>Preparing your Math Quest…</h1></div>
+        </main>
+      </div>
+    </section>
+  </div>
+  <script src="skill-path.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',()=>setTimeout(()=>SkillPath.show(),50));</script>
+</body>
+</html>
